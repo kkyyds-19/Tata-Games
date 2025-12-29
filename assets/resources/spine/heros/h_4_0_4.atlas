@@ -1,0 +1,55 @@
+
+h_4_0_4.png
+size: 596, 572
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_4_0_4/houmian
+  rotate: true
+  xy: 2, 2
+  size: 193, 189
+  orig: 195, 191
+  offset: 1, 1
+  index: -1
+h_4_0_4/shenti
+  rotate: true
+  xy: 329, 294
+  size: 276, 261
+  orig: 278, 264
+  offset: 1, 2
+  index: -1
+h_4_0_4/tou
+  rotate: true
+  xy: 2, 197
+  size: 373, 325
+  orig: 376, 327
+  offset: 1, 1
+  index: -1
+h_4_0_4/toufa
+  rotate: false
+  xy: 193, 102
+  size: 115, 93
+  orig: 117, 96
+  offset: 1, 1
+  index: -1
+h_4_0_4/yanjing
+  rotate: false
+  xy: 329, 177
+  size: 252, 115
+  orig: 254, 119
+  offset: 1, 2
+  index: -1
+h_4_0_4/youshou
+  rotate: true
+  xy: 448, 40
+  size: 135, 146
+  orig: 138, 148
+  offset: 1, 1
+  index: -1
+h_4_0_4/zuoshou
+  rotate: false
+  xy: 310, 25
+  size: 136, 150
+  orig: 140, 152
+  offset: 1, 1
+  index: -1

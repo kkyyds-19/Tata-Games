@@ -1,0 +1,64 @@
+{
+"skeleton": {
+	"hash": "6y+V0DVTNic",
+	"spine": "3.8-from-4.0-from-4.1-from-4.2.43",
+	"x": -977.53,
+	"y": -23.69,
+	"width": 1879,
+	"height": 557,
+	"images": "",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "jingjiexian", "parent": "root", "length": 389.51, "rotation": 0.52, "x": -968.89, "y": 214.02 },
+	{ "name": "wenzi", "parent": "root", "length": 122.16, "x": -0.46, "y": 224.64 },
+	{ "name": "ZZ", "parent": "root", "length": 217.79, "rotation": 89.07, "x": -2.24, "y": 224.64 }
+],
+"slots": [
+	{ "name": "jingjiexian", "bone": "jingjiexian", "attachment": "jingjiexian" },
+	{ "name": "wenzi", "bone": "wenzi", "attachment": "wenzi" },
+	{ "name": "ZZ", "bone": "ZZ", "attachment": "ZZ" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jingjiexian": {
+				"jingjiexian": { "x": 930.9, "y": 0.83, "rotation": -0.52, "width": 1879, "height": 304 }
+			},
+			"wenzi": {
+				"wenzi": { "x": 2.73, "y": 2.17, "width": 808, "height": 149 }
+			},
+			"ZZ": {
+				"ZZ": { "x": 30.22, "y": -2.51, "rotation": -89.07, "width": 871, "height": 557 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"ZZ": {}
+		},
+		"bones": {
+			"jingjiexian": {
+				"translate": [
+					{ "x": -1563 },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 1 },
+					{ "time": 1.1667, "x": 1643.62 }
+				]
+			},
+			"wenzi": {
+				"translate": [
+					{ "x": 1116 },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 1 },
+					{ "time": 1.1667, "x": -1052 }
+				]
+			}
+		}
+	}
+}
+}

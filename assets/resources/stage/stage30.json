@@ -1,0 +1,529 @@
+{
+  "stageId": "stage_030",
+  "stageName": "最终审判",
+  "stageDescription": "第30关：最终审判，击败所有敌人获得胜利",
+  "difficulty": 30,
+  "maxTime": 600,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "skeleton_wave",
+      "gameObject": {
+        "id": "skeleton",
+        "attack": 54,
+        "maxhp": 707,
+        "level": 30,
+        "class": 1,
+        "defense": 40,
+        "exp": 108,
+        "moveSpeed": 80,
+        "attackRange": 120,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_001",
+          "m_n_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 60,
+      "spawnInterval": 1.8,
+      "level": 30
+    },
+    {
+      "id": "vampire_bat_wave",
+      "gameObject": {
+        "id": "vampire_bat",
+        "attack": 81,
+        "maxhp": 1060,
+        "level": 30,
+        "class": 1,
+        "defense": 54,
+        "exp": 162,
+        "moveSpeed": 80,
+        "attackRange": 125,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_002",
+          "m_n_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 60,
+      "spawnInterval": 1.8,
+      "level": 30
+    },
+    {
+      "id": "night_witch_wave",
+      "gameObject": {
+        "id": "night_witch",
+        "attack": 102,
+        "maxhp": 884,
+        "level": 30,
+        "class": 2,
+        "defense": 34,
+        "exp": 204,
+        "moveSpeed": 60,
+        "attackRange": 360,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_001",
+          "m_n_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 60,
+      "spawnInterval": 1.8,
+      "level": 30
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 272,
+        "maxhp": 2652,
+        "level": 30,
+        "class": 1,
+        "defense": 136,
+        "exp": 544,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 37,
+      "spawnInterval": 2,
+      "level": 30
+    },
+    {
+      "id": "flower_pharaoh_wave",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 306,
+        "maxhp": 3094,
+        "level": 30,
+        "class": 2,
+        "defense": 122,
+        "exp": 612,
+        "moveSpeed": 60,
+        "attackRange": 440,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 37,
+      "spawnInterval": 2,
+      "level": 30
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 432,
+        "maxhp": 3650,
+        "level": 32,
+        "class": 1,
+        "defense": 144,
+        "exp": 576,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 22,
+      "spawnInterval": 2.2,
+      "level": 32
+    },
+    {
+      "id": "enhanced_flower_pharaoh_wave_2",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 486,
+        "maxhp": 4258,
+        "level": 32,
+        "class": 2,
+        "defense": 129,
+        "exp": 648,
+        "moveSpeed": 60,
+        "attackRange": 441,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 22,
+      "spawnInterval": 2.2,
+      "level": 32
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_wuyaowang",
+      "gameObject": {
+        "id": "boss_wuyaowang",
+        "attack": 95842,
+        "maxhp": 148838,
+        "level": 33,
+        "class": 0,
+        "defense": 2452,
+        "exp": 24518,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_1",
+        "isBoss": true,
+        "name": "雷皇圣者"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 33
+    },
+    {
+      "id": "boss_bingshuang_gulong",
+      "gameObject": {
+        "id": "boss_bingshuang_gulong",
+        "attack": 127789,
+        "maxhp": 223257,
+        "level": 33,
+        "class": 0,
+        "defense": 2452,
+        "exp": 24518,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_6",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_6",
+        "isBoss": true,
+        "name": "亡灵骨龙"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 33
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第30关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_wuyaowang出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_bingshuang_gulong登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 18.301640981632563,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 46.5,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "vampire_bat_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_5",
+      "triggerType": "time",
+      "triggerValue": 88,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "flower_pharaoh_wave"
+      ]
+    },
+    {
+      "id": "event_elite_wave",
+      "triggerType": "time",
+      "triggerValue": 129.5,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "enhanced_flower_pharaoh_wave_2",
+        "enhanced_flower_pharaoh_wave_2"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 171,
+      "isRepeatable": false,
+      "priority": 6,
+      "monsterSpawns": [
+        "vampire_bat_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 212.5,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 257.20797664376573,
+      "isRepeatable": false,
+      "priority": 8,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 264,
+      "isRepeatable": false,
+      "priority": 9,
+      "bossSpawn": "boss_wuyaowang"
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 279.3580697341113,
+      "isRepeatable": false,
+      "priority": 10,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 284,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "vampire_bat_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 303,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 322,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "vampire_bat_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 341,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "vampire_bat_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 360,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 379,
+      "isRepeatable": false,
+      "priority": 16,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "vampire_bat_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 423,
+      "isRepeatable": false,
+      "priority": 17,
+      "monsterSpawns": [
+        "night_witch_wave",
+        "vampire_bat_wave",
+        "flower_pharaoh_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_2",
+      "triggerType": "time",
+      "triggerValue": 431,
+      "isRepeatable": false,
+      "priority": 18,
+      "monsterSpawns": [
+        "night_witch_wave",
+        "flower_pharaoh_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_3",
+      "triggerType": "time",
+      "triggerValue": 439,
+      "isRepeatable": false,
+      "priority": 19,
+      "monsterSpawns": [
+        "vampire_bat_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_4",
+      "triggerType": "time",
+      "triggerValue": 447,
+      "isRepeatable": false,
+      "priority": 20,
+      "monsterSpawns": [
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 736.7181823169968,
+      "isRepeatable": false,
+      "priority": 21,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 741.8109809249399,
+      "isRepeatable": false,
+      "priority": 22,
+      "bossSpawn": "boss_bingshuang_gulong"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

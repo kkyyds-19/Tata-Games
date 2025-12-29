@@ -1,0 +1,834 @@
+{
+  "stageId": "monster_test",
+  "stageName": "怪物测试关卡",
+  "stageDescription": "测试关卡：按顺序测试所有怪物类型",
+  "difficulty": 1,
+  "maxTime": 1200,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "m_n_0_001_wave",
+      "gameObject": {
+        "id": "m_n_0_001",
+        "attack": 8,
+        "maxhp": 2000,
+        "level": 1,
+        "class": 1,
+        "defense": 5,
+        "exp": 12,
+        "moveSpeed": 80,
+        "attackRange": 120,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_001",
+          "m_n_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 1
+    },
+    {
+      "id": "m_n_0_002_wave",
+      "gameObject": {
+        "id": "m_n_0_002",
+        "attack": 10,
+        "maxhp": 2000,
+        "level": 1,
+        "class": 1,
+        "defense": 5,
+        "exp": 15,
+        "moveSpeed": 75,
+        "attackRange": 110,
+        "attackInterval": 2.2,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_002",
+          "m_n_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 1
+    },
+    {
+      "id": "m_n_0_003_wave",
+      "gameObject": {
+        "id": "m_n_0_003",
+        "attack": 12,
+        "maxhp": 2000,
+        "level": 2,
+        "class": 1,
+        "defense": 6,
+        "exp": 18,
+        "moveSpeed": 70,
+        "attackRange": 130,
+        "attackInterval": 2.8,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_003",
+          "m_n_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 2
+    },
+    {
+      "id": "m_n_0_004_wave",
+      "gameObject": {
+        "id": "m_n_0_004",
+        "attack": 15,
+        "maxhp": 2000,
+        "level": 2,
+        "class": 1,
+        "defense": 7,
+        "exp": 22,
+        "moveSpeed": 65,
+        "attackRange": 140,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_004",
+          "m_n_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 2
+    },
+    {
+      "id": "m_n_0_005_wave",
+      "gameObject": {
+        "id": "m_n_0_005",
+        "attack": 18,
+        "maxhp": 2000,
+        "level": 3,
+        "class": 1,
+        "defense": 8,
+        "exp": 28,
+        "moveSpeed": 85,
+        "attackRange": 125,
+        "attackInterval": 2.0,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_005",
+          "m_n_0_005_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 3
+    },
+    {
+      "id": "m_n_0_006_wave",
+      "gameObject": {
+        "id": "m_n_0_006",
+        "attack": 22,
+        "maxhp": 2000,
+        "level": 3,
+        "class": 1,
+        "defense": 10,
+        "exp": 35,
+        "moveSpeed": 75,
+        "attackRange": 150,
+        "attackInterval": 2.2,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_006",
+          "m_n_0_006_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 3
+    },
+    {
+      "id": "m_n_0_007_wave",
+      "gameObject": {
+        "id": "m_n_0_007",
+        "attack": 25,
+        "maxhp": 2000,
+        "level": 4,
+        "class": 1,
+        "defense": 12,
+        "exp": 42,
+        "moveSpeed": 60,
+        "attackRange": 160,
+        "attackInterval": 2.8,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_007",
+          "m_n_0_007_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 4
+    },
+    {
+      "id": "m_n_0_008_wave",
+      "gameObject": {
+        "id": "m_n_0_008",
+        "attack": 30,
+        "maxhp": 2000,
+        "level": 4,
+        "class": 1,
+        "defense": 15,
+        "exp": 52,
+        "moveSpeed": 55,
+        "attackRange": 180,
+        "attackInterval": 3.0,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_008",
+          "m_n_0_008_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 4
+    },
+    {
+      "id": "m_n_1_001_wave",
+      "gameObject": {
+        "id": "m_n_1_001",
+        "attack": 20,
+        "maxhp": 2000,
+        "level": 2,
+        "class": 2,
+        "defense": 6,
+        "exp": 25,
+        "moveSpeed": 60,
+        "attackRange": 350,
+        "attackInterval": 3.0,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_001",
+          "m_n_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 2
+    },
+    {
+      "id": "m_n_1_002_wave",
+      "gameObject": {
+        "id": "m_n_1_002",
+        "attack": 25,
+        "maxhp": 2000,
+        "level": 3,
+        "class": 2,
+        "defense": 8,
+        "exp": 30,
+        "moveSpeed": 55,
+        "attackRange": 380,
+        "attackInterval": 3.2,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_002",
+          "m_n_1_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 3
+    },
+    {
+      "id": "m_n_1_003_wave",
+      "gameObject": {
+        "id": "m_n_1_003",
+        "attack": 30,
+        "maxhp": 2000,
+        "level": 4,
+        "class": 2,
+        "defense": 10,
+        "exp": 38,
+        "moveSpeed": 50,
+        "attackRange": 400,
+        "attackInterval": 3.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_003",
+          "m_n_1_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 4
+    },
+    {
+      "id": "m_n_1_004_wave",
+      "gameObject": {
+        "id": "m_n_1_004",
+        "attack": 35,
+        "maxhp": 2000,
+        "level": 5,
+        "class": 2,
+        "defense": 12,
+        "exp": 45,
+        "moveSpeed": 45,
+        "attackRange": 420,
+        "attackInterval": 3.8,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 1.5,
+      "level": 5
+    },
+    {
+      "id": "m_s_0_001_wave",
+      "gameObject": {
+        "id": "m_s_0_001",
+        "attack": 45,
+        "maxhp": 2000,
+        "level": 5,
+        "class": 3,
+        "defense": 15,
+        "exp": 80,
+        "moveSpeed": 70,
+        "attackRange": 160,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 5
+    },
+    {
+      "id": "m_s_0_002_wave",
+      "gameObject": {
+        "id": "m_s_0_002",
+        "attack": 50,
+        "maxhp": 2000,
+        "level": 6,
+        "class": 3,
+        "defense": 18,
+        "exp": 90,
+        "moveSpeed": 65,
+        "attackRange": 140,
+        "attackInterval": 2.8,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_002",
+          "m_s_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 6
+    },
+    {
+      "id": "m_s_0_003_wave",
+      "gameObject": {
+        "id": "m_s_0_003",
+        "attack": 60,
+        "maxhp": 2000,
+        "level": 7,
+        "class": 3,
+        "defense": 20,
+        "exp": 110,
+        "moveSpeed": 60,
+        "attackRange": 170,
+        "attackInterval": 2.3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_003",
+          "m_s_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 7
+    },
+    {
+      "id": "m_s_0_004_wave",
+      "gameObject": {
+        "id": "m_s_0_004",
+        "attack": 55,
+        "maxhp": 2000,
+        "level": 6,
+        "class": 3,
+        "defense": 22,
+        "exp": 100,
+        "moveSpeed": 75,
+        "attackRange": 150,
+        "attackInterval": 2.0,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_004",
+          "m_s_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 6
+    },
+    {
+      "id": "m_s_1_001_wave",
+      "gameObject": {
+        "id": "m_s_1_001",
+        "attack": 65,
+        "maxhp": 2000,
+        "level": 6,
+        "class": 4,
+        "defense": 16,
+        "exp": 120,
+        "moveSpeed": 50,
+        "attackRange": 450,
+        "attackInterval": 3.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 6
+    },
+    {
+      "id": "m_s_1_002_wave",
+      "gameObject": {
+        "id": "m_s_1_002",
+        "attack": 70,
+        "maxhp": 2000,
+        "level": 7,
+        "class": 4,
+        "defense": 18,
+        "exp": 130,
+        "moveSpeed": 45,
+        "attackRange": 480,
+        "attackInterval": 3.8,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_002",
+          "m_s_1_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 7
+    },
+    {
+      "id": "m_s_1_003_wave",
+      "gameObject": {
+        "id": "m_s_1_003",
+        "attack": 75,
+        "maxhp": 2000,
+        "level": 8,
+        "class": 4,
+        "defense": 20,
+        "exp": 140,
+        "moveSpeed": 40,
+        "attackRange": 500,
+        "attackInterval": 4.0,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_003",
+          "m_s_1_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 8
+    },
+    {
+      "id": "m_s_1_004_wave",
+      "gameObject": {
+        "id": "m_s_1_004",
+        "attack": 80,
+        "maxhp": 2000,
+        "level": 8,
+        "class": 4,
+        "defense": 22,
+        "exp": 150,
+        "moveSpeed": 35,
+        "attackRange": 520,
+        "attackInterval": 4.2,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 2.0,
+      "level": 8
+    }
+  ],
+  "bosses": [],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Monster Test Begin",
+      "content": "怪物测试关卡开始！将依次测试所有怪物类型！",
+      "duration": 3
+    },
+    {
+      "id": "normal_melee_start",
+      "type": "dialogue",
+      "title": "Normal Melee Test",
+      "content": "开始测试普通近战怪物！",
+      "duration": 2
+    },
+    {
+      "id": "normal_ranged_start",
+      "type": "dialogue",
+      "title": "Normal Ranged Test",
+      "content": "开始测试普通远程怪物！",
+      "duration": 2
+    },
+    {
+      "id": "elite_melee_start",
+      "type": "dialogue",
+      "title": "Elite Melee Test",
+      "content": "开始测试精英近战怪物！",
+      "duration": 2
+    },
+    {
+      "id": "elite_ranged_start",
+      "type": "dialogue",
+      "title": "Elite Ranged Test",
+      "content": "开始测试精英远程怪物！",
+      "duration": 2
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 0,
+      "isRepeatable": false,
+      "priority": 1,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_normal_melee_start",
+      "triggerType": "time",
+      "triggerValue": 4,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "normal_melee_start"
+    },
+    {
+      "id": "event_m_n_0_001",
+      "triggerType": "time",
+      "triggerValue": 7,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": ["m_n_0_001_wave"]
+    },
+    {
+      "id": "event_m_n_0_002",
+      "triggerType": "time",
+      "triggerValue": 25,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": ["m_n_0_002_wave"]
+    },
+    {
+      "id": "event_m_n_0_003",
+      "triggerType": "time",
+      "triggerValue": 43,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": ["m_n_0_003_wave"]
+    },
+    {
+      "id": "event_m_n_0_004",
+      "triggerType": "time",
+      "triggerValue": 61,
+      "isRepeatable": false,
+      "priority": 6,
+      "monsterSpawns": ["m_n_0_004_wave"]
+    },
+    {
+      "id": "event_m_n_0_005",
+      "triggerType": "time",
+      "triggerValue": 79,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": ["m_n_0_005_wave"]
+    },
+    {
+      "id": "event_m_n_0_006",
+      "triggerType": "time",
+      "triggerValue": 97,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": ["m_n_0_006_wave"]
+    },
+    {
+      "id": "event_m_n_0_007",
+      "triggerType": "time",
+      "triggerValue": 115,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": ["m_n_0_007_wave"]
+    },
+    {
+      "id": "event_m_n_0_008",
+      "triggerType": "time",
+      "triggerValue": 133,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": ["m_n_0_008_wave"]
+    },
+    {
+      "id": "event_normal_ranged_start",
+      "triggerType": "time",
+      "triggerValue": 151,
+      "isRepeatable": false,
+      "priority": 11,
+      "storyId": "normal_ranged_start"
+    },
+    {
+      "id": "event_m_n_1_001",
+      "triggerType": "time",
+      "triggerValue": 154,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": ["m_n_1_001_wave"]
+    },
+    {
+      "id": "event_m_n_1_002",
+      "triggerType": "time",
+      "triggerValue": 172,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": ["m_n_1_002_wave"]
+    },
+    {
+      "id": "event_m_n_1_003",
+      "triggerType": "time",
+      "triggerValue": 190,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": ["m_n_1_003_wave"]
+    },
+    {
+      "id": "event_m_n_1_004",
+      "triggerType": "time",
+      "triggerValue": 208,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": ["m_n_1_004_wave"]
+    },
+    {
+      "id": "event_elite_melee_start",
+      "triggerType": "time",
+      "triggerValue": 226,
+      "isRepeatable": false,
+      "priority": 16,
+      "storyId": "elite_melee_start"
+    },
+    {
+      "id": "event_m_s_0_001",
+      "triggerType": "time",
+      "triggerValue": 229,
+      "isRepeatable": false,
+      "priority": 17,
+      "monsterSpawns": ["m_s_0_001_wave"]
+    },
+    {
+      "id": "event_m_s_0_002",
+      "triggerType": "time",
+      "triggerValue": 250,
+      "isRepeatable": false,
+      "priority": 18,
+      "monsterSpawns": ["m_s_0_002_wave"]
+    },
+    {
+      "id": "event_m_s_0_003",
+      "triggerType": "time",
+      "triggerValue": 271,
+      "isRepeatable": false,
+      "priority": 19,
+      "monsterSpawns": ["m_s_0_003_wave"]
+    },
+    {
+      "id": "event_m_s_0_004",
+      "triggerType": "time",
+      "triggerValue": 292,
+      "isRepeatable": false,
+      "priority": 20,
+      "monsterSpawns": ["m_s_0_004_wave"]
+    },
+    {
+      "id": "event_elite_ranged_start",
+      "triggerType": "time",
+      "triggerValue": 313,
+      "isRepeatable": false,
+      "priority": 21,
+      "storyId": "elite_ranged_start"
+    },
+    {
+      "id": "event_m_s_1_001",
+      "triggerType": "time",
+      "triggerValue": 316,
+      "isRepeatable": false,
+      "priority": 22,
+      "monsterSpawns": ["m_s_1_001_wave"]
+    },
+    {
+      "id": "event_m_s_1_002",
+      "triggerType": "time",
+      "triggerValue": 337,
+      "isRepeatable": false,
+      "priority": 23,
+      "monsterSpawns": ["m_s_1_002_wave"]
+    },
+    {
+      "id": "event_m_s_1_003",
+      "triggerType": "time",
+      "triggerValue": 358,
+      "isRepeatable": false,
+      "priority": 24,
+      "monsterSpawns": ["m_s_1_003_wave"]
+    },
+    {
+      "id": "event_m_s_1_004",
+      "triggerType": "time",
+      "triggerValue": 379,
+      "isRepeatable": false,
+      "priority": 25,
+      "monsterSpawns": ["m_s_1_004_wave"]
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true
+  }
+}

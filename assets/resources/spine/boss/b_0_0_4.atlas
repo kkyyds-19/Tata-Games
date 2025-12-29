@@ -1,0 +1,34 @@
+
+b_0_0_4.png
+size: 485, 622
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_0_004/shenti
+  rotate: true
+  xy: 2, 272
+  size: 348, 327
+  orig: 350, 329
+  offset: 1, 1
+  index: -1
+b_0_004/tou
+  rotate: false
+  xy: 2, 2
+  size: 285, 268
+  orig: 287, 272
+  offset: 1, 2
+  index: -1
+b_0_004/youshou
+  rotate: true
+  xy: 289, 29
+  size: 128, 171
+  orig: 130, 173
+  offset: 1, 1
+  index: -1
+b_0_004/zuoshou
+  rotate: false
+  xy: 331, 159
+  size: 152, 461
+  orig: 155, 464
+  offset: 2, 1
+  index: -1

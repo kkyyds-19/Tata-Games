@@ -1,0 +1,190 @@
+{
+"skeleton": {
+	"hash": "KJDpcrHDycw",
+	"spine": "3.8-from-4.0-from-4.1-from-4.2.43",
+	"x": -306,
+	"y": -61.78,
+	"width": 672,
+	"height": 652,
+	"images": "",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "shenti", "parent": "root", "length": 200.47, "rotation": 93.38, "x": 49.19, "y": 262.51 },
+	{ "name": "youshou", "parent": "shenti", "length": 268.64, "rotation": -176.71, "x": 87.37, "y": -35.34 },
+	{ "name": "weiba", "parent": "shenti", "length": 130.4, "rotation": -59.83, "x": 9.3, "y": -170.84 },
+	{ "name": "houjiao", "parent": "shenti", "length": 165.09, "rotation": -166.72, "x": 0.21, "y": -142.28 },
+	{ "name": "zuoshou", "parent": "shenti", "length": 345.5, "rotation": 162.19, "x": 116.67, "y": 132.13 },
+	{ "name": "tou", "parent": "shenti", "length": 164.22, "rotation": 122.28, "x": -46.61, "y": 50.18 },
+	{ "name": "zuiba", "parent": "tou", "length": 125.64, "rotation": -10.86, "x": 73.15, "y": 103.77 }
+],
+"slots": [
+	{ "name": "zuoshou", "bone": "zuoshou", "attachment": "zuoshou" },
+	{ "name": "weiba", "bone": "weiba", "attachment": "weiba" },
+	{ "name": "shenti", "bone": "shenti", "attachment": "shenti" },
+	{ "name": "houjiao", "bone": "houjiao", "attachment": "houjiao" },
+	{ "name": "youshou", "bone": "youshou", "attachment": "youshou" },
+	{ "name": "zuiba", "bone": "zuiba", "attachment": "zuiba" },
+	{ "name": "tou", "bone": "tou", "attachment": "tou" }
+],
+"skins": [
+	{
+		"name": "p_4_004",
+		"attachments": {
+			"houjiao": {
+				"houjiao": { "x": 86.77, "y": -2.7, "rotation": 73.34, "width": 115, "height": 192 }
+			},
+			"shenti": {
+				"shenti": { "x": 122.16, "y": 21.01, "rotation": -93.38, "width": 450, "height": 414 }
+			},
+			"tou": {
+				"tou": { "x": 78.94, "y": -45.82, "rotation": 144.33, "width": 434, "height": 388 }
+			},
+			"weiba": {
+				"weiba": { "x": 64.12, "y": -7.93, "rotation": -33.56, "width": 178, "height": 155 }
+			},
+			"youshou": {
+				"youshou": { "x": 182.86, "y": -4.08, "rotation": 83.33, "width": 231, "height": 463 }
+			},
+			"zuiba": {
+				"zuiba": { "x": 90.55, "y": -17.24, "rotation": 155.19, "width": 223, "height": 115 }
+			},
+			"zuoshou": {
+				"zuoshou": { "x": 169.13, "y": -21.44, "rotation": 104.43, "width": 295, "height": 429 }
+			}
+		}
+	}
+],
+"animations": {
+	"attack": {
+		"bones": {
+			"tou": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 21.22 },
+					{ "time": 0.5, "angle": -16.8 },
+					{ "time": 0.7, "angle": 7.64 },
+					{ "time": 0.9333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 22.15, "y": 43.28 },
+					{ "time": 0.5, "x": 73.13, "y": 25.95 },
+					{ "time": 0.7, "x": 45.06, "y": 39.94 },
+					{ "time": 0.9333 }
+				]
+			},
+			"youshou": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -5.54 },
+					{ "time": 0.5, "angle": 9.73 },
+					{ "time": 0.7, "angle": -3.32 },
+					{ "time": 0.9333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 8.33, "y": -0.33 },
+					{ "time": 0.5, "x": 0.29, "y": -3.72 },
+					{ "time": 0.7, "x": 24.49, "y": -0.73 },
+					{ "time": 0.9333 }
+				]
+			},
+			"zuoshou": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -7.56 },
+					{ "time": 0.5, "angle": 14.22 },
+					{ "time": 0.7, "angle": -4.79 },
+					{ "time": 0.9333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -10.96, "y": -2.03 },
+					{ "time": 0.5, "x": 12.26, "y": -3.41 },
+					{ "time": 0.7, "x": 12.09, "y": -15 },
+					{ "time": 0.9333 }
+				]
+			},
+			"shenti": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 40.64, "y": -8.18 },
+					{ "time": 0.5, "x": -76.77, "y": -1.85 },
+					{ "time": 0.7, "x": 25.49, "y": -21.34 },
+					{ "time": 0.9333 }
+				]
+			},
+			"weiba": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -24.83 },
+					{ "time": 0.5, "angle": -12.24 },
+					{ "time": 0.9333 }
+				]
+			},
+			"houjiao": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -12.28 },
+					{ "time": 0.5, "angle": 14.43 },
+					{ "time": 0.7, "angle": -9.76 },
+					{ "time": 0.9333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.933 },
+					{ "time": 0.5, "x": 1.2 },
+					{ "time": 0.7, "x": 0.845 },
+					{ "time": 0.9333 }
+				]
+			},
+			"zuiba": {
+				"rotate": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": 29.04 },
+					{ "time": 0.7 }
+				]
+			}
+		}
+	},
+	"stand by": {
+		"bones": {
+			"shenti": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -0.08, "y": 24.04 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 1.1 },
+					{ "time": 1.3333 }
+				]
+			},
+			"weiba": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -13.05 },
+					{ "time": 1.3333 }
+				]
+			},
+			"tou": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": 7.65 },
+					{ "time": 1.3333 }
+				]
+			},
+			"zuiba": {
+				"rotate": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": 10.23 },
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}

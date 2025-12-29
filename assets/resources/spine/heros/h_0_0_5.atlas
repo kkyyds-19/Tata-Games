@@ -1,0 +1,62 @@
+
+h_0_0_5.png
+size: 1189, 407
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_0_0_5/shenti
+  rotate: false
+  xy: 812, 195
+  size: 289, 210
+  orig: 293, 212
+  offset: 2, 1
+  index: -1
+h_0_0_5/tou
+  rotate: true
+  xy: 2, 3
+  size: 402, 489
+  orig: 405, 491
+  offset: 2, 1
+  index: -1
+h_0_0_5/youmeimao
+  rotate: false
+  xy: 493, 2
+  size: 79, 54
+  orig: 81, 56
+  offset: 1, 1
+  index: -1
+h_0_0_5/youshoubi
+  rotate: false
+  xy: 493, 58
+  size: 317, 347
+  orig: 320, 349
+  offset: 2, 1
+  index: -1
+h_0_0_5/youyanjing
+  rotate: false
+  xy: 1058, 33
+  size: 65, 72
+  orig: 67, 75
+  offset: 1, 1
+  index: -1
+h_0_0_5/zuomeimao
+  rotate: true
+  xy: 1103, 206
+  size: 199, 84
+  orig: 201, 86
+  offset: 1, 1
+  index: -1
+h_0_0_5/zuoshoubi
+  rotate: true
+  xy: 812, 8
+  size: 185, 244
+  orig: 188, 246
+  offset: 1, 1
+  index: -1
+h_0_0_5/zuoyanjing
+  rotate: true
+  xy: 1058, 107
+  size: 86, 75
+  orig: 88, 78
+  offset: 1, 1
+  index: -1

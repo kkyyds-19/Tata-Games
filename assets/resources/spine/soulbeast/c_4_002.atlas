@@ -1,0 +1,48 @@
+
+c_4_002.png
+size: 648, 192
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+c_4_002/houtuixia
+  rotate: false
+  xy: 474, 57
+  size: 85, 133
+  orig: 88, 135
+  offset: 1, 1
+  index: -1
+c_4_002/houtuizuo
+  rotate: false
+  xy: 561, 58
+  size: 85, 132
+  orig: 87, 134
+  offset: 1, 1
+  index: -1
+c_4_002/qianshouxia
+  rotate: true
+  xy: 569, 3
+  size: 53, 73
+  orig: 55, 78
+  offset: 1, 1
+  index: -1
+c_4_002/qianshouzuo
+  rotate: true
+  xy: 474, 14
+  size: 41, 93
+  orig: 44, 96
+  offset: 2, 1
+  index: -1
+c_4_002/shenti
+  rotate: false
+  xy: 243, 30
+  size: 229, 160
+  orig: 231, 162
+  offset: 1, 1
+  index: -1
+c_4_002/tou
+  rotate: false
+  xy: 2, 2
+  size: 239, 188
+  orig: 241, 191
+  offset: 1, 2
+  index: -1

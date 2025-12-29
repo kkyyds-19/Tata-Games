@@ -1,0 +1,62 @@
+
+boss_coming.png
+size: 1983, 1669
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+boss
+  rotate: true
+  xy: 1485, 775
+  size: 892, 496
+  orig: 894, 498
+  offset: 1, 1
+  index: -1
+down
+  rotate: true
+  xy: 809, 223
+  size: 1444, 674
+  orig: 1446, 676
+  offset: 1, 1
+  index: -1
+sanjiao1
+  rotate: false
+  xy: 809, 124
+  size: 71, 97
+  orig: 73, 99
+  offset: 1, 1
+  index: -1
+sanjiao2
+  rotate: false
+  xy: 809, 36
+  size: 78, 86
+  orig: 80, 88
+  offset: 1, 1
+  index: -1
+sanjiao3
+  rotate: true
+  xy: 809, 2
+  size: 32, 71
+  orig: 34, 73
+  offset: 1, 1
+  index: -1
+sanjiao4
+  rotate: false
+  xy: 882, 141
+  size: 80, 80
+  orig: 82, 82
+  offset: 1, 1
+  index: -1
+up
+  rotate: true
+  xy: 2, 6
+  size: 1661, 805
+  orig: 1663, 807
+  offset: 1, 1
+  index: -1
+zi
+  rotate: true
+  xy: 1485, 255
+  size: 518, 242
+  orig: 520, 244
+  offset: 1, 1
+  index: -1

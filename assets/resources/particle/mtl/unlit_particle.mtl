@@ -1,0 +1,31 @@
+{
+  "uuid": "5ae0007c-35a6-46f0-a855-5c7f12f4be04",
+  "__type__": "cc.Material",
+  "_name": "unlit-particle-material",
+  "_effectAsset": {
+    "__uuid__": "34994602-bde4-431e-88db-612bb875ae09"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_TEXTURE": true,
+      "USE_LOCAL": false,
+      "IS_GRAY": false,
+      "CC_USE_EMBEDDED_ALPHA": false
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {}
+  ]
+}

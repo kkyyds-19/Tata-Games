@@ -1,0 +1,34 @@
+{
+  "stageId": "abyss_3",
+  "stageName": "深渊第3层",
+  "stageDescription": "第3层：敌人更为凶狠",
+  "difficulty": 202,
+  "maxTime": 465,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "bg": "9",
+  "stageType":3,
+  "monsters": [
+    {"id": "soul_servant_wave","gameObject": {"id": "soul_servant","attack": 125,"maxhp": 1450,"level": 21,"class": 1,"defense": 65,"exp": 210,"moveSpeed": 80,"attackRange": 135,"attackInterval": 2.5,"resourceType": "anim","resourceDir": "anim/monster","animationNames": ["m_n_0_004","m_n_0_004_atk"]},"spawnPosition": {"x": 0,"y": 400,"z": 0},"count": 42,"spawnInterval": 1.6,"level": 21},
+    {"id": "swamp_devourer_wave","gameObject": {"id": "swamp_devourer","attack": 100,"maxhp": 1200,"level": 21,"class": 1,"defense": 55,"exp": 170,"moveSpeed": 80,"attackRange": 130,"attackInterval": 2.5,"resourceType": "anim","resourceDir": "anim/monster","animationNames": ["m_n_0_003","m_n_0_003_atk"]},"spawnPosition": {"x": 0,"y": 400,"z": 0},"count": 42,"spawnInterval": 1.6,"level": 21},
+    {"id": "void_butterfly_wave","gameObject": {"id": "void_butterfly","attack": 165,"maxhp": 1550,"level": 21,"class": 2,"defense": 60,"exp": 305,"moveSpeed": 60,"attackRange": 442,"attackInterval": 3,"resourceType": "anim","resourceDir": "anim/monster","animationNames": ["m_n_1_004","m_n_1_004_atk"]},"spawnPosition": {"x": 0,"y": 400,"z": 0},"count": 42,"spawnInterval": 1.6,"level": 21},
+    {"id": "twin_axe_king_wave","gameObject": {"id": "twin_axe_king","attack": 215,"maxhp": 2050,"level": 21,"class": 1,"defense": 105,"exp": 400,"moveSpeed": 80,"attackRange": 150,"attackInterval": 2.5,"resourceType": "anim","resourceDir": "anim/monster","animationNames": ["m_s_0_001","m_s_0_001_atk"]},"spawnPosition": {"x": 0,"y": 400,"z": 0},"count": 26,"spawnInterval": 2,"level": 21},
+    {"id": "flower_pharaoh_wave","gameObject": {"id": "flower_pharaoh","attack": 240,"maxhp": 2350,"level": 21,"class": 2,"defense": 95,"exp": 440,"moveSpeed": 60,"attackRange": 432,"attackInterval": 3,"resourceType": "anim","resourceDir": "anim/monster","animationNames": ["m_s_1_001","m_s_1_001_atk"]},"spawnPosition": {"x": 0,"y": 400,"z": 0},"count": 26,"spawnInterval": 2,"level": 21}
+  ],
+  "bosses": [
+    {"id": "boss_shuangtou_shiren","gameObject": {"id": "boss_shuangtou_shiren","attack": 12000,"maxhp": 150000,"level": 24,"class": 0,"defense": 720,"exp": 7200,"attackRange": 200,"attackInterval": 2.3,"resourceType": "spine","resourceDir": "spine/boss/b_0_0_3","animationNames": ["move","attack"],"skinName": "b_0_0_3","isBoss": true,"name": "夜鬼双斧王"},"spawnPosition": {"x": 0,"y": 400,"z": 0},"level": 24},
+    {"id": "boss_jufu_naga","gameObject": {"id": "boss_jufu_naga","attack": 15800,"maxhp": 220000,"level": 24,"class": 0,"defense": 720,"exp": 7200,"attackRange": 250,"attackInterval": 2,"resourceType": "spine","resourceDir": "spine/boss/b_0_0_4","animationNames": ["move","attack"],"skinName": "b_0_0_4","isBoss": true,"name": "娜迦领主"},"spawnPosition": {"x": 0,"y": 400,"z": 0},"level": 24}
+  ],
+  "stories": [
+    {"id": "start_story","type": "dialogue","title": "Battle Begin","content": "第21关开始！消灭所有敌人！","duration": 2},
+    {"id": "intensive_wave_warning","type": "dialogue","title": "Massive Attack Warning","content": "警告！大批敌人集结中！","duration": 2},
+    {"id": "mid_boss_story","type": "boss_appear","title": "Mid Boss Incoming","content": "boss_shuangtou_shiren出现了！小心应对！","duration": 3},
+    {"id": "final_boss_story","type": "boss_appear","title": "Final Boss Incoming","content": "boss_jufu_naga登场！准备迎接最终挑战！","duration": 3}
+  ],
+  "stageEvents": [
+    {"id": "event_start","triggerType": "time","triggerValue": 10.4,"isRepeatable": false,"priority": 2,"storyId": "start_story"},
+    {"id": "event_early_small_wave","triggerType": "time","triggerValue": 10,"isRepeatable": false,"priority": 2,"monsterSpawns": ["soul_servant_wave"]},
+    {"id": "event_early_boss_spawn","triggerType": "time","triggerValue": 10,"isRepeatable": false,"priority": 3,"bossSpawn": "boss_shuangtou_shiren"}
+  ],
+  "victoryConditions": {"killAllMonsters": true,"killBoss": true}
+}

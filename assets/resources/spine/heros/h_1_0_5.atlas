@@ -1,0 +1,55 @@
+
+h_1_0_5.png
+size: 1532, 575
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_1_0_5/shenhouling
+  rotate: false
+  xy: 2, 2
+  size: 613, 571
+  orig: 615, 574
+  offset: 1, 2
+  index: -1
+h_1_0_5/shenti
+  rotate: false
+  xy: 617, 11
+  size: 260, 245
+  orig: 263, 248
+  offset: 2, 2
+  index: -1
+h_1_0_5/tou
+  rotate: false
+  xy: 1161, 134
+  size: 369, 439
+  orig: 375, 441
+  offset: 1, 1
+  index: -1
+h_1_0_5/youshou
+  rotate: true
+  xy: 617, 258
+  size: 315, 542
+  orig: 319, 545
+  offset: 2, 2
+  index: -1
+h_1_0_5/youyan
+  rotate: false
+  xy: 1054, 98
+  size: 53, 58
+  orig: 55, 60
+  offset: 1, 1
+  index: -1
+h_1_0_5/zuoshou
+  rotate: false
+  xy: 879, 31
+  size: 173, 225
+  orig: 175, 227
+  offset: 1, 1
+  index: -1
+h_1_0_5/zuoyan
+  rotate: true
+  xy: 1054, 158
+  size: 98, 77
+  orig: 100, 79
+  offset: 1, 1
+  index: -1

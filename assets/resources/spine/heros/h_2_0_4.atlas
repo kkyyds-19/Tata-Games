@@ -1,0 +1,41 @@
+
+h_2_0_4.png
+size: 878, 436
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+huzi
+  rotate: false
+  xy: 578, 56
+  size: 198, 68
+  orig: 200, 70
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 578, 126
+  size: 308, 257
+  orig: 311, 260
+  offset: 2, 1
+  index: -1
+shoubiqiang
+  rotate: true
+  xy: 392, 2
+  size: 432, 184
+  orig: 435, 187
+  offset: 2, 2
+  index: -1
+tou
+  rotate: false
+  xy: 2, 32
+  size: 388, 402
+  orig: 390, 405
+  offset: 1, 1
+  index: -1
+xuejia
+  rotate: true
+  xy: 778, 13
+  size: 111, 98
+  orig: 115, 100
+  offset: 2, 1
+  index: -1

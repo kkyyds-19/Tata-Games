@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "760c2869-e549-47ef-b89b-a115a9f22369",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "tailing_0007": {
+      "ver": "1.0.6",
+      "uuid": "f51ab695-3cb5-4a45-88a3-2529f41df722",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "760c2869-e549-47ef-b89b-a115a9f22369",
+      "trimType": "none",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 128,
+      "height": 512,
+      "rawWidth": 128,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "760c2869-e549-47ef-b89b-a115a9f22369@6c48a",
+      "displayName": "tailing_0007",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "760c2869-e549-47ef-b89b-a115a9f22369",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "fixAlphaTransparencyArtifacts": true,
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "760c2869-e549-47ef-b89b-a115a9f22369@6c48a"
+  }
+}

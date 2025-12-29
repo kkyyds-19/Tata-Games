@@ -1,0 +1,41 @@
+
+p_0_003.png
+size: 1250, 291
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: true
+  xy: 418, 13
+  size: 276, 237
+  orig: 281, 242
+  offset: 4, 1
+  index: -1
+tou
+  rotate: false
+  xy: 2, 2
+  size: 414, 287
+  orig: 419, 289
+  offset: 1, 1
+  index: -1
+toumao
+  rotate: true
+  xy: 1071, 60
+  size: 229, 177
+  orig: 233, 182
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 657, 35
+  size: 215, 254
+  orig: 217, 256
+  offset: 1, 1
+  index: -1
+zuoshou
+  rotate: false
+  xy: 874, 27
+  size: 195, 262
+  orig: 199, 266
+  offset: 3, 3
+  index: -1

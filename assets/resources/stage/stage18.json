@@ -1,0 +1,486 @@
+{
+  "stageId": "stage_018",
+  "stageName": "邪恶祭坛",
+  "stageDescription": "第18关：邪恶祭坛，击败所有敌人获得胜利",
+  "difficulty": 18,
+  "maxTime": 476,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "berserker_guard_wave",
+      "gameObject": {
+        "id": "berserker_guard",
+        "attack": 105,
+        "maxhp": 1372,
+        "level": 18,
+        "class": 1,
+        "defense": 61,
+        "exp": 210,
+        "moveSpeed": 80,
+        "attackRange": 140,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_005",
+          "m_n_0_005_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 26,
+      "spawnInterval": 1.8,
+      "level": 18
+    },
+    {
+      "id": "swamp_devourer_wave",
+      "gameObject": {
+        "id": "swamp_devourer",
+        "attack": 70,
+        "maxhp": 915,
+        "level": 18,
+        "class": 1,
+        "defense": 44,
+        "exp": 140,
+        "moveSpeed": 80,
+        "attackRange": 130,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_003",
+          "m_n_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 26,
+      "spawnInterval": 1.8,
+      "level": 18
+    },
+    {
+      "id": "void_butterfly_wave",
+      "gameObject": {
+        "id": "void_butterfly",
+        "attack": 132,
+        "maxhp": 1258,
+        "level": 18,
+        "class": 2,
+        "defense": 48,
+        "exp": 264,
+        "moveSpeed": 60,
+        "attackRange": 441,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 26,
+      "spawnInterval": 1.8,
+      "level": 18
+    },
+    {
+      "id": "tide_guardian_wave",
+      "gameObject": {
+        "id": "tide_guardian",
+        "attack": 308,
+        "maxhp": 3432,
+        "level": 18,
+        "class": 1,
+        "defense": 154,
+        "exp": 616,
+        "moveSpeed": 80,
+        "attackRange": 180,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_004",
+          "m_s_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 26,
+      "spawnInterval": 1.8,
+      "level": 18
+    },
+    {
+      "id": "twin_snake_turtle_wave",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 330,
+        "maxhp": 3718,
+        "level": 18,
+        "class": 2,
+        "defense": 132,
+        "exp": 660,
+        "moveSpeed": 60,
+        "attackRange": 581,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 43,
+      "spawnInterval": 2,
+      "level": 18
+    },
+    {
+      "id": "enhanced_tide_guardian_wave_1",
+      "gameObject": {
+        "id": "tide_guardian",
+        "attack": 504,
+        "maxhp": 4867,
+        "level": 20,
+        "class": 1,
+        "defense": 168,
+        "exp": 672,
+        "moveSpeed": 80,
+        "attackRange": 180,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_004",
+          "m_s_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 13,
+      "spawnInterval": 2.7,
+      "level": 20
+    },
+    {
+      "id": "enhanced_twin_snake_turtle_wave_2",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 540,
+        "maxhp": 5272,
+        "level": 20,
+        "class": 2,
+        "defense": 144,
+        "exp": 720,
+        "moveSpeed": 60,
+        "attackRange": 583,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 13,
+      "spawnInterval": 2.7,
+      "level": 20
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_tufu",
+      "gameObject": {
+        "id": "boss_tufu",
+        "attack": 8815,
+        "maxhp": 132492,
+        "level": 21,
+        "class": 0,
+        "defense": 606,
+        "exp": 6064,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_1",
+        "isBoss": true,
+        "name": "青屠夫"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 21
+    },
+    {
+      "id": "boss_huoyan_lingzhu",
+      "gameObject": {
+        "id": "boss_huoyan_lingzhu",
+        "attack": 11754,
+        "maxhp": 198738,
+        "level": 21,
+        "class": 0,
+        "defense": 606,
+        "exp": 6064,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_2",
+        "isBoss": true,
+        "name": "熔岩领主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 21
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第18关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_tufu出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_huoyan_lingzhu登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "berserker_guard_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 36.4423030214693,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 50.2,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 95.4,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 140.60000000000002,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "berserker_guard_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 190.13035050480414,
+      "isRepeatable": false,
+      "priority": 6,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 195.72413793103448,
+      "isRepeatable": false,
+      "priority": 7,
+      "bossSpawn": "boss_tufu"
+    },
+    {
+      "id": "event_extra_wave_2",
+      "triggerType": "time",
+      "triggerValue": 215.8,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 235,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 249.97081493858497,
+      "isRepeatable": false,
+      "priority": 10,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 254.2,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "swamp_devourer_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 273.4,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 317.59999999999997,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 325.59999999999997,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 327.9916474320539,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 333.59999999999997,
+      "isRepeatable": false,
+      "priority": 16,
+      "monsterSpawns": [
+        "berserker_guard_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 423.2800726286087,
+      "isRepeatable": false,
+      "priority": 17,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 428.87268812366847,
+      "isRepeatable": false,
+      "priority": 18,
+      "bossSpawn": "boss_huoyan_lingzhu"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

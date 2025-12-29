@@ -1,0 +1,69 @@
+
+p_2_003.png
+size: 754, 330
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 391, 109
+  size: 134, 219
+  orig: 141, 221
+  offset: 1, 1
+  index: -1
+tou
+  rotate: true
+  xy: 527, 157
+  size: 171, 131
+  orig: 189, 133
+  offset: 2, 1
+  index: -1
+xuankong
+  rotate: true
+  xy: 208, 3
+  size: 58, 89
+  orig: 60, 92
+  offset: 1, 2
+  index: -1
+youchibang
+  rotate: false
+  xy: 2, 13
+  size: 204, 315
+  orig: 206, 325
+  offset: 1, 9
+  index: -1
+youshou
+  rotate: true
+  xy: 462, 19
+  size: 88, 120
+  orig: 90, 127
+  offset: 1, 1
+  index: -1
+youxu
+  rotate: true
+  xy: 584, 14
+  size: 141, 168
+  orig: 143, 170
+  offset: 1, 1
+  index: -1
+zuochibang
+  rotate: false
+  xy: 208, 63
+  size: 181, 265
+  orig: 183, 275
+  offset: 1, 9
+  index: -1
+zuoshou
+  rotate: false
+  xy: 391, 2
+  size: 69, 105
+  orig: 71, 107
+  offset: 1, 1
+  index: -1
+zuoxu
+  rotate: false
+  xy: 660, 169
+  size: 87, 159
+  orig: 89, 163
+  offset: 1, 3
+  index: -1

@@ -1,0 +1,69 @@
+
+c_3_001.png
+size: 1128, 254
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+c_3_001/shenti
+  rotate: true
+  xy: 778, 82
+  size: 170, 162
+  orig: 173, 165
+  offset: 2, 2
+  index: -1
+c_3_001/tou
+  rotate: true
+  xy: 256, 11
+  size: 241, 228
+  orig: 244, 231
+  offset: 2, 1
+  index: -1
+c_3_001/weiba
+  rotate: true
+  xy: 1032, 136
+  size: 116, 94
+  orig: 118, 97
+  offset: 1, 2
+  index: -1
+c_3_001/youchibang
+  rotate: false
+  xy: 2, 2
+  size: 252, 250
+  orig: 255, 252
+  offset: 1, 1
+  index: -1
+c_3_001/youhouzhua
+  rotate: true
+  xy: 778, 5
+  size: 75, 89
+  orig: 77, 92
+  offset: 1, 1
+  index: -1
+c_3_001/youqianzhua
+  rotate: false
+  xy: 1037, 43
+  size: 87, 91
+  orig: 89, 93
+  offset: 1, 1
+  index: -1
+c_3_001/zuochibang
+  rotate: true
+  xy: 486, 35
+  size: 217, 290
+  orig: 219, 292
+  offset: 1, 1
+  index: -1
+c_3_001/zuohoutui
+  rotate: false
+  xy: 942, 8
+  size: 93, 107
+  orig: 95, 110
+  offset: 1, 1
+  index: -1
+c_3_001/zuoqiantui
+  rotate: false
+  xy: 942, 117
+  size: 88, 135
+  orig: 90, 138
+  offset: 1, 1
+  index: -1

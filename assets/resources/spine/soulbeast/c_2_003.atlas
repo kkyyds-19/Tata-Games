@@ -1,0 +1,62 @@
+
+c_2_003.png
+size: 300, 494
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+c_2_003/chibang
+  rotate: true
+  xy: 2, 2
+  size: 159, 163
+  orig: 161, 165
+  offset: 1, 1
+  index: -1
+c_2_003/houyoujiao
+  rotate: false
+  xy: 195, 191
+  size: 101, 82
+  orig: 104, 85
+  offset: 2, 1
+  index: -1
+c_2_003/houzuojiao
+  rotate: false
+  xy: 195, 108
+  size: 101, 81
+  orig: 103, 84
+  offset: 1, 1
+  index: -1
+c_2_003/qianzuojiao
+  rotate: false
+  xy: 229, 275
+  size: 61, 117
+  orig: 64, 120
+  offset: 2, 1
+  index: -1
+c_2_003/shenti
+  rotate: false
+  xy: 2, 163
+  size: 191, 122
+  orig: 195, 134
+  offset: 3, 11
+  index: -1
+c_2_003/tou
+  rotate: true
+  xy: 2, 287
+  size: 205, 225
+  orig: 207, 227
+  offset: 1, 1
+  index: -1
+c_2_003/weiba
+  rotate: true
+  xy: 167, 16
+  size: 90, 117
+  orig: 92, 119
+  offset: 1, 1
+  index: -1
+c_2_003/youqianjiao
+  rotate: false
+  xy: 229, 394
+  size: 69, 98
+  orig: 71, 100
+  offset: 1, 1
+  index: -1

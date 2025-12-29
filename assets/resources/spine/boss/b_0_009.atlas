@@ -1,0 +1,55 @@
+
+b_0_009.png
+size: 967, 596
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_0_009/guike
+  rotate: false
+  xy: 2, 257
+  size: 579, 337
+  orig: 581, 350
+  offset: 1, 12
+  index: -1
+b_0_009/shenti
+  rotate: false
+  xy: 2, 2
+  size: 451, 253
+  orig: 462, 255
+  offset: 6, 1
+  index: -1
+b_0_009/tou
+  rotate: false
+  xy: 583, 270
+  size: 247, 324
+  orig: 249, 334
+  offset: 1, 9
+  index: -1
+b_0_009/youjiao
+  rotate: false
+  xy: 832, 420
+  size: 133, 174
+  orig: 135, 176
+  offset: 1, 1
+  index: -1
+b_0_009/youshou
+  rotate: true
+  xy: 455, 25
+  size: 230, 327
+  orig: 232, 329
+  offset: 1, 1
+  index: -1
+b_0_009/zuojiao
+  rotate: true
+  xy: 832, 273
+  size: 145, 115
+  orig: 147, 117
+  offset: 1, 1
+  index: -1
+b_0_009/zuoshou
+  rotate: false
+  xy: 784, 10
+  size: 170, 258
+  orig: 172, 261
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,444 @@
+{
+  "stageId": "stage_007",
+  "stageName": "诅咒沼泽",
+  "stageDescription": "第7关：诅咒沼泽，击败所有敌人获得胜利",
+  "difficulty": 7,
+  "maxTime": 362,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "stone_warrior_wave",
+      "gameObject": {
+        "id": "stone_warrior",
+        "attack": 70,
+        "maxhp": 915,
+        "level": 7,
+        "class": 1,
+        "defense": 39,
+        "exp": 140,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_007",
+          "m_n_0_007_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 13,
+      "spawnInterval": 1.8,
+      "level": 7
+    },
+    {
+      "id": "soul_servant_wave",
+      "gameObject": {
+        "id": "soul_servant",
+        "attack": 44,
+        "maxhp": 572,
+        "level": 7,
+        "class": 1,
+        "defense": 26,
+        "exp": 88,
+        "moveSpeed": 80,
+        "attackRange": 135,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_004",
+          "m_n_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 13,
+      "spawnInterval": 1.8,
+      "level": 7
+    },
+    {
+      "id": "night_witch_wave",
+      "gameObject": {
+        "id": "night_witch",
+        "attack": 33,
+        "maxhp": 286,
+        "level": 7,
+        "class": 2,
+        "defense": 11,
+        "exp": 66,
+        "moveSpeed": 60,
+        "attackRange": 344,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_001",
+          "m_n_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 13,
+      "spawnInterval": 1.8,
+      "level": 7
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 88,
+        "maxhp": 858,
+        "level": 7,
+        "class": 1,
+        "defense": 44,
+        "exp": 176,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 8,
+      "spawnInterval": 2.7,
+      "level": 7
+    },
+    {
+      "id": "flower_pharaoh_wave",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 99,
+        "maxhp": 1001,
+        "level": 7,
+        "class": 2,
+        "defense": 39,
+        "exp": 198,
+        "moveSpeed": 60,
+        "attackRange": 424,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 8,
+      "spawnInterval": 2.7,
+      "level": 7
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 156,
+        "maxhp": 1318,
+        "level": 9,
+        "class": 1,
+        "defense": 52,
+        "exp": 208,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 5,
+      "spawnInterval": 3.5,
+      "level": 9
+    },
+    {
+      "id": "enhanced_flower_pharaoh_wave_2",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 175,
+        "maxhp": 1537,
+        "level": 9,
+        "class": 2,
+        "defense": 46,
+        "exp": 234,
+        "moveSpeed": 60,
+        "attackRange": 425,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 5,
+      "spawnInterval": 3.5,
+      "level": 9
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_liehuo_longwang",
+      "gameObject": {
+        "id": "boss_liehuo_longwang",
+        "attack": 989,
+        "maxhp": 102269,
+        "level": 10,
+        "class": 0,
+        "defense": 156,
+        "exp": 1561,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_5",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_5",
+        "isBoss": true,
+        "name": "大地霸主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 10
+    },
+    {
+      "id": "boss_anying_mogui",
+      "gameObject": {
+        "id": "boss_anying_mogui",
+        "attack": 1319,
+        "maxhp": 153404,
+        "level": 10,
+        "class": 0,
+        "defense": 156,
+        "exp": 1561,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_4",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_4",
+        "isBoss": true,
+        "name": "深岩之王"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 10
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第7关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_liehuo_longwang出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_anying_mogui登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "soul_servant_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 25.684527286166055,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 44.366666666666674,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "soul_servant_wave",
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 83.73333333333335,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 126.86904126572973,
+      "isRepeatable": false,
+      "priority": 5,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 133.1379310344828,
+      "isRepeatable": false,
+      "priority": 6,
+      "bossSpawn": "boss_liehuo_longwang"
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 153.10000000000002,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 167.3,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 181.5,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 217.42068180671575,
+      "isRepeatable": false,
+      "priority": 10,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 220.7,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "soul_servant_wave",
+        "stone_warrior_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 228.7,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "soul_servant_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 292.748529820031,
+      "isRepeatable": false,
+      "priority": 13,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 298.0414252412842,
+      "isRepeatable": false,
+      "priority": 14,
+      "bossSpawn": "boss_anying_mogui"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

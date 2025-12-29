@@ -1,0 +1,55 @@
+
+b_1_007.png
+size: 851, 546
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_1_007/houchibang
+  rotate: true
+  xy: 2, 2
+  size: 214, 292
+  orig: 216, 294
+  offset: 1, 1
+  index: -1
+b_1_007/houtui
+  rotate: false
+  xy: 638, 6
+  size: 194, 129
+  orig: 196, 132
+  offset: 1, 2
+  index: -1
+b_1_007/qianchibang
+  rotate: true
+  xy: 2, 218
+  size: 326, 370
+  orig: 328, 372
+  offset: 1, 1
+  index: -1
+b_1_007/qiantui
+  rotate: false
+  xy: 638, 137
+  size: 165, 175
+  orig: 168, 177
+  offset: 2, 1
+  index: -1
+b_1_007/shenti
+  rotate: true
+  xy: 374, 12
+  size: 239, 262
+  orig: 241, 264
+  offset: 1, 1
+  index: -1
+b_1_007/tou
+  rotate: false
+  xy: 374, 253
+  size: 258, 291
+  orig: 261, 293
+  offset: 2, 1
+  index: -1
+b_1_007/weiba
+  rotate: true
+  xy: 634, 314
+  size: 230, 215
+  orig: 232, 219
+  offset: 1, 3
+  index: -1

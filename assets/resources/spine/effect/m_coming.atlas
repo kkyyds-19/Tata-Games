@@ -1,0 +1,27 @@
+
+m_coming.png
+size: 1881, 863
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ZZ
+  rotate: false
+  xy: 2, 2
+  size: 868, 555
+  orig: 871, 557
+  offset: 1, 1
+  index: -1
+jingjiexian
+  rotate: false
+  xy: 2, 559
+  size: 1877, 302
+  orig: 1879, 304
+  offset: 1, 1
+  index: -1
+wenzi
+  rotate: false
+  xy: 872, 410
+  size: 806, 147
+  orig: 808, 149
+  offset: 1, 1
+  index: -1

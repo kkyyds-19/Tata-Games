@@ -1,0 +1,41 @@
+
+c_0_001.png
+size: 322, 323
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+c_0_001/houjiao
+  rotate: false
+  xy: 222, 87
+  size: 98, 109
+  orig: 100, 111
+  offset: 1, 1
+  index: -1
+c_0_001/qianjiao
+  rotate: false
+  xy: 222, 198
+  size: 96, 123
+  orig: 98, 125
+  offset: 1, 1
+  index: -1
+c_0_001/shenti
+  rotate: false
+  xy: 2, 4
+  size: 167, 137
+  orig: 169, 139
+  offset: 1, 1
+  index: -1
+c_0_001/tou
+  rotate: true
+  xy: 2, 143
+  size: 178, 218
+  orig: 180, 220
+  offset: 1, 1
+  index: -1
+c_0_001/weiba
+  rotate: true
+  xy: 171, 2
+  size: 83, 95
+  orig: 85, 97
+  offset: 1, 1
+  index: -1

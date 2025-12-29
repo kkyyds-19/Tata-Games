@@ -1,0 +1,55 @@
+
+h_0_0_0.png
+size: 1066, 431
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 2, 12
+  size: 355, 417
+  orig: 357, 419
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 359, 163
+  size: 252, 266
+  orig: 255, 268
+  offset: 1, 1
+  index: -1
+yanjing
+  rotate: true
+  xy: 890, 236
+  size: 193, 75
+  orig: 197, 77
+  offset: 2, 1
+  index: -1
+youjianjia
+  rotate: true
+  xy: 872, 10
+  size: 208, 192
+  orig: 210, 194
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: true
+  xy: 359, 2
+  size: 159, 290
+  orig: 161, 295
+  offset: 1, 2
+  index: -1
+zuojianjia
+  rotate: true
+  xy: 651, 6
+  size: 212, 219
+  orig: 216, 222
+  offset: 2, 2
+  index: -1
+zuoshou
+  rotate: true
+  xy: 613, 220
+  size: 209, 275
+  orig: 211, 277
+  offset: 1, 1
+  index: -1

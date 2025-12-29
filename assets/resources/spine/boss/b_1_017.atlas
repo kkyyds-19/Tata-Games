@@ -1,0 +1,62 @@
+
+b_1_017.png
+size: 976, 560
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_1_017/houqianjiao
+  rotate: false
+  xy: 762, 3
+  size: 101, 161
+  orig: 105, 163
+  offset: 1, 1
+  index: -1
+b_1_017/shenti
+  rotate: true
+  xy: 424, 33
+  size: 279, 336
+  orig: 289, 339
+  offset: 1, 2
+  index: -1
+b_1_017/shou
+  rotate: true
+  xy: 2, 2
+  size: 556, 420
+  orig: 561, 422
+  offset: 3, 1
+  index: -1
+b_1_017/tou
+  rotate: true
+  xy: 424, 314
+  size: 244, 412
+  orig: 247, 416
+  offset: 1, 3
+  index: -1
+b_1_017/weiba
+  rotate: true
+  xy: 762, 166
+  size: 146, 74
+  orig: 148, 76
+  offset: 1, 1
+  index: -1
+b_1_017/youhoutui
+  rotate: false
+  xy: 838, 201
+  size: 131, 162
+  orig: 133, 164
+  offset: 1, 1
+  index: -1
+b_1_017/youqianjiao
+  rotate: false
+  xy: 865, 43
+  size: 105, 156
+  orig: 107, 158
+  offset: 1, 1
+  index: -1
+b_1_017/zuoqianjiao
+  rotate: false
+  xy: 838, 365
+  size: 136, 193
+  orig: 139, 195
+  offset: 2, 1
+  index: -1

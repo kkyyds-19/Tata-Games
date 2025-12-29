@@ -1,0 +1,454 @@
+{
+  "stageId": "stage_010",
+  "stageName": "死亡矿坑",
+  "stageDescription": "第10关：死亡矿坑，击败所有敌人获得胜利",
+  "difficulty": 10,
+  "maxTime": 393,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "ogre_berserker_wave",
+      "gameObject": {
+        "id": "ogre_berserker",
+        "attack": 78,
+        "maxhp": 1019,
+        "level": 10,
+        "class": 1,
+        "defense": 44,
+        "exp": 156,
+        "moveSpeed": 80,
+        "attackRange": 145,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_006",
+          "m_n_0_006_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 14,
+      "spawnInterval": 1.8,
+      "level": 10
+    },
+    {
+      "id": "swamp_devourer_wave",
+      "gameObject": {
+        "id": "swamp_devourer",
+        "attack": 44,
+        "maxhp": 582,
+        "level": 10,
+        "class": 1,
+        "defense": 28,
+        "exp": 88,
+        "moveSpeed": 80,
+        "attackRange": 130,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_003",
+          "m_n_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 14,
+      "spawnInterval": 1.8,
+      "level": 10
+    },
+    {
+      "id": "night_witch_wave",
+      "gameObject": {
+        "id": "night_witch",
+        "attack": 42,
+        "maxhp": 364,
+        "level": 10,
+        "class": 2,
+        "defense": 14,
+        "exp": 84,
+        "moveSpeed": 60,
+        "attackRange": 346,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_001",
+          "m_n_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 14,
+      "spawnInterval": 1.8,
+      "level": 10
+    },
+    {
+      "id": "rock_monster_wave",
+      "gameObject": {
+        "id": "rock_monster",
+        "attack": 140,
+        "maxhp": 1456,
+        "level": 10,
+        "class": 1,
+        "defense": 70,
+        "exp": 280,
+        "moveSpeed": 80,
+        "attackRange": 160,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_002",
+          "m_s_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 14,
+      "spawnInterval": 1.8,
+      "level": 10
+    },
+    {
+      "id": "twin_snake_turtle_wave",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 210,
+        "maxhp": 2366,
+        "level": 10,
+        "class": 2,
+        "defense": 84,
+        "exp": 420,
+        "moveSpeed": 60,
+        "attackRange": 576,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 24,
+      "spawnInterval": 2,
+      "level": 10
+    },
+    {
+      "id": "enhanced_rock_monster_wave_1",
+      "gameObject": {
+        "id": "rock_monster",
+        "attack": 240,
+        "maxhp": 2163,
+        "level": 12,
+        "class": 1,
+        "defense": 80,
+        "exp": 320,
+        "moveSpeed": 80,
+        "attackRange": 160,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_002",
+          "m_s_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 7,
+      "spawnInterval": 3.3,
+      "level": 12
+    },
+    {
+      "id": "enhanced_twin_snake_turtle_wave_2",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 360,
+        "maxhp": 3515,
+        "level": 12,
+        "class": 2,
+        "defense": 96,
+        "exp": 480,
+        "moveSpeed": 60,
+        "attackRange": 577,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 7,
+      "spawnInterval": 3.3,
+      "level": 12
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_liehuo_longwang",
+      "gameObject": {
+        "id": "boss_liehuo_longwang",
+        "attack": 1796,
+        "maxhp": 113683,
+        "level": 13,
+        "class": 0,
+        "defense": 230,
+        "exp": 2301,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_5",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_5",
+        "isBoss": true,
+        "name": "大地霸主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 13
+    },
+    {
+      "id": "boss_anying_mogui",
+      "gameObject": {
+        "id": "boss_anying_mogui",
+        "attack": 2395,
+        "maxhp": 170524,
+        "level": 13,
+        "class": 0,
+        "defense": 230,
+        "exp": 2301,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_4",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_4",
+        "isBoss": true,
+        "name": "深岩之王"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 13
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第10关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_liehuo_longwang出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_anying_mogui登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 18.487435382387176,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 50.050000000000004,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 95.10000000000001,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 142.7477072590762,
+      "isRepeatable": false,
+      "priority": 5,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 150.20689655172416,
+      "isRepeatable": false,
+      "priority": 6,
+      "bossSpawn": "boss_liehuo_longwang"
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 170.15,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 187.45,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 204.74999999999997,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 243.82770073571822,
+      "isRepeatable": false,
+      "priority": 10,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 247.04999999999998,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "swamp_devourer_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 248.3917276568902,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 255.04999999999998,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 323.5293870570526,
+      "isRepeatable": false,
+      "priority": 14,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 329.5490656029449,
+      "isRepeatable": false,
+      "priority": 15,
+      "bossSpawn": "boss_anying_mogui"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

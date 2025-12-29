@@ -1,0 +1,377 @@
+{
+  "stageId": "boss_test",
+  "stageName": "Boss测试关卡",
+  "stageDescription": "每20秒出现一个新的Boss进行测试",
+  "difficulty": 10,
+  "maxTime": 600,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [],
+  "bosses": [
+    {
+      "id": "boss_judu_bianfu",
+      "gameObject": {
+        "id": "boss_judu_bianfu",
+        "attack": 800,
+        "maxhp": 35000,
+        "level": 10,
+        "class": 0,
+        "defense": 80,
+        "exp": 800,
+        "attackRange": 280,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_2",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 10
+    },
+    {
+      "id": "boss_judu_xiezi",
+      "gameObject": {
+        "id": "boss_judu_xiezi",
+        "attack": 1000,
+        "maxhp": 45000,
+        "level": 11,
+        "class": 0,
+        "defense": 100,
+        "exp": 1000,
+        "attackRange": 260,
+        "attackInterval": 3.5,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_3",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 11
+    },
+    {
+      "id": "boss_huagang_juren",
+      "gameObject": {
+        "id": "boss_huagang_juren",
+        "attack": 1200,
+        "maxhp": 60000,
+        "level": 12,
+        "class": 0,
+        "defense": 150,
+        "exp": 1200,
+        "attackRange": 320,
+        "attackInterval": 4,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_5",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_5",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 12
+    },
+    {
+      "id": "boss_juxing_shouren",
+      "gameObject": {
+        "id": "boss_juxing_shouren",
+        "attack": 1400,
+        "maxhp": 75000,
+        "level": 13,
+        "class": 0,
+        "defense": 180,
+        "exp": 1400,
+        "attackRange": 300,
+        "attackInterval": 3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_4",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_4",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 13
+    },
+    {
+      "id": "boss_tufu",
+      "gameObject": {
+        "id": "boss_tufu",
+        "attack": 1600,
+        "maxhp": 90000,
+        "level": 14,
+        "class": 0,
+        "defense": 200,
+        "exp": 1600,
+        "attackRange": 250,
+        "attackInterval": 3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 14
+    },
+    {
+      "id": "boss_huoyan_lingzhu",
+      "gameObject": {
+        "id": "boss_huoyan_lingzhu",
+        "attack": 1800,
+        "maxhp": 110000,
+        "level": 15,
+        "class": 0,
+        "defense": 220,
+        "exp": 1800,
+        "attackRange": 300,
+        "attackInterval": 2.5,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_2",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 15
+    },
+    {
+      "id": "boss_shuangtou_shiren",
+      "gameObject": {
+        "id": "boss_shuangtou_shiren",
+        "attack": 2000,
+        "maxhp": 130000,
+        "level": 16,
+        "class": 0,
+        "defense": 250,
+        "exp": 2000,
+        "attackRange": 280,
+        "attackInterval": 3.5,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_3",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 16
+    },
+    {
+      "id": "boss_jufu_naga",
+      "gameObject": {
+        "id": "boss_jufu_naga",
+        "attack": 2200,
+        "maxhp": 150000,
+        "level": 17,
+        "class": 0,
+        "defense": 280,
+        "exp": 2200,
+        "attackRange": 320,
+        "attackInterval": 3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_4",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_4",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 17
+    },
+    {
+      "id": "boss_wuyao_wang",
+      "gameObject": {
+        "id": "boss_wuyao_wang",
+        "attack": 2400,
+        "maxhp": 180000,
+        "level": 18,
+        "class": 0,
+        "defense": 320,
+        "exp": 2400,
+        "attackRange": 350,
+        "attackInterval": 4,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_1",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 18
+    },
+    {
+      "id": "boss_bingshuang_gulong",
+      "gameObject": {
+        "id": "boss_bingshuang_gulong",
+        "attack": 2800,
+        "maxhp": 220000,
+        "level": 19,
+        "class": 0,
+        "defense": 400,
+        "exp": 2800,
+        "attackRange": 400,
+        "attackInterval": 4.5,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_6",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 19
+    }
+  ],
+  "stories": [],
+  "stageEvents": [
+    {
+      "id": "event_boss_1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "bossSpawn": "boss_judu_bianfu"
+    },
+    {
+      "id": "event_boss_2",
+      "triggerType": "time",
+      "triggerValue": 25,
+      "isRepeatable": false,
+      "priority": 2,
+      "bossSpawn": "boss_judu_xiezi"
+    },
+    {
+      "id": "event_boss_3",
+      "triggerType": "time",
+      "triggerValue": 45,
+      "isRepeatable": false,
+      "priority": 3,
+      "bossSpawn": "boss_huagang_juren"
+    },
+    {
+      "id": "event_boss_4",
+      "triggerType": "time",
+      "triggerValue": 65,
+      "isRepeatable": false,
+      "priority": 4,
+      "bossSpawn": "boss_juxing_shouren"
+    },
+    {
+      "id": "event_boss_5",
+      "triggerType": "time",
+      "triggerValue": 85,
+      "isRepeatable": false,
+      "priority": 5,
+      "bossSpawn": "boss_tufu"
+    },
+    {
+      "id": "event_boss_6",
+      "triggerType": "time",
+      "triggerValue": 105,
+      "isRepeatable": false,
+      "priority": 6,
+      "bossSpawn": "boss_huoyan_lingzhu"
+    },
+    {
+      "id": "event_boss_7",
+      "triggerType": "time",
+      "triggerValue": 125,
+      "isRepeatable": false,
+      "priority": 7,
+      "bossSpawn": "boss_shuangtou_shiren"
+    },
+    {
+      "id": "event_boss_8",
+      "triggerType": "time",
+      "triggerValue": 145,
+      "isRepeatable": false,
+      "priority": 8,
+      "bossSpawn": "boss_jufu_naga"
+    },
+    {
+      "id": "event_boss_9",
+      "triggerType": "time",
+      "triggerValue": 165,
+      "isRepeatable": false,
+      "priority": 9,
+      "bossSpawn": "boss_wuyao_wang"
+    },
+    {
+      "id": "event_boss_10",
+      "triggerType": "time",
+      "triggerValue": 185,
+      "isRepeatable": false,
+      "priority": 10,
+      "bossSpawn": "boss_bingshuang_gulong"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+} 

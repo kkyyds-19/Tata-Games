@@ -1,0 +1,55 @@
+
+p_3_002.png
+size: 648, 549
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+chibang
+  rotate: false
+  xy: 2, 264
+  size: 244, 283
+  orig: 246, 285
+  offset: 1, 1
+  index: -1
+houchibang
+  rotate: false
+  xy: 261, 17
+  size: 225, 262
+  orig: 227, 264
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 2
+  size: 260, 257
+  orig: 262, 259
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 248, 281
+  size: 254, 266
+  orig: 256, 268
+  offset: 1, 1
+  index: -1
+weiba
+  rotate: false
+  xy: 504, 192
+  size: 134, 166
+  orig: 136, 168
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 504, 360
+  size: 134, 187
+  orig: 136, 189
+  offset: 1, 1
+  index: -1
+zuoshou
+  rotate: true
+  xy: 488, 28
+  size: 162, 158
+  orig: 165, 160
+  offset: 1, 1
+  index: -1

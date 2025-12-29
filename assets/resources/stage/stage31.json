@@ -1,0 +1,146 @@
+{
+  "stageId": "stage_031",
+  "stageName": "超越极限",
+  "stageDescription": "第31关：超越极限，击败所有BOSS获得胜利",
+  "difficulty": 32,
+  "maxTime": 579,
+  "backgroundMusic": "audio/bgm/battle1",
+  "monsters": [
+  ],
+  "bosses": [
+    {
+      "id": "boss_wuyaowang",
+      "gameObject": {
+        "id": "boss_wuyaowang",
+        "attack": 64393,
+        "maxhp": 146631,
+        "level": 31,
+        "class": 0,
+        "defense": 1947,
+        "exp": 19469,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_1",
+        "isBoss": true,
+        "name": "雷皇圣者"
+      },
+      "spawnPosition": {
+        "x": -200,
+        "y": 400,
+        "z": 0
+      },
+      "level": 31
+    },
+    {
+      "id": "boss_bingshuang_gulong",
+      "gameObject": {
+        "id": "boss_bingshuang_gulong",
+        "attack": 85857,
+        "maxhp": 219946,
+        "level": 31,
+        "class": 0,
+        "defense": 1947,
+        "exp": 19469,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_6",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_6",
+        "isBoss": true,
+        "name": "亡灵骨龙"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 31
+    },
+    {
+      "id": "boss_shuangtou_shiren",
+      "gameObject": {
+        "id": "boss_shuangtou_shiren",
+        "attack": 2000,
+        "maxhp": 130000,
+        "level": 16,
+        "class": 0,
+        "defense": 250,
+        "exp": 2000,
+        "attackRange": 280,
+        "attackInterval": 3.5,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_3",
+        "isBoss": true,
+        "name": "双头食人魔"
+      },
+      "spawnPosition": {
+        "x": 200,
+        "y": 400,
+        "z": 0
+      },
+      "level": 16
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第31关开始！Boss挑战！",
+      "duration": 2
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 1,
+      "isRepeatable": false,
+      "priority": 1,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_boss_1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 2,
+      "bossSpawn": "boss_wuyaowang"
+    },
+    {
+      "id": "event_boss_2",
+      "triggerType": "time",
+      "triggerValue": 10,
+      "isRepeatable": false,
+      "priority": 3,
+      "bossSpawn": "boss_bingshuang_gulong"
+    },
+    {
+      "id": "event_boss_3",
+      "triggerType": "time",
+      "triggerValue": 15,
+      "isRepeatable": false,
+      "priority": 4,
+      "bossSpawn": "boss_shuangtou_shiren"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

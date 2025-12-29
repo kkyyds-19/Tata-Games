@@ -1,0 +1,62 @@
+
+b_1_008.png
+size: 1372, 414
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_1_008/houjiao
+  rotate: true
+  xy: 1246, 67
+  size: 161, 124
+  orig: 163, 127
+  offset: 1, 1
+  index: -1
+b_1_008/qianjiao
+  rotate: false
+  xy: 1082, 65
+  size: 162, 163
+  orig: 164, 165
+  offset: 1, 1
+  index: -1
+b_1_008/shenti
+  rotate: true
+  xy: 2, 18
+  size: 394, 372
+  orig: 398, 374
+  offset: 1, 1
+  index: -1
+b_1_008/shetou
+  rotate: true
+  xy: 865, 2
+  size: 92, 168
+  orig: 96, 170
+  offset: 3, 1
+  index: -1
+b_1_008/touguan
+  rotate: true
+  xy: 865, 96
+  size: 316, 215
+  orig: 319, 217
+  offset: 1, 1
+  index: -1
+b_1_008/weiba
+  rotate: false
+  xy: 1082, 230
+  size: 254, 182
+  orig: 256, 184
+  offset: 1, 1
+  index: -1
+b_1_008/youtou
+  rotate: false
+  xy: 619, 60
+  size: 244, 352
+  orig: 247, 358
+  offset: 2, 5
+  index: -1
+b_1_008/zuotou
+  rotate: false
+  xy: 376, 4
+  size: 241, 408
+  orig: 243, 411
+  offset: 1, 1
+  index: -1

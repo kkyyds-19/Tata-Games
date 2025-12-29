@@ -1,0 +1,48 @@
+
+p_2_001.png
+size: 730, 608
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+dun
+  rotate: true
+  xy: 170, 359
+  size: 247, 381
+  orig: 250, 384
+  offset: 1, 2
+  index: -1
+shenti
+  rotate: true
+  xy: 170, 45
+  size: 312, 369
+  orig: 315, 371
+  offset: 2, 1
+  index: -1
+tou
+  rotate: false
+  xy: 541, 67
+  size: 187, 290
+  orig: 189, 292
+  offset: 1, 1
+  index: -1
+youjianjia
+  rotate: false
+  xy: 553, 455
+  size: 172, 151
+  orig: 174, 153
+  offset: 1, 1
+  index: -1
+zuojianjia
+  rotate: false
+  xy: 2, 2
+  size: 162, 135
+  orig: 310, 148
+  offset: 1, 12
+  index: -1
+zuoshou
+  rotate: false
+  xy: 2, 139
+  size: 166, 467
+  orig: 169, 469
+  offset: 1, 1
+  index: -1

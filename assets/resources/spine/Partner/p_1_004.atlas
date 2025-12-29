@@ -1,0 +1,62 @@
+
+p_1_004.png
+size: 469, 975
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 2, 654
+  size: 331, 319
+  orig: 334, 321
+  offset: 2, 1
+  index: -1
+tou
+  rotate: true
+  xy: 2, 393
+  size: 259, 294
+  orig: 261, 296
+  offset: 1, 1
+  index: -1
+youhoutui
+  rotate: false
+  xy: 298, 413
+  size: 167, 239
+  orig: 174, 241
+  offset: 6, 1
+  index: -1
+youqiantui
+  rotate: false
+  xy: 298, 197
+  size: 166, 214
+  orig: 168, 221
+  offset: 1, 1
+  index: -1
+youzhongtui
+  rotate: true
+  xy: 2, 159
+  size: 232, 242
+  orig: 234, 248
+  offset: 1, 1
+  index: -1
+zuohoutui
+  rotate: false
+  xy: 246, 2
+  size: 207, 193
+  orig: 215, 195
+  offset: 1, 1
+  index: -1
+zuoqiantui
+  rotate: true
+  xy: 2, 12
+  size: 145, 210
+  orig: 147, 214
+  offset: 1, 3
+  index: -1
+zuozhongtui
+  rotate: false
+  xy: 335, 721
+  size: 132, 252
+  orig: 134, 255
+  offset: 1, 2
+  index: -1

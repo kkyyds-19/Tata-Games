@@ -1,0 +1,498 @@
+{
+  "stageId": "stage_023",
+  "stageName": "史诗决战",
+  "stageDescription": "第23关：史诗决战，击败所有敌人获得胜利",
+  "difficulty": 23,
+  "maxTime": 528,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "hammer_giant_wave",
+      "gameObject": {
+        "id": "hammer_giant",
+        "attack": 194,
+        "maxhp": 2527,
+        "level": 23,
+        "class": 1,
+        "defense": 108,
+        "exp": 388,
+        "moveSpeed": 80,
+        "attackRange": 155,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_008",
+          "m_n_0_008_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 42,
+      "spawnInterval": 1.8,
+      "level": 23
+    },
+    {
+      "id": "stone_warrior_wave",
+      "gameObject": {
+        "id": "stone_warrior",
+        "attack": 172,
+        "maxhp": 2246,
+        "level": 23,
+        "class": 1,
+        "defense": 97,
+        "exp": 344,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_007",
+          "m_n_0_007_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 42,
+      "spawnInterval": 1.8,
+      "level": 23
+    },
+    {
+      "id": "night_witch_wave",
+      "gameObject": {
+        "id": "night_witch",
+        "attack": 81,
+        "maxhp": 702,
+        "level": 23,
+        "class": 2,
+        "defense": 27,
+        "exp": 162,
+        "moveSpeed": 60,
+        "attackRange": 355,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_001",
+          "m_n_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 42,
+      "spawnInterval": 1.8,
+      "level": 23
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 216,
+        "maxhp": 2106,
+        "level": 23,
+        "class": 1,
+        "defense": 108,
+        "exp": 432,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 27,
+      "spawnInterval": 2,
+      "level": 23
+    },
+    {
+      "id": "twin_snake_turtle_wave",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 405,
+        "maxhp": 4563,
+        "level": 23,
+        "class": 2,
+        "defense": 162,
+        "exp": 810,
+        "moveSpeed": 60,
+        "attackRange": 585,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 27,
+      "spawnInterval": 2,
+      "level": 23
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 348,
+        "maxhp": 2940,
+        "level": 25,
+        "class": 1,
+        "defense": 116,
+        "exp": 464,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 16,
+      "spawnInterval": 2.4,
+      "level": 25
+    },
+    {
+      "id": "enhanced_twin_snake_turtle_wave_2",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 652,
+        "maxhp": 6371,
+        "level": 25,
+        "class": 2,
+        "defense": 174,
+        "exp": 870,
+        "moveSpeed": 60,
+        "attackRange": 586,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 16,
+      "spawnInterval": 2.4,
+      "level": 25
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_shuangtou_shiren",
+      "gameObject": {
+        "id": "boss_shuangtou_shiren",
+        "attack": 23825,
+        "maxhp": 140336,
+        "level": 26,
+        "class": 0,
+        "defense": 1090,
+        "exp": 10903,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_3",
+        "isBoss": true,
+        "name": "夜鬼双斧王"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 26
+    },
+    {
+      "id": "boss_jufu_naga",
+      "gameObject": {
+        "id": "boss_jufu_naga",
+        "attack": 31767,
+        "maxhp": 210504,
+        "level": 26,
+        "class": 0,
+        "defense": 1090,
+        "exp": 10903,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_4",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_4",
+        "isBoss": true,
+        "name": "娜迦领主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 26
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第23关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_shuangtou_shiren出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_jufu_naga登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 24.274501147824537,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 46.88,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 85.55317970564874,
+      "isRepeatable": false,
+      "priority": 4,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_extra_wave_2",
+      "triggerType": "time",
+      "triggerValue": 88.76,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "night_witch_wave",
+        "stone_warrior_wave",
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_3",
+      "triggerType": "time",
+      "triggerValue": 130.64000000000001,
+      "isRepeatable": false,
+      "priority": 6,
+      "monsterSpawns": [
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 172.52,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 218.91523116360128,
+      "isRepeatable": false,
+      "priority": 8,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 224.1724137931035,
+      "isRepeatable": false,
+      "priority": 9,
+      "bossSpawn": "boss_shuangtou_shiren"
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 244.4,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": [
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 262.88,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "hammer_giant_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 281.36,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 299.84000000000003,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "hammer_giant_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 318.32000000000005,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "hammer_giant_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 361.8,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 369.8,
+      "isRepeatable": false,
+      "priority": 16,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 377.8,
+      "isRepeatable": false,
+      "priority": 17,
+      "monsterSpawns": [
+        "night_witch_wave",
+        "twin_snake_turtle_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 520.7930742535226,
+      "isRepeatable": false,
+      "priority": 18,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 525.7948396885589,
+      "isRepeatable": false,
+      "priority": 19,
+      "bossSpawn": "boss_jufu_naga"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

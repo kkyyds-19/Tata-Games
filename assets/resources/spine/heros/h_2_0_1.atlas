@@ -1,0 +1,62 @@
+
+h_2_0_1.png
+size: 445, 965
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_2_0_1/shenti
+  rotate: false
+  xy: 2, 2
+  size: 270, 245
+  orig: 273, 248
+  offset: 1, 2
+  index: -1
+h_2_0_1/tou
+  rotate: true
+  xy: 2, 692
+  size: 271, 424
+  orig: 274, 429
+  offset: 2, 3
+  index: -1
+h_2_0_1/youmeimao
+  rotate: false
+  xy: 310, 557
+  size: 86, 66
+  orig: 88, 70
+  offset: 1, 2
+  index: -1
+h_2_0_1/youshoubi
+  rotate: true
+  xy: 274, 26
+  size: 189, 163
+  orig: 191, 166
+  offset: 1, 2
+  index: -1
+h_2_0_1/youtoufa
+  rotate: true
+  xy: 2, 249
+  size: 181, 292
+  orig: 186, 295
+  offset: 1, 1
+  index: -1
+h_2_0_1/zuomeimao
+  rotate: false
+  xy: 310, 625
+  size: 95, 65
+  orig: 98, 67
+  offset: 2, 1
+  index: -1
+h_2_0_1/zuoshoubi
+  rotate: false
+  xy: 296, 217
+  size: 147, 213
+  orig: 149, 216
+  offset: 1, 2
+  index: -1
+h_2_0_1/zuotoufa
+  rotate: true
+  xy: 2, 432
+  size: 258, 306
+  orig: 260, 308
+  offset: 1, 1
+  index: -1

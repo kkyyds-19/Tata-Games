@@ -1,0 +1,55 @@
+
+p_4_003.png
+size: 845, 543
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+houchibang
+  rotate: false
+  xy: 631, 251
+  size: 212, 290
+  orig: 216, 292
+  offset: 1, 1
+  index: -1
+houtui
+  rotate: true
+  xy: 232, 23
+  size: 193, 129
+  orig: 195, 131
+  offset: 1, 1
+  index: -1
+qianchibang
+  rotate: true
+  xy: 2, 218
+  size: 323, 367
+  orig: 325, 369
+  offset: 1, 1
+  index: -1
+qiantui
+  rotate: false
+  xy: 631, 78
+  size: 162, 171
+  orig: 164, 173
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 371, 14
+  size: 238, 258
+  orig: 240, 260
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 371, 254
+  size: 258, 287
+  orig: 260, 289
+  offset: 1, 1
+  index: -1
+weiba
+  rotate: false
+  xy: 2, 2
+  size: 228, 214
+  orig: 230, 216
+  offset: 1, 1
+  index: -1

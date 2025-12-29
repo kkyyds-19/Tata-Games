@@ -1,0 +1,241 @@
+{
+"skeleton": {
+	"hash": "vv2vmWbltRc",
+	"spine": "3.8-from-4.0-from-4.1-from-4.2.43",
+	"x": -300.5,
+	"y": -4,
+	"width": 589,
+	"height": 596,
+	"images": "",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "shenti", "parent": "root", "length": 145.84, "rotation": 90.95, "x": -4.53, "y": 198.09 },
+	{ "name": "tou", "parent": "shenti", "length": 142.36, "rotation": 1.98, "x": 177.69, "y": 15.27 },
+	{ "name": "xiazuiba", "parent": "tou", "length": 34.19, "rotation": -1.37, "x": -35.08, "y": 28.59 },
+	{ "name": "youshoubi", "parent": "shenti", "length": 234.29, "rotation": -157.55, "x": 159.07, "y": -121 },
+	{ "name": "zuoshoubi", "parent": "shenti", "length": 237.92, "rotation": 151.53, "x": 142.02, "y": 107.97 },
+	{ "name": "youtui", "parent": "shenti", "length": 147.54, "rotation": -156.2, "x": -55.07, "y": -66.88 },
+	{ "name": "zuotui", "parent": "shenti", "length": 137.51, "rotation": 161.03, "x": -59.44, "y": 55.96 }
+],
+"slots": [
+	{ "name": "youtui", "bone": "youtui", "attachment": "youtui" },
+	{ "name": "zuotui", "bone": "zuotui", "attachment": "zuotui" },
+	{ "name": "zuoshoubi", "bone": "zuoshoubi", "attachment": "zuoshoubi" },
+	{ "name": "shenti", "bone": "shenti", "attachment": "shenti" },
+	{ "name": "youshoubi", "bone": "youshoubi", "attachment": "youshoubi" },
+	{ "name": "tou", "bone": "tou", "attachment": "tou" },
+	{ "name": "xiazuiba", "bone": "xiazuiba", "attachment": "xiazuiba" }
+],
+"skins": [
+	{
+		"name": "b_0_0_2",
+		"attachments": {
+			"shenti": {
+				"shenti": { "x": 85.77, "y": -8.97, "rotation": -90.95, "width": 295, "height": 302 }
+			},
+			"tou": {
+				"tou": { "x": 61.77, "y": 13.59, "rotation": -92.94, "width": 374, "height": 311 }
+			},
+			"xiazuiba": {
+				"xiazuiba": { "x": 3.6, "y": -14.12, "rotation": -91.57, "width": 118, "height": 88 }
+			},
+			"youshoubi": {
+				"youshoubi": { "x": 113.61, "y": 35.49, "rotation": 66.6, "width": 194, "height": 366 }
+			},
+			"youtui": {
+				"youtui": { "x": 72.97, "y": 13.43, "rotation": 65.25, "width": 165, "height": 175 }
+			},
+			"zuoshoubi": {
+				"zuoshoubi": { "x": 119.38, "y": -31.56, "rotation": 117.52, "width": 205, "height": 362 }
+			},
+			"zuotui": {
+				"zuotui": { "x": 65.1, "y": -13.54, "rotation": 108.01, "width": 158, "height": 164 }
+			}
+		}
+	}
+],
+"animations": {
+	"attack": {
+		"bones": {
+			"shenti": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -3.67 },
+					{ "time": 0.5, "angle": 0.25 }
+				]
+			},
+			"youshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 42.01 },
+					{ "time": 0.5, "angle": -77.97 },
+					{ "time": 0.9333 }
+				],
+				"translate": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": -43.96, "y": 25.33 },
+					{ "time": 0.9333 }
+				],
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 1.5, "y": 1.5 },
+					{ "time": 0.9333 }
+				]
+			},
+			"zuoshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 33.03 },
+					{ "time": 0.5, "angle": -15.2 },
+					{ "time": 0.9333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -50.71, "y": 9.09 },
+					{ "time": 0.5, "x": 20.17, "y": -32.6 },
+					{ "time": 0.9333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 0.809 },
+					{ "time": 0.9333 }
+				]
+			},
+			"xiazuiba": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 14.09 },
+					{ "time": 0.5, "x": -21.2 },
+					{ "time": 0.6333 }
+				]
+			},
+			"tou": {
+				"rotate": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": -13.99 },
+					{ "time": 0.9333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -17.02, "y": 24.13 },
+					{ "time": 0.5, "x": 40.41, "y": -14.05 },
+					{ "time": 0.9333 }
+				]
+			},
+			"zuotui": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 7.98 },
+					{ "time": 0.5, "angle": -0.55 },
+					{ "time": 0.9333 }
+				]
+			},
+			"youtui": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 4.61 },
+					{ "time": 0.5, "angle": -1.84 },
+					{ "time": 0.9333 }
+				]
+			}
+		}
+	},
+	"move": {
+		"bones": {
+			"zuotui": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 12.81 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": -10.52 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.8 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 1.2 },
+					{ "time": 1.3333 }
+				]
+			},
+			"youtui": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -8.63 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": 5.22 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 1.2 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.8 },
+					{ "time": 1.3333 }
+				]
+			},
+			"shenti": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -4.6 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": 3.46 },
+					{ "time": 1.3333 }
+				]
+			},
+			"zuoshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": -11.53 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": 8.47 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 1.1 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.9 },
+					{ "time": 1.3333 }
+				]
+			},
+			"youshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.3667, "angle": 10.55 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": -9.45 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3667, "x": 0.9 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 1.1 },
+					{ "time": 1.3333 }
+				]
+			},
+			"tou": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 5.11 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": -5.45 },
+					{ "time": 1.3333 }
+				]
+			},
+			"xiazuiba": {
+				"translate": [
+					{ "time": 0.4333 },
+					{ "time": 0.5333, "x": 12.74, "y": -2.68 },
+					{ "time": 0.6667 },
+					{ "time": 0.8, "x": 12.74, "y": -2.68 },
+					{ "time": 0.9333 }
+				]
+			}
+		}
+	}
+}
+}

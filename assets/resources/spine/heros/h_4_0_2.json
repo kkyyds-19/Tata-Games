@@ -1,0 +1,158 @@
+{
+"skeleton": {
+	"hash": "N7PHscPRB04",
+	"spine": "3.8-from-4.0-from-4.1-from-4.2.43",
+	"x": -321,
+	"y": -8,
+	"width": 604,
+	"height": 591,
+	"images": "../",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "shenti", "parent": "root", "length": 230.14, "rotation": 89.84, "x": -2.25, "y": 0.73 },
+	{ "name": "tou", "parent": "shenti", "length": 253.61, "rotation": 0.46, "x": 220.39, "y": -11.76 },
+	{ "name": "toufa", "parent": "tou", "length": 204.5, "rotation": 137.68, "x": 270.21, "y": 58.59 },
+	{ "name": "youshoubi", "parent": "shenti", "length": 174.52, "rotation": -126.54, "x": 204.44, "y": -61.58 },
+	{ "name": "zuoshoubi", "parent": "shenti", "length": 172.19, "rotation": 149.68, "x": 205.77, "y": 69.02 }
+],
+"slots": [
+	{ "name": "youshoubi", "bone": "youshoubi", "attachment": "youshoubi" },
+	{ "name": "shenti", "bone": "shenti", "attachment": "shenti" },
+	{ "name": "zuoshoubi", "bone": "zuoshoubi", "attachment": "zuoshoubi" },
+	{ "name": "toufa", "bone": "toufa", "attachment": "toufa" },
+	{ "name": "tou", "bone": "tou", "attachment": "tou" }
+],
+"skins": [
+	{
+		"name": "h_4_0_2",
+		"attachments": {
+			"shenti": {
+				"shenti": { "name": "h_4_0_2/shenti", "x": 118.18, "y": 29.58, "rotation": -89.84, "width": 289, "height": 254 }
+			},
+			"tou": {
+				"tou": { "name": "h_4_0_2/tou", "x": 112.7, "y": 56.56, "rotation": -90.29, "width": 422, "height": 351 }
+			},
+			"toufa": {
+				"toufa": { "name": "h_4_0_2/toufa", "x": 91.41, "y": -34.95, "rotation": 132.03, "width": 258, "height": 273 }
+			},
+			"youshoubi": {
+				"youshoubi": { "name": "h_4_0_2/youshoubi", "x": 123, "y": 7.5, "rotation": 36.7, "width": 240, "height": 159 }
+			},
+			"zuoshoubi": {
+				"zuoshoubi": { "name": "h_4_0_2/zuoshoubi", "x": 125.35, "y": -61.77, "rotation": 120.48, "width": 267, "height": 190 }
+			}
+		}
+	}
+],
+"animations": {
+	"attack": {
+		"bones": {
+			"shenti": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 2.75 },
+					{ "time": 0.6667, "angle": -2 },
+					{ "time": 0.8, "angle": 0.84 },
+					{ "time": 0.9333 }
+				]
+			},
+			"tou": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 4.97 },
+					{ "time": 0.6667, "angle": -6.9 },
+					{ "time": 0.9333 }
+				]
+			},
+			"toufa": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -8.8 },
+					{ "time": 0.6667, "angle": -1.64 },
+					{ "time": 0.8, "angle": -13.32 },
+					{ "time": 0.9333 }
+				]
+			},
+			"zuoshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.4333, "angle": 107.81 },
+					{ "time": 0.6, "angle": -19.77 },
+					{ "time": 0.7667, "angle": 21.8 },
+					{ "time": 0.9333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4333, "x": 1.5, "y": 1.1 },
+					{ "time": 0.7667 }
+				]
+			},
+			"youshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.4, "angle": 96.32 },
+					{ "time": 0.5667, "angle": -51.91 },
+					{ "time": 0.7333, "angle": 16.68 },
+					{ "time": 0.9333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4, "x": 1.5, "y": 1.1 },
+					{ "time": 0.7667 }
+				]
+			}
+		}
+	},
+	"stand by": {
+		"bones": {
+			"shenti": {
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.05 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 1.05 },
+					{ "time": 2 }
+				]
+			},
+			"tou": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 3.35 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 3.35 },
+					{ "time": 2 }
+				]
+			},
+			"toufa": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 3.97 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 3.97 },
+					{ "time": 2 }
+				]
+			},
+			"zuoshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 5.67 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 5.67 },
+					{ "time": 2 }
+				]
+			},
+			"youshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -5.87 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -5.87 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

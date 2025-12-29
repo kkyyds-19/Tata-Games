@@ -1,0 +1,518 @@
+{
+  "stageId": "stage_027",
+  "stageName": "巅峰对决",
+  "stageDescription": "第27关：巅峰对决，击败所有敌人获得胜利",
+  "difficulty": 27,
+  "maxTime": 569,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "ogre_berserker_wave",
+      "gameObject": {
+        "id": "ogre_berserker",
+        "attack": 173,
+        "maxhp": 2256,
+        "level": 27,
+        "class": 1,
+        "defense": 99,
+        "exp": 346,
+        "moveSpeed": 80,
+        "attackRange": 145,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_006",
+          "m_n_0_006_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 39,
+      "spawnInterval": 1.8,
+      "level": 27
+    },
+    {
+      "id": "swamp_devourer_wave",
+      "gameObject": {
+        "id": "swamp_devourer",
+        "attack": 99,
+        "maxhp": 1289,
+        "level": 27,
+        "class": 1,
+        "defense": 62,
+        "exp": 198,
+        "moveSpeed": 80,
+        "attackRange": 130,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_003",
+          "m_n_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 39,
+      "spawnInterval": 1.8,
+      "level": 27
+    },
+    {
+      "id": "soul_reaper_wave",
+      "gameObject": {
+        "id": "soul_reaper",
+        "attack": 155,
+        "maxhp": 1450,
+        "level": 27,
+        "class": 2,
+        "defense": 55,
+        "exp": 310,
+        "moveSpeed": 60,
+        "attackRange": 417,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_003",
+          "m_n_1_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 39,
+      "spawnInterval": 1.8,
+      "level": 27
+    },
+    {
+      "id": "rock_monster_wave",
+      "gameObject": {
+        "id": "rock_monster",
+        "attack": 310,
+        "maxhp": 3224,
+        "level": 27,
+        "class": 1,
+        "defense": 155,
+        "exp": 620,
+        "moveSpeed": 80,
+        "attackRange": 160,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_002",
+          "m_s_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 39,
+      "spawnInterval": 1.8,
+      "level": 27
+    },
+    {
+      "id": "flower_pharaoh_wave",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 279,
+        "maxhp": 2821,
+        "level": 27,
+        "class": 2,
+        "defense": 111,
+        "exp": 558,
+        "moveSpeed": 60,
+        "attackRange": 437,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 66,
+      "spawnInterval": 2,
+      "level": 27
+    },
+    {
+      "id": "enhanced_rock_monster_wave_1",
+      "gameObject": {
+        "id": "rock_monster",
+        "attack": 495,
+        "maxhp": 4461,
+        "level": 29,
+        "class": 1,
+        "defense": 165,
+        "exp": 660,
+        "moveSpeed": 80,
+        "attackRange": 160,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_002",
+          "m_s_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 20,
+      "spawnInterval": 2.2,
+      "level": 29
+    },
+    {
+      "id": "enhanced_flower_pharaoh_wave_2",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 445,
+        "maxhp": 3903,
+        "level": 29,
+        "class": 2,
+        "defense": 118,
+        "exp": 594,
+        "moveSpeed": 60,
+        "attackRange": 439,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 20,
+      "spawnInterval": 2.2,
+      "level": 29
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_wuyaowang",
+      "gameObject": {
+        "id": "boss_wuyaowang",
+        "attack": 52781,
+        "maxhp": 145467,
+        "level": 30,
+        "class": 0,
+        "defense": 1734,
+        "exp": 17344,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_1",
+        "isBoss": true,
+        "name": "雷皇圣者"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 30
+    },
+    {
+      "id": "boss_bingshuang_gulong",
+      "gameObject": {
+        "id": "boss_bingshuang_gulong",
+        "attack": 70375,
+        "maxhp": 218200,
+        "level": 30,
+        "class": 0,
+        "defense": 1734,
+        "exp": 17344,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_6",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_6",
+        "isBoss": true,
+        "name": "亡灵骨龙"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 30
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第27关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_wuyaowang出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_bingshuang_gulong登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 32.88134664592822,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 43.65833333333334,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "soul_reaper_wave",
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_4",
+      "triggerType": "time",
+      "triggerValue": 82.31666666666668,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "rock_monster_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_5",
+      "triggerType": "time",
+      "triggerValue": 120.97500000000002,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 159.63333333333335,
+      "isRepeatable": false,
+      "priority": 6,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 198.29166666666669,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 239.59174948214022,
+      "isRepeatable": false,
+      "priority": 8,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 246.93103448275863,
+      "isRepeatable": false,
+      "priority": 9,
+      "bossSpawn": "boss_wuyaowang"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 266.95000000000005,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": [
+        "soul_reaper_wave",
+        "swamp_devourer_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 284.40000000000003,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "soul_reaper_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 301.85,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 319.3,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 336.75,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 354.2,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "soul_reaper_wave",
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 396.65,
+      "isRepeatable": false,
+      "priority": 16,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_2",
+      "triggerType": "time",
+      "triggerValue": 404.65,
+      "isRepeatable": false,
+      "priority": 17,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 408.3387565015749,
+      "isRepeatable": false,
+      "priority": 18,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_extra_wave_3",
+      "triggerType": "time",
+      "triggerValue": 412.65,
+      "isRepeatable": false,
+      "priority": 19,
+      "monsterSpawns": [
+        "rock_monster_wave",
+        "flower_pharaoh_wave",
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 698.2781552589197,
+      "isRepeatable": false,
+      "priority": 20,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 704.5908876805152,
+      "isRepeatable": false,
+      "priority": 21,
+      "bossSpawn": "boss_bingshuang_gulong"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

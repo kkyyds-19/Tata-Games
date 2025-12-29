@@ -1,0 +1,48 @@
+
+h_0_0_2.png
+size: 806, 509
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_0_0_2/shenti
+  rotate: true
+  xy: 420, 5
+  size: 286, 243
+  orig: 288, 245
+  offset: 1, 1
+  index: -1
+h_0_0_2/tou
+  rotate: true
+  xy: 2, 2
+  size: 505, 416
+  orig: 509, 419
+  offset: 2, 2
+  index: -1
+h_0_0_2/youshoubi
+  rotate: true
+  xy: 420, 293
+  size: 214, 288
+  orig: 216, 291
+  offset: 1, 2
+  index: -1
+h_0_0_2/youyanjing
+  rotate: false
+  xy: 710, 335
+  size: 72, 69
+  orig: 74, 71
+  offset: 1, 1
+  index: -1
+h_0_0_2/zuoshoubi
+  rotate: false
+  xy: 665, 78
+  size: 139, 213
+  orig: 141, 216
+  offset: 1, 2
+  index: -1
+h_0_0_2/zuoyanjing
+  rotate: true
+  xy: 710, 406
+  size: 101, 72
+  orig: 103, 74
+  offset: 1, 1
+  index: -1

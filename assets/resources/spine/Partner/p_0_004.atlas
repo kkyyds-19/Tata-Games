@@ -1,0 +1,27 @@
+
+p_0_004.png
+size: 980, 206
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+p_0_004/chibang
+  rotate: false
+  xy: 688, 78
+  size: 290, 126
+  orig: 292, 129
+  offset: 1, 2
+  index: -1
+p_0_004/shenti
+  rotate: false
+  xy: 2, 2
+  size: 417, 202
+  orig: 419, 206
+  offset: 1, 1
+  index: -1
+p_0_004/tou
+  rotate: false
+  xy: 421, 8
+  size: 265, 196
+  orig: 267, 199
+  offset: 1, 1
+  index: -1

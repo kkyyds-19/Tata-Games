@@ -1,0 +1,177 @@
+{
+"skeleton": {
+	"hash": "qWxR5/PAf0c",
+	"spine": "3.8-from-4.0-from-4.1-from-4.2.43",
+	"x": -322,
+	"y": -8,
+	"width": 625,
+	"height": 599,
+	"images": "../",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "shenti", "parent": "root", "length": 187.39, "rotation": 88.43, "x": -1.66, "y": 1.52 },
+	{ "name": "youshoubi", "parent": "shenti", "length": 44.64, "rotation": 0.63, "x": 105.28, "y": -155.96 },
+	{ "name": "zuoshoubi", "parent": "shenti", "length": 37.32, "rotation": 0.44, "x": 114.85, "y": 136.36 },
+	{ "name": "tou", "parent": "shenti", "length": 190.27, "rotation": 2.45, "x": 211.49, "y": 2.12 },
+	{ "name": "youyanjing", "parent": "tou", "length": 27.08, "rotation": -2.43, "x": 107.38, "y": -60.2 },
+	{ "name": "zuoyanjing", "parent": "tou", "length": 38.33, "rotation": 11.98, "x": 100.52, "y": 28.5 }
+],
+"slots": [
+	{ "name": "shenti", "bone": "shenti", "attachment": "shenti" },
+	{ "name": "tou", "bone": "tou", "attachment": "tou" },
+	{ "name": "zuoyanjing", "bone": "zuoyanjing", "attachment": "zuoyanjing" },
+	{ "name": "youyanjing", "bone": "youyanjing", "attachment": "youyanjing" },
+	{ "name": "youshoubi", "bone": "youshoubi", "attachment": "youshoubi" },
+	{ "name": "zuoshoubi", "bone": "zuoshoubi", "attachment": "zuoshoubi" }
+],
+"skins": [
+	{
+		"name": "h_3_0_1",
+		"attachments": {
+			"shenti": {
+				"shenti": { "name": "h_3_0_1/shenti", "x": 127.59, "y": 34.34, "rotation": -88.43, "width": 337, "height": 276 }
+			},
+			"tou": {
+				"tou": { "name": "h_3_0_1/tou", "x": 139.21, "y": 44.36, "rotation": -90.88, "width": 485, "height": 479 }
+			},
+			"youshoubi": {
+				"youshoubi": { "name": "h_3_0_1/youshoubi", "x": 89.14, "y": -7.42, "rotation": -89.06, "width": 274, "height": 287 }
+			},
+			"youyanjing": {
+				"youyanjing": { "name": "h_3_0_1/youyanjing", "x": -4.21, "y": -2.58, "rotation": -88.45, "width": 54, "height": 92 }
+			},
+			"zuoshoubi": {
+				"zuoshoubi": { "name": "h_3_0_1/zuoshoubi", "x": 19.18, "y": 64.55, "rotation": -88.88, "width": 246, "height": 145 }
+			},
+			"zuoyanjing": {
+				"zuoyanjing": { "name": "h_3_0_1/zuoyanjing", "x": -3.04, "y": 2.69, "rotation": -102.86, "width": 62, "height": 91 }
+			}
+		}
+	}
+],
+"animations": {
+	"attack": {
+		"bones": {
+			"shenti": {
+				"shear": [
+					{},
+					{ "time": 0.3333, "x": 7.51 },
+					{ "time": 0.5, "x": -7 },
+					{ "time": 0.7, "x": 3 },
+					{ "time": 0.9333 }
+				]
+			},
+			"zuoshoubi": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 31.63 },
+					{ "time": 0.5, "angle": -89.95 },
+					{ "time": 0.9333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -16.92, "y": 33.59 },
+					{ "time": 0.5, "x": 173.98, "y": -245.29 },
+					{ "time": 0.6667, "x": -8.18, "y": -118.7 },
+					{ "time": 0.9333 }
+				]
+			},
+			"youshoubi": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 53.07, "y": -5.5 },
+					{ "time": 0.5, "x": -40.65, "y": 71.14 },
+					{ "time": 0.9333 }
+				]
+			},
+			"youyanjing": {
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 0.612 },
+					{ "time": 0.7333 }
+				],
+				"shear": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": -31.99 },
+					{ "time": 0.7333 }
+				]
+			},
+			"zuoyanjing": {
+				"scale": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 0.556 },
+					{ "time": 0.7333 }
+				],
+				"shear": [
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 23.73 },
+					{ "time": 0.7333 }
+				]
+			}
+		}
+	},
+	"stand by": {
+		"bones": {
+			"shenti": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 2.17 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": 2.17 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "x": 1.03 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 1.03 },
+					{ "time": 2 }
+				]
+			},
+			"tou": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -3.59 },
+					{ "time": 1 },
+					{ "time": 1.5, "angle": -3.59 },
+					{ "time": 2 }
+				]
+			},
+			"zuoshoubi": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": -10.43, "y": 15.98 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": -10.43, "y": 15.98 },
+					{ "time": 2 }
+				]
+			},
+			"youshoubi": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": 17.13, "y": -19.03 },
+					{ "time": 1 },
+					{ "time": 1.5, "x": 17.13, "y": -19.03 },
+					{ "time": 2 }
+				]
+			},
+			"zuoyanjing": {
+				"scale": [
+					{ "time": 0.8333 },
+					{ "time": 1, "x": 0.5 },
+					{ "time": 1.1667 }
+				]
+			},
+			"youyanjing": {
+				"scale": [
+					{ "time": 0.8333 },
+					{ "time": 1, "x": 0.5 },
+					{ "time": 1.1667 }
+				]
+			}
+		}
+	}
+}
+}

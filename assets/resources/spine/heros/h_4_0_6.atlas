@@ -1,0 +1,48 @@
+
+h_4_0_6.png
+size: 693, 522
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_4_0_6/feijiqianmian
+  rotate: false
+  xy: 2, 221
+  size: 383, 299
+  orig: 385, 302
+  offset: 1, 2
+  index: -1
+h_4_0_6/tou
+  rotate: true
+  xy: 387, 237
+  size: 283, 279
+  orig: 285, 281
+  offset: 1, 1
+  index: -1
+h_4_0_6/youfengshan
+  rotate: false
+  xy: 2, 33
+  size: 208, 186
+  orig: 210, 188
+  offset: 1, 1
+  index: -1
+h_4_0_6/youguanzi
+  rotate: false
+  xy: 586, 30
+  size: 105, 205
+  orig: 107, 217
+  offset: 1, 11
+  index: -1
+h_4_0_6/zuofengshan
+  rotate: true
+  xy: 387, 2
+  size: 233, 197
+  orig: 236, 201
+  offset: 1, 2
+  index: -1
+h_4_0_6/zuoguanzi
+  rotate: false
+  xy: 212, 11
+  size: 173, 208
+  orig: 177, 210
+  offset: 3, 1
+  index: -1

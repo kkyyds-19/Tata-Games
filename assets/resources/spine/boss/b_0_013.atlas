@@ -1,0 +1,69 @@
+
+b_0_013.png
+size: 334, 1040
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_0_013/shenti
+  rotate: false
+  xy: 2, 853
+  size: 321, 185
+  orig: 323, 187
+  offset: 1, 1
+  index: -1
+b_0_013/tou
+  rotate: true
+  xy: 2, 657
+  size: 194, 259
+  orig: 196, 261
+  offset: 1, 1
+  index: -1
+b_0_013/weiba
+  rotate: false
+  xy: 179, 10
+  size: 149, 119
+  orig: 151, 121
+  offset: 1, 1
+  index: -1
+b_0_013/youchibang
+  rotate: false
+  xy: 2, 193
+  size: 183, 240
+  orig: 185, 243
+  offset: 1, 2
+  index: -1
+b_0_013/youhoutui
+  rotate: false
+  xy: 228, 474
+  size: 103, 181
+  orig: 105, 183
+  offset: 1, 1
+  index: -1
+b_0_013/youqiantui
+  rotate: false
+  xy: 2, 435
+  size: 224, 220
+  orig: 227, 222
+  offset: 1, 1
+  index: -1
+b_0_013/zuochibang
+  rotate: false
+  xy: 228, 295
+  size: 104, 177
+  orig: 106, 179
+  offset: 1, 1
+  index: -1
+b_0_013/zuohoutui
+  rotate: false
+  xy: 187, 131
+  size: 117, 162
+  orig: 119, 164
+  offset: 1, 1
+  index: -1
+b_0_013/zuoqiantui
+  rotate: false
+  xy: 2, 2
+  size: 175, 189
+  orig: 177, 191
+  offset: 1, 1
+  index: -1

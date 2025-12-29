@@ -1,0 +1,69 @@
+
+h_2_0_0.png
+size: 1334, 402
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 1091, 77
+  size: 182, 37
+  orig: 184, 39
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 890, 65
+  size: 199, 91
+  orig: 202, 106
+  offset: 2, 2
+  index: -1
+meimao
+  rotate: false
+  xy: 890, 9
+  size: 193, 54
+  orig: 196, 57
+  offset: 2, 1
+  index: -1
+pifeng
+  rotate: false
+  xy: 475, 164
+  size: 369, 236
+  orig: 371, 239
+  offset: 1, 2
+  index: -1
+shengti
+  rotate: false
+  xy: 846, 158
+  size: 276, 242
+  orig: 279, 244
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 2, 2
+  size: 471, 398
+  orig: 475, 401
+  offset: 1, 2
+  index: -1
+toufa
+  rotate: false
+  xy: 690, 9
+  size: 198, 147
+  orig: 202, 149
+  offset: 2, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 1124, 116
+  size: 208, 284
+  orig: 213, 288
+  offset: 2, 2
+  index: -1
+zuoshou
+  rotate: true
+  xy: 475, 21
+  size: 141, 213
+  orig: 143, 216
+  offset: 1, 2
+  index: -1

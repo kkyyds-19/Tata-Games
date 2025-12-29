@@ -1,0 +1,41 @@
+
+h_4_0_0.png
+size: 986, 590
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+dashengti
+  rotate: true
+  xy: 2, 2
+  size: 586, 616
+  orig: 588, 618
+  offset: 1, 1
+  index: -1
+guawutou
+  rotate: true
+  xy: 620, 199
+  size: 389, 357
+  orig: 393, 361
+  offset: 1, 2
+  index: -1
+meimao
+  rotate: true
+  xy: 902, 75
+  size: 122, 36
+  orig: 125, 38
+  offset: 1, 1
+  index: -1
+yanjing
+  rotate: true
+  xy: 940, 83
+  size: 114, 44
+  orig: 116, 46
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: true
+  xy: 620, 3
+  size: 194, 280
+  orig: 196, 283
+  offset: 1, 2
+  index: -1

@@ -1,0 +1,477 @@
+{
+  "stageId": "stage_015",
+  "stageName": "深渊裂谷",
+  "stageDescription": "第15关：深渊裂谷，击败所有敌人获得胜利",
+  "difficulty": 15,
+  "maxTime": 445,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "skeleton_wave",
+      "gameObject": {
+        "id": "skeleton",
+        "attack": 30,
+        "maxhp": 395,
+        "level": 15,
+        "class": 1,
+        "defense": 22,
+        "exp": 60,
+        "moveSpeed": 80,
+        "attackRange": 120,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_001",
+          "m_n_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 17,
+      "spawnInterval": 1.8,
+      "level": 15
+    },
+    {
+      "id": "stone_warrior_wave",
+      "gameObject": {
+        "id": "stone_warrior",
+        "attack": 121,
+        "maxhp": 1580,
+        "level": 15,
+        "class": 1,
+        "defense": 68,
+        "exp": 242,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_007",
+          "m_n_0_007_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 17,
+      "spawnInterval": 1.8,
+      "level": 15
+    },
+    {
+      "id": "void_butterfly_wave",
+      "gameObject": {
+        "id": "void_butterfly",
+        "attack": 114,
+        "maxhp": 1086,
+        "level": 15,
+        "class": 2,
+        "defense": 41,
+        "exp": 228,
+        "moveSpeed": 60,
+        "attackRange": 439,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 17,
+      "spawnInterval": 1.8,
+      "level": 15
+    },
+    {
+      "id": "tide_guardian_wave",
+      "gameObject": {
+        "id": "tide_guardian",
+        "attack": 266,
+        "maxhp": 2964,
+        "level": 15,
+        "class": 1,
+        "defense": 133,
+        "exp": 532,
+        "moveSpeed": 80,
+        "attackRange": 180,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_004",
+          "m_s_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 17,
+      "spawnInterval": 1.8,
+      "level": 15
+    },
+    {
+      "id": "poison_bloodthirsty_wave",
+      "gameObject": {
+        "id": "poison_bloodthirsty",
+        "attack": 209,
+        "maxhp": 2223,
+        "level": 15,
+        "class": 2,
+        "defense": 83,
+        "exp": 418,
+        "moveSpeed": 60,
+        "attackRange": 479,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_002",
+          "m_s_1_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 17,
+      "spawnInterval": 1.8,
+      "level": 15
+    },
+    {
+      "id": "enhanced_tide_guardian_wave_1",
+      "gameObject": {
+        "id": "tide_guardian",
+        "attack": 441,
+        "maxhp": 4258,
+        "level": 17,
+        "class": 1,
+        "defense": 147,
+        "exp": 588,
+        "moveSpeed": 80,
+        "attackRange": 180,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_004",
+          "m_s_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 3,
+      "level": 17
+    },
+    {
+      "id": "enhanced_poison_bloodthirsty_wave_2",
+      "gameObject": {
+        "id": "poison_bloodthirsty",
+        "attack": 346,
+        "maxhp": 3194,
+        "level": 17,
+        "class": 2,
+        "defense": 92,
+        "exp": 462,
+        "moveSpeed": 60,
+        "attackRange": 481,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_002",
+          "m_s_1_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 3,
+      "level": 17
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_tufu",
+      "gameObject": {
+        "id": "boss_tufu",
+        "attack": 4855,
+        "maxhp": 126658,
+        "level": 18,
+        "class": 0,
+        "defense": 424,
+        "exp": 4242,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_1",
+        "isBoss": true,
+        "name": "青屠夫"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 18
+    },
+    {
+      "id": "boss_huoyan_lingzhu",
+      "gameObject": {
+        "id": "boss_huoyan_lingzhu",
+        "attack": 6473,
+        "maxhp": 189986,
+        "level": 18,
+        "class": 0,
+        "defense": 424,
+        "exp": 4242,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_2",
+        "isBoss": true,
+        "name": "熔岩领主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 18
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第15关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_tufu出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_huoyan_lingzhu登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 34.33186039736493,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 45.93750000000001,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 86.87500000000001,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 127.81250000000003,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 171.85114475797408,
+      "isRepeatable": false,
+      "priority": 6,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 178.6551724137931,
+      "isRepeatable": false,
+      "priority": 7,
+      "bossSpawn": "boss_tufu"
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 194.39486023371697,
+      "isRepeatable": false,
+      "priority": 8,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 198.75000000000003,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "stone_warrior_wave",
+        "poison_bloodthirsty_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 215.62500000000003,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": [
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 232.50000000000003,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "skeleton_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 249.37500000000003,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 291.25,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 299.25,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 307.25,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 360.66002469904083,
+      "isRepeatable": false,
+      "priority": 16,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 367.8478057139977,
+      "isRepeatable": false,
+      "priority": 17,
+      "bossSpawn": "boss_huoyan_lingzhu"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

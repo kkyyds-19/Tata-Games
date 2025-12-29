@@ -1,0 +1,617 @@
+{
+  "stageId": "stage_001",
+  "stageName": "入侵开始",
+  "stageDescription": "敌人开始入侵，坚持15分钟并击败所有敌人",
+  "difficulty": 1,
+  "maxTime": 900,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "small_skeleton_wave",
+      "stageType": 3,
+      "gameObject": {
+        "id": "small_skeleton",
+        "attack": 8,
+        "maxhp": 90,
+        "level": 1,
+        "class": 1,
+        "defense": 2,
+        "exp": 23,
+        "moveSpeed": 91,
+        "attackRange": 150,
+        "attackInterval": 2,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_0_0_0",
+          "m_0_0_0_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 12,
+      "spawnInterval": 0.5,
+      "level": 1
+    },
+    {
+      "id": "small_bat_wave",
+      "stageType": 3,
+      "gameObject": {
+        "id": "small_bat",
+        "attack": 12,
+        "maxhp": 280,
+        "level": 2,
+        "class": 1,
+        "defense": 1,
+        "exp": 38,
+        "moveSpeed": 84,
+        "attackRange": 130,
+        "attackInterval": 1.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_0_0_1",
+          "m_0_0_1_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 10,
+      "spawnInterval": 0.6,
+      "level": 2
+    },
+    {
+      "id": "witch_wave",
+      "stageType": 3,
+      "gameObject": {
+        "id": "witch",
+        "attack": 18,
+        "moveSpeed": 77,
+        "maxhp": 420,
+        "level": 3,
+        "class": 2,
+        "defense": 3,
+        "exp": 53,
+        "attackRange": 600,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_0_0_2",
+          "m_0_0_2_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 1.0,
+      "level": 3
+    },
+    {
+      "id": "stone_golem_wave",
+      "stageType": 3,
+      "gameObject": {
+        "id": "stone_golem",
+        "attack": 25,
+        "maxhp": 800,
+        "moveSpeed": 56,
+        "level": 4,
+        "class": 0,
+        "defense": 8,
+        "exp": 75,
+        "attackRange": 140,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_0_0_3",
+          "m_0_0_3_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 3,
+      "spawnInterval": 1.5,
+      "level": 4
+    },
+    {
+      "id": "orc_wave",
+      "stageType": 3,
+      "gameObject": {
+        "id": "orc",
+        "attack": 22,
+        "maxhp": 1650,
+        "moveSpeed": 70,
+        "level": 4,
+        "class": 1,
+        "defense": 5,
+        "exp": 85,
+        "attackRange": 120,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_0_0_4",
+          "m_0_0_4_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 5,
+      "spawnInterval": 1.2,
+      "level": 4
+    },
+    {
+      "id": "hydra_wave",
+      "stageType": 3,
+      "gameObject": {
+        "id": "hydra",
+        "attack": 28,
+        "maxhp": 1900,
+        "moveSpeed": 63,
+        "level": 5,
+        "class": 2,
+        "defense": 6,
+        "exp": 120,
+        "attackRange": 200,
+        "attackInterval": 3.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_0_0_5",
+          "m_0_0_5_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 3,
+      "spawnInterval": 2.0,
+      "level": 5
+    },
+    {
+      "id": "naga_wave",
+      "gameObject": {
+        "id": "naga",
+        "attack": 32,
+        "maxhp": 2200,
+        "moveSpeed": 60,
+        "level": 6,
+        "class": 2,
+        "defense": 7,
+        "exp": 150,
+        "attackRange": 250,
+        "attackInterval": 4,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_2_0_0",
+          "m_2_0_0_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 3,
+      "spawnInterval": 2.5,
+      "level": 6
+    },
+    {
+      "id": "cyclops_wave",
+      "gameObject": {
+        "id": "cyclops",
+        "attack": 40,
+        "maxhp": 2500,
+        "moveSpeed": 49,
+        "level": 7,
+        "class": 0,
+        "defense": 10,
+        "exp": 200,
+        "attackRange": 160,
+        "attackInterval": 4.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_2_0_1",
+          "m_2_0_1_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 2,
+      "spawnInterval": 3.0,
+      "level": 7
+    }
+  ],
+  "bosses": [
+    {
+      "id": "goblin_king_boss",
+      "gameObject": {
+        "id": "goblin_king_boss",
+        "attack": 10000,
+        "maxhp": 500000000,
+        "level": 8,
+        "class": 0,
+        "defense": 15,
+        "exp": 500,
+        "attackRange": 250,
+        "attackInterval": 3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "isBoss": false
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 8,
+      "phases": [
+        {
+          "phaseId": "phase1",
+          "hpPercentage": 100,
+          "skills": [
+            "charge",
+            "stomp"
+          ]
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "opening_story",
+      "type": "dialogue",
+      "title": "战斗开始",
+      "content": "敌人来袭！准备迎战！",
+      "duration": 3
+    },
+    {
+      "id": "boss_story",
+      "type": "boss_appear",
+      "title": "Boss出现",
+      "content": "小心！强大的敌人出现了！",
+      "duration": 4
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_opening",
+      "triggerType": "time",
+      "triggerValue": 0,
+      "isRepeatable": false,
+      "priority": 1,
+      "storyId": "opening_story"
+    },
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 2,
+      "monsterSpawns": [
+        "small_skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 15,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "small_skeleton_wave",
+        "small_bat_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 25,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "small_bat_wave",
+        "witch_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 35,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "small_skeleton_wave",
+        "orc_wave"
+      ]
+    },
+    {
+      "id": "event_wave5",
+      "triggerType": "time",
+      "triggerValue": 45,
+      "isRepeatable": false,
+      "priority": 6,
+      "monsterSpawns": [
+        "small_bat_wave",
+        "witch_wave",
+        "orc_wave"
+      ]
+    },
+    {
+      "id": "event_wave6",
+      "triggerType": "time",
+      "triggerValue": 55,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "stone_golem_wave",
+        "orc_wave"
+      ]
+    },
+    {
+      "id": "event_wave7",
+      "triggerType": "time",
+      "triggerValue": 65,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "small_skeleton_wave",
+        "hydra_wave"
+      ]
+    },
+    {
+      "id": "event_wave8",
+      "triggerType": "time",
+      "triggerValue": 75,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "small_bat_wave",
+        "witch_wave",
+        "hydra_wave"
+      ]
+    },
+    {
+      "id": "event_wave9",
+      "triggerType": "time",
+      "triggerValue": 85,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": [
+        "orc_wave",
+        "naga_wave"
+      ]
+    },
+    {
+      "id": "event_wave10",
+      "triggerType": "time",
+      "triggerValue": 95,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "stone_golem_wave",
+        "hydra_wave",
+        "naga_wave"
+      ]
+    },
+    {
+      "id": "event_wave11",
+      "triggerType": "time",
+      "triggerValue": 105,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "small_skeleton_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_wave12",
+      "triggerType": "time",
+      "triggerValue": 115,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "small_bat_wave",
+        "witch_wave",
+        "orc_wave",
+        "hydra_wave"
+      ]
+    },
+    {
+      "id": "event_wave13",
+      "triggerType": "time",
+      "triggerValue": 125,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "stone_golem_wave",
+        "naga_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_wave14",
+      "triggerType": "time",
+      "triggerValue": 135,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "small_skeleton_wave",
+        "small_bat_wave",
+        "orc_wave"
+      ]
+    },
+    {
+      "id": "event_wave15",
+      "triggerType": "time",
+      "triggerValue": 145,
+      "isRepeatable": false,
+      "priority": 16,
+      "monsterSpawns": [
+        "witch_wave",
+        "hydra_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_wave16",
+      "triggerType": "time",
+      "triggerValue": 155,
+      "isRepeatable": false,
+      "priority": 17,
+      "monsterSpawns": [
+        "small_skeleton_wave",
+        "orc_wave",
+        "naga_wave"
+      ]
+    },
+    {
+      "id": "event_wave17",
+      "triggerType": "time",
+      "triggerValue": 165,
+      "isRepeatable": false,
+      "priority": 18,
+      "monsterSpawns": [
+        "stone_golem_wave",
+        "hydra_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_wave18",
+      "triggerType": "time",
+      "triggerValue": 175,
+      "isRepeatable": false,
+      "priority": 19,
+      "monsterSpawns": [
+        "small_bat_wave",
+        "witch_wave",
+        "orc_wave",
+        "naga_wave"
+      ]
+    },
+    {
+      "id": "event_wave19",
+      "triggerType": "time",
+      "triggerValue": 185,
+      "isRepeatable": false,
+      "priority": 20,
+      "monsterSpawns": [
+        "stone_golem_wave",
+        "hydra_wave",
+        "naga_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_wave20",
+      "triggerType": "time",
+      "triggerValue": 195,
+      "isRepeatable": false,
+      "priority": 21,
+      "monsterSpawns": [
+        "small_skeleton_wave",
+        "small_bat_wave",
+        "witch_wave",
+        "orc_wave"
+      ]
+    },
+    {
+      "id": "event_wave21",
+      "triggerType": "time",
+      "triggerValue": 205,
+      "isRepeatable": false,
+      "priority": 22,
+      "monsterSpawns": [
+        "stone_golem_wave",
+        "hydra_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_wave22",
+      "triggerType": "time",
+      "triggerValue": 215,
+      "isRepeatable": false,
+      "priority": 23,
+      "monsterSpawns": [
+        "orc_wave",
+        "naga_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_wave23",
+      "triggerType": "time",
+      "triggerValue": 225,
+      "isRepeatable": false,
+      "priority": 24,
+      "monsterSpawns": [
+        "small_bat_wave",
+        "witch_wave",
+        "hydra_wave",
+        "naga_wave"
+      ]
+    },
+    {
+      "id": "event_wave24",
+      "triggerType": "time",
+      "triggerValue": 235,
+      "isRepeatable": false,
+      "priority": 25,
+      "monsterSpawns": [
+        "stone_golem_wave",
+        "cyclops_wave"
+      ]
+    },
+    {
+      "id": "event_boss_story",
+      "triggerType": "time",
+      "triggerValue": 250,
+      "isRepeatable": false,
+      "priority": 26,
+      "storyId": "boss_story"
+    },
+    {
+      "id": "event_boss",
+      "triggerType": "time",
+      "triggerValue": 260,
+      "isRepeatable": false,
+      "priority": 27,
+      "bossSpawn": "goblin_king_boss"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

@@ -1,0 +1,41 @@
+
+h_4_0_2.png
+size: 680, 620
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_4_0_2/shenti
+  rotate: false
+  xy: 2, 15
+  size: 272, 252
+  orig: 289, 254
+  offset: 2, 1
+  index: -1
+h_4_0_2/tou
+  rotate: false
+  xy: 2, 269
+  size: 420, 349
+  orig: 422, 351
+  offset: 1, 1
+  index: -1
+h_4_0_2/toufa
+  rotate: false
+  xy: 424, 348
+  size: 254, 270
+  orig: 258, 273
+  offset: 3, 1
+  index: -1
+h_4_0_2/youshoubi
+  rotate: true
+  xy: 466, 108
+  size: 238, 156
+  orig: 240, 159
+  offset: 1, 2
+  index: -1
+h_4_0_2/zuoshoubi
+  rotate: true
+  xy: 276, 2
+  size: 265, 188
+  orig: 267, 190
+  offset: 1, 1
+  index: -1

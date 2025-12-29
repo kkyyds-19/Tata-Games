@@ -1,0 +1,55 @@
+
+b_0_006.png
+size: 1635, 440
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_0_006/houjiao
+  rotate: false
+  xy: 1520, 15
+  size: 113, 191
+  orig: 116, 195
+  offset: 2, 1
+  index: -1
+b_0_006/shenti
+  rotate: false
+  xy: 2, 21
+  size: 448, 417
+  orig: 453, 419
+  offset: 2, 1
+  index: -1
+b_0_006/tou
+  rotate: true
+  xy: 452, 2
+  size: 436, 388
+  orig: 439, 390
+  offset: 2, 1
+  index: -1
+b_0_006/weiba
+  rotate: true
+  xy: 1142, 30
+  size: 176, 154
+  orig: 178, 156
+  offset: 1, 1
+  index: -1
+b_0_006/youshou
+  rotate: true
+  xy: 1142, 208
+  size: 230, 466
+  orig: 233, 468
+  offset: 1, 1
+  index: -1
+b_0_006/zuiba
+  rotate: false
+  xy: 1298, 93
+  size: 220, 113
+  orig: 223, 115
+  offset: 1, 1
+  index: -1
+b_0_006/zuoshou
+  rotate: false
+  xy: 842, 8
+  size: 298, 430
+  orig: 300, 432
+  offset: 1, 1
+  index: -1

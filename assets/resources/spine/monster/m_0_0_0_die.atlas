@@ -1,0 +1,55 @@
+
+m_0_0_0_die.png
+size: 334, 75
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+boss/tuhun
+  rotate: false
+  xy: 192, 2
+  size: 45, 71
+  orig: 47, 73
+  offset: 1, 1
+  index: -1
+boss/youchibang
+  rotate: true
+  xy: 282, 3
+  size: 25, 23
+  orig: 27, 25
+  offset: 1, 1
+  index: -1
+boss/zuochibang
+  rotate: false
+  xy: 307, 5
+  size: 25, 23
+  orig: 27, 25
+  offset: 1, 1
+  index: -1
+hun
+  rotate: false
+  xy: 239, 14
+  size: 41, 59
+  orig: 43, 61
+  offset: 1, 1
+  index: -1
+kulou
+  rotate: false
+  xy: 282, 30
+  size: 46, 43
+  orig: 48, 45
+  offset: 1, 1
+  index: -1
+yun1
+  rotate: false
+  xy: 2, 3
+  size: 99, 70
+  orig: 101, 72
+  offset: 1, 1
+  index: -1
+yunhou
+  rotate: false
+  xy: 103, 2
+  size: 87, 71
+  orig: 90, 73
+  offset: 2, 1
+  index: -1

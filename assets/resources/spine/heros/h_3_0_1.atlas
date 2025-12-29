@@ -1,0 +1,48 @@
+
+h_3_0_1.png
+size: 1028, 487
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_3_0_1/shenti
+  rotate: true
+  xy: 480, 151
+  size: 334, 273
+  orig: 337, 276
+  offset: 1, 2
+  index: -1
+h_3_0_1/tou
+  rotate: true
+  xy: 2, 2
+  size: 483, 476
+  orig: 485, 479
+  offset: 1, 2
+  index: -1
+h_3_0_1/youshoubi
+  rotate: false
+  xy: 755, 200
+  size: 271, 285
+  orig: 274, 287
+  offset: 1, 1
+  index: -1
+h_3_0_1/youyanjing
+  rotate: true
+  xy: 725, 7
+  size: 51, 89
+  orig: 54, 92
+  offset: 2, 2
+  index: -1
+h_3_0_1/zuoshoubi
+  rotate: false
+  xy: 480, 8
+  size: 243, 141
+  orig: 246, 145
+  offset: 2, 2
+  index: -1
+h_3_0_1/zuoyanjing
+  rotate: false
+  xy: 725, 60
+  size: 60, 89
+  orig: 62, 91
+  offset: 1, 1
+  index: -1

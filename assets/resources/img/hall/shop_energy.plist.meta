@@ -1,0 +1,293 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "943c4": {
+      "importer": "sprite-frame",
+      "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7@943c4",
+      "displayName": "",
+      "id": "943c4",
+      "name": "energy_shop_0",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 1046,
+        "width": 276,
+        "height": 68,
+        "rawWidth": 280,
+        "rawHeight": 72,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b5a439f2-e0cd-4587-a014-423328125a67@6c48a",
+        "atlasUuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fd874": {
+      "importer": "sprite-frame",
+      "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7@fd874",
+      "displayName": "",
+      "id": "fd874",
+      "name": "energy_shop_1",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 727,
+        "trimY": 914,
+        "width": 201,
+        "height": 88,
+        "rawWidth": 201,
+        "rawHeight": 88,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b5a439f2-e0cd-4587-a014-423328125a67@6c48a",
+        "atlasUuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f643": {
+      "importer": "sprite-frame",
+      "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7@5f643",
+      "displayName": "",
+      "id": "5f643",
+      "name": "energy_shop_2",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 911,
+        "height": 991,
+        "rawWidth": 913,
+        "rawHeight": 993,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b5a439f2-e0cd-4587-a014-423328125a67@6c48a",
+        "atlasUuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a6e7b": {
+      "importer": "sprite-frame",
+      "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7@a6e7b",
+      "displayName": "",
+      "id": "a6e7b",
+      "name": "energy_shop_3",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 914,
+        "width": 361,
+        "height": 130,
+        "rawWidth": 363,
+        "rawHeight": 132,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b5a439f2-e0cd-4587-a014-423328125a67@6c48a",
+        "atlasUuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8b4c": {
+      "importer": "sprite-frame",
+      "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7@e8b4c",
+      "displayName": "",
+      "id": "e8b4c",
+      "name": "energy_shop_4",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 364,
+        "trimY": 914,
+        "width": 361,
+        "height": 130,
+        "rawWidth": 363,
+        "rawHeight": 132,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b5a439f2-e0cd-4587-a014-423328125a67@6c48a",
+        "atlasUuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b56fe": {
+      "importer": "sprite-frame",
+      "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7@b56fe",
+      "displayName": "",
+      "id": "b56fe",
+      "name": "energy_shop_5",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 727,
+        "trimY": 1004,
+        "width": 99,
+        "height": 135,
+        "rawWidth": 99,
+        "rawHeight": 135,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b5a439f2-e0cd-4587-a014-423328125a67@6c48a",
+        "atlasUuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "shop_energy.png",
+    "format": 3,
+    "uuid": "02aafa7d-5eb0-48b1-95ff-185dee7023a7",
+    "textureUuid": "b5a439f2-e0cd-4587-a014-423328125a67@6c48a"
+  }
+}

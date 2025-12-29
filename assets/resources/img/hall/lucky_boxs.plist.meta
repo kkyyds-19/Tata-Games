@@ -1,0 +1,293 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "c36ae": {
+      "importer": "sprite-frame",
+      "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9@c36ae",
+      "displayName": "",
+      "id": "c36ae",
+      "name": "hall_stage_box_0",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 144,
+        "trimY": 1,
+        "width": 106,
+        "height": 92,
+        "rawWidth": 106,
+        "rawHeight": 92,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "897bf1a1-d034-4cf0-8be7-4466167ca5aa@6c48a",
+        "atlasUuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed24f": {
+      "importer": "sprite-frame",
+      "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9@ed24f",
+      "displayName": "",
+      "id": "ed24f",
+      "name": "hall_stage_box_1",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 139,
+        "trimY": 212,
+        "width": 112,
+        "height": 94,
+        "rawWidth": 114,
+        "rawHeight": 96,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "897bf1a1-d034-4cf0-8be7-4466167ca5aa@6c48a",
+        "atlasUuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae9c3": {
+      "importer": "sprite-frame",
+      "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9@ae9c3",
+      "displayName": "",
+      "id": "ae9c3",
+      "name": "hall_stage_box_2",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 139,
+        "trimY": 112,
+        "width": 112,
+        "height": 98,
+        "rawWidth": 112,
+        "rawHeight": 98,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "897bf1a1-d034-4cf0-8be7-4466167ca5aa@6c48a",
+        "atlasUuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f3d9b": {
+      "importer": "sprite-frame",
+      "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9@f3d9b",
+      "displayName": "",
+      "id": "f3d9b",
+      "name": "hall_stage_open_0",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 225,
+        "width": 129,
+        "height": 108,
+        "rawWidth": 129,
+        "rawHeight": 108,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "897bf1a1-d034-4cf0-8be7-4466167ca5aa@6c48a",
+        "atlasUuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e238": {
+      "importer": "sprite-frame",
+      "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9@1e238",
+      "displayName": "",
+      "id": "1e238",
+      "name": "hall_stage_open_1",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -1,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 141,
+        "height": 109,
+        "rawWidth": 141,
+        "rawHeight": 111,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "897bf1a1-d034-4cf0-8be7-4466167ca5aa@6c48a",
+        "atlasUuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b5df2": {
+      "importer": "sprite-frame",
+      "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9@b5df2",
+      "displayName": "",
+      "id": "b5df2",
+      "name": "hall_stage_open_2",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 112,
+        "width": 136,
+        "height": 111,
+        "rawWidth": 136,
+        "rawHeight": 111,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "897bf1a1-d034-4cf0-8be7-4466167ca5aa@6c48a",
+        "atlasUuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "lucky_boxs.png",
+    "format": 3,
+    "uuid": "27568a76-415f-4a7f-8129-6054fdb262f9",
+    "textureUuid": "897bf1a1-d034-4cf0-8be7-4466167ca5aa@6c48a"
+  }
+}

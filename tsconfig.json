@@ -1,0 +1,16 @@
+{
+  /* Base configuration. Do not edit this field. */
+  "extends": "./temp/tsconfig.cocos.json",
+
+  /* Add your custom configuration here. */
+  "compilerOptions": {
+
+    //NOTE为了兼容ES2017增加以下两行
+    // "target": "ES2018",
+    "lib": ["ES2018", "DOM"],
+    //NOTE为了兼容ES2017增加以上两行
+
+    "strict": false,
+    "skipLibCheck": true
+  }
+}

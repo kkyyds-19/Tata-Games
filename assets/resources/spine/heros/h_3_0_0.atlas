@@ -1,0 +1,34 @@
+
+h_3_0_0.png
+size: 477, 549
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: true
+  xy: 2, 182
+  size: 365, 460
+  orig: 367, 464
+  offset: 1, 2
+  index: -1
+yanjing
+  rotate: true
+  xy: 411, 35
+  size: 145, 64
+  orig: 149, 66
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: true
+  xy: 2, 2
+  size: 178, 207
+  orig: 180, 209
+  offset: 1, 1
+  index: -1
+zuoshou
+  rotate: true
+  xy: 211, 14
+  size: 166, 198
+  orig: 168, 200
+  offset: 1, 1
+  index: -1

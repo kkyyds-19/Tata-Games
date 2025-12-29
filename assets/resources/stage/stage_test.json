@@ -1,0 +1,104 @@
+{
+  "stageId": "stage_001",
+  "stageName": "入侵开始",
+  "stageDescription": "敌人开始入侵，坚持8分钟并击败所有敌人",
+  "difficulty": 1,
+  "maxTime": 600,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "small_skeleton_wave",
+      "gameObject": { 
+        "id": "small_skeleton",
+        "attack": 8,
+        "maxhp": 150,
+        "level": 1,
+        "class": 1,
+        "defense": 2,
+        "exp": 15,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": ["m_0_0_0", "m_0_0_0_atk"]
+      },
+      "spawnPosition": {"x": 0, "y": 400, "z": 0},
+      "count": 4,
+      "spawnInterval": 0.8,
+      "level": 1
+    }
+  ],
+  "bosses": [
+    {
+      "id": "goblin_king_boss",
+      "gameObject": {
+        "id": "goblin_king_boss",
+        "attack": 3500,
+        "maxhp": 3500,
+        "level": 5,
+        "class": 0,
+        "defense": 12,
+        "exp": 200,
+        "attackRange": 250,
+        "attackInterval": 3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_1",
+        "animationNames": ["move", "attack"]
+      },
+      "spawnPosition": {"x": 0, "y": 400, "z": 0},
+      "level": 5,
+      "phases": [
+        {
+          "phaseId": "phase",
+          "hpPercentage": 100,
+          "skills": ["charge", "stomp"]
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "opening_story",
+      "type": "dialogue",
+      "title": "战斗开始",
+      "content": "敌人来袭！准备迎战！",
+      "duration": 3.0
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_opening",
+      "triggerType": "time",
+      "triggerValue": 0,
+      "storyId": "opening_story",
+      "isRepeatable": false,
+      "priority": 1
+    },
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "monsterSpawns": ["small_skeleton_wave"],
+      "isRepeatable": false,
+      "priority": 2
+    },
+    {
+      "id": "event_boss",
+      "triggerType": "time",
+      "triggerValue": 30,
+      "bossSpawn": "goblin_king_boss",
+      "isRepeatable": false,
+      "priority": 3
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true,
+    "surviveTime": 0,
+    "protectTarget": false
+  },
+  "defeatConditions": {
+    "loseAllHeroes": true,
+    "timeLimit": false,
+    "targetDestroyed": false
+  }
+} 

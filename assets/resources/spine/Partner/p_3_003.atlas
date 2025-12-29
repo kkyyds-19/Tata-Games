@@ -1,0 +1,48 @@
+
+p_3_003.png
+size: 493, 1065
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 2, 328
+  size: 308, 341
+  orig: 317, 346
+  offset: 1, 4
+  index: -1
+tou
+  rotate: false
+  xy: 2, 671
+  size: 420, 392
+  orig: 423, 394
+  offset: 1, 1
+  index: -1
+youjiao
+  rotate: false
+  xy: 312, 488
+  size: 158, 181
+  orig: 160, 183
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 2, 2
+  size: 258, 324
+  orig: 268, 326
+  offset: 9, 1
+  index: -1
+zuojiao
+  rotate: false
+  xy: 312, 331
+  size: 179, 155
+  orig: 184, 161
+  offset: 4, 5
+  index: -1
+zuoshou
+  rotate: false
+  xy: 262, 88
+  size: 227, 238
+  orig: 229, 241
+  offset: 1, 2
+  index: -1

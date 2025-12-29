@@ -1,0 +1,76 @@
+
+h_3_0_4.png
+size: 1193, 404
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+liuhai
+  rotate: false
+  xy: 1026, 22
+  size: 98, 117
+  orig: 100, 119
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 6
+  size: 396, 233
+  orig: 399, 321
+  offset: 1, 1
+  index: -1
+shou
+  rotate: true
+  xy: 591, 141
+  size: 261, 513
+  orig: 264, 515
+  offset: 2, 1
+  index: -1
+tou
+  rotate: true
+  xy: 237, 22
+  size: 380, 352
+  orig: 384, 355
+  offset: 2, 2
+  index: -1
+youjian
+  rotate: false
+  xy: 591, 2
+  size: 178, 137
+  orig: 180, 139
+  offset: 1, 1
+  index: -1
+youmeimao
+  rotate: false
+  xy: 1106, 283
+  size: 85, 50
+  orig: 87, 52
+  offset: 1, 1
+  index: -1
+youyanjing
+  rotate: true
+  xy: 1106, 217
+  size: 64, 68
+  orig: 67, 70
+  offset: 2, 1
+  index: -1
+zuojian
+  rotate: false
+  xy: 771, 4
+  size: 253, 135
+  orig: 255, 138
+  offset: 1, 1
+  index: -1
+zuomeimao
+  rotate: true
+  xy: 1126, 103
+  size: 112, 48
+  orig: 114, 51
+  offset: 1, 1
+  index: -1
+zuoyanjing
+  rotate: false
+  xy: 1106, 335
+  size: 85, 67
+  orig: 87, 69
+  offset: 1, 1
+  index: -1

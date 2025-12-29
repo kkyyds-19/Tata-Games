@@ -1,0 +1,739 @@
+{
+  "stageType": 2,
+  "stageId": "stage_001",
+  "bg": 6,
+  "bgFit": "contain",
+  "stageName": "新手试炼",
+  "stageDescription": "第1关：新手试炼，击败所有敌人获得胜利",
+  "difficulty": 1,
+  "maxTime": 300,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "stone_warrior_wave",
+      "gameObject": {
+        "id": "stone_warrior",
+        "attack": 32,
+        "maxhp": 416,
+        "level": 1,
+        "class": 1,
+        "defense": 18,
+        "exp": 64,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_007",
+          "m_n_0_007_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 1
+    },
+    {
+      "id": "berserker_guard_wave",
+      "gameObject": {
+        "id": "berserker_guard",
+        "attack": 24,
+        "maxhp": 312,
+        "level": 1,
+        "class": 1,
+        "defense": 14,
+        "exp": 48,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 2,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_005",
+          "m_n_0_005_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 1
+    },
+    {
+      "id": "void_butterfly_wave",
+      "gameObject": {
+        "id": "void_butterfly",
+        "attack": 30,
+        "maxhp": 286,
+        "level": 1,
+        "class": 2,
+        "defense": 11,
+        "exp": 60,
+        "moveSpeed": 60,
+        "attackRange": 430,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 1
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 40,
+        "maxhp": 390,
+        "level": 1,
+        "class": 1,
+        "defense": 20,
+        "exp": 80,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.1,
+      "level": 1
+    },
+    {
+      "id": "twin_snake_turtle_wave",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 75,
+        "maxhp": 845,
+        "level": 1,
+        "class": 2,
+        "defense": 30,
+        "exp": 150,
+        "moveSpeed": 60,
+        "attackRange": 570,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.1,
+      "level": 1
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 84,
+        "maxhp": 709,
+        "level": 3,
+        "class": 1,
+        "defense": 28,
+        "exp": 112,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "count": 2,
+      "spawnInterval": 3.8,
+      "level": 3
+    },
+    {
+      "id": "enhanced_twin_snake_turtle_wave_2",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 157,
+        "maxhp": 1537,
+        "level": 3,
+        "class": 2,
+        "defense": 42,
+        "exp": 210,
+        "moveSpeed": 60,
+        "attackRange": 571,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "count": 2,
+      "spawnInterval": 3.8,
+      "level": 3
+    },
+    {
+      "id": "stone_warrior_wave_r",
+      "gameObject": {
+        "id": "stone_warrior",
+        "attack": 32,
+        "maxhp": 416,
+        "level": 1,
+        "class": 1,
+        "defense": 18,
+        "exp": 64,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_007",
+          "m_n_0_007_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 700,
+        "y": 806,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 1
+    },
+    {
+      "id": "berserker_guard_wave_r",
+      "gameObject": {
+        "id": "berserker_guard",
+        "attack": 24,
+        "maxhp": 312,
+        "level": 1,
+        "class": 1,
+        "defense": 14,
+        "exp": 48,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 0.3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_005",
+          "m_n_0_005_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 700,
+        "y": 806,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 1
+    },
+    {
+      "id": "void_butterfly_wave_r",
+      "gameObject": {
+        "id": "void_butterfly",
+        "attack": 30,
+        "maxhp": 286,
+        "level": 1,
+        "class": 2,
+        "defense": 11,
+        "exp": 60,
+        "moveSpeed": 60,
+        "attackRange": 430,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 700,
+        "y": 806,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 1
+    },
+    {
+      "id": "twin_axe_king_wave_r",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 40,
+        "maxhp": 390,
+        "level": 1,
+        "class": 1,
+        "defense": 20,
+        "exp": 80,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 700,
+        "y": 806,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.1,
+      "level": 1
+    },
+    {
+      "id": "twin_snake_turtle_wave_r",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 75,
+        "maxhp": 845,
+        "level": 1,
+        "class": 2,
+        "defense": 30,
+        "exp": 150,
+        "moveSpeed": 60,
+        "attackRange": 570,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 700,
+        "y": 806,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.1,
+      "level": 1
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1_r",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 84,
+        "maxhp": 709,
+        "level": 3,
+        "class": 1,
+        "defense": 28,
+        "exp": 112,
+        "moveSpeed": 80,
+        "attackRange": 200,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 700,
+        "y": 806,
+        "z": 0
+      },
+      "count": 2,
+      "spawnInterval": 3.8,
+      "level": 3
+    },
+    {
+      "id": "enhanced_twin_snake_turtle_wave_2_r",
+      "gameObject": {
+        "id": "twin_snake_turtle",
+        "attack": 157,
+        "maxhp": 1537,
+        "level": 3,
+        "class": 2,
+        "defense": 42,
+        "exp": 210,
+        "moveSpeed": 60,
+        "attackRange": 571,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_004",
+          "m_s_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 700,
+        "y": 806,
+        "z": 0
+      },
+      "count": 2,
+      "spawnInterval": 3.8,
+      "level": 3
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_duxing_bianfu",
+      "gameObject": {
+        "id": "boss_duxing_bianfu",
+        "name": "青翼蝙蝠",
+        "attack": 300,
+        "maxhp": 40000,
+        "level": 4,
+        "class": 0,
+        "defense": 50,
+        "exp": 500,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_2",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "level": 4
+    },
+    {
+      "id": "boss_duxing_xiezi",
+      "gameObject": {
+        "id": "boss_duxing_xiezi",
+        "name": "环地掘地蝎",
+        "attack": 400,
+        "maxhp": 60000,
+        "level": 4,
+        "class": 0,
+        "defense": 50,
+        "exp": 500,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_3",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": -315,
+        "y": 806,
+        "z": 0
+      },
+      "level": 4
+    },
+    {
+      "id": "boss_duxing_bianfu_r",
+      "gameObject": {
+        "id": "boss_duxing_bianfu",
+        "name": "青翼蝙蝠",
+        "attack": 300,
+        "maxhp": 40000,
+        "level": 4,
+        "class": 0,
+        "defense": 50,
+        "exp": 500,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_2",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 615,
+        "y": 806,
+        "z": 0
+      },
+      "level": 4
+    },
+    {
+      "id": "boss_duxing_xiezi_r",
+      "gameObject": {
+        "id": "boss_duxing_xiezi",
+        "name": "环地掘地蝎",
+        "attack": 400,
+        "maxhp": 60000,
+        "level": 4,
+        "class": 0,
+        "defense": 50,
+        "exp": 500,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_3",
+        "isBoss": true
+      },
+      "spawnPosition": {
+        "x": 615,
+        "y": 806,
+        "z": 0
+      },
+      "level": 4
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第1关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_duxing_bianfu出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_duxing_xiezi登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "berserker_guard_wave_r"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 21.60962680996061,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 33,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "stone_warrior_wave",
+        "berserker_guard_wave_r",
+        "stone_warrior_wave_r"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 61,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 93.2203670592884,
+      "isRepeatable": false,
+      "priority": 5,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 99.00000000000001,
+      "isRepeatable": false,
+      "priority": 6,
+      "bossSpawn": "boss_duxing_bianfu"
+    },
+    {
+      "id": "event_mid_boss_spawn_r",
+      "triggerType": "time",
+      "triggerValue": 99.00000000000001,
+      "isRepeatable": false,
+      "priority": 6,
+      "bossSpawn": "boss_duxing_bianfu_r"
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 119.00000000000001,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "void_butterfly_wave",
+        "stone_warrior_wave_r",
+        "void_butterfly_wave_r"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 127.00000000000001,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 135,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "void_butterfly_wave",
+        "void_butterfly_wave_r"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 156.3556191379746,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "void_butterfly_wave",
+        "berserker_guard_wave_r",
+        "void_butterfly_wave_r"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 164.03415444673416,
+      "isRepeatable": false,
+      "priority": 11,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 168,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "stone_warrior_wave",
+        "void_butterfly_wave",
+        "berserker_guard_wave_r",
+        "stone_warrior_wave_r",
+        "void_butterfly_wave_r"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 210.0754382919569,
+      "isRepeatable": false,
+      "priority": 13,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 217.67739491602336,
+      "isRepeatable": false,
+      "priority": 14,
+      "bossSpawn": "boss_duxing_xiezi"
+    },
+    {
+      "id": "event_final_boss_spawn_r",
+      "triggerType": "time",
+      "triggerValue": 217.67739491602336,
+      "isRepeatable": false,
+      "priority": 14,
+      "bossSpawn": "boss_duxing_xiezi_r"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  },
+  "defeatConditions": {
+    "targetDestroyed": true
+  }
+}

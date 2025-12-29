@@ -1,0 +1,444 @@
+{
+  "stageId": "stage_005",
+  "stageName": "地狱门口",
+  "stageDescription": "第5关：地狱门口，击败所有敌人获得胜利",
+  "difficulty": 5,
+  "maxTime": 341,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "skeleton_wave",
+      "gameObject": {
+        "id": "skeleton",
+        "attack": 14,
+        "maxhp": 187,
+        "level": 5,
+        "class": 1,
+        "defense": 10,
+        "exp": 28,
+        "moveSpeed": 80,
+        "attackRange": 120,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_001",
+          "m_n_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 12,
+      "spawnInterval": 1.8,
+      "level": 5
+    },
+    {
+      "id": "berserker_guard_wave",
+      "gameObject": {
+        "id": "berserker_guard",
+        "attack": 43,
+        "maxhp": 561,
+        "level": 5,
+        "class": 1,
+        "defense": 25,
+        "exp": 86,
+        "moveSpeed": 80,
+        "attackRange": 140,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_005",
+          "m_n_0_005_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 12,
+      "spawnInterval": 1.8,
+      "level": 5
+    },
+    {
+      "id": "soul_reaper_wave",
+      "gameObject": {
+        "id": "soul_reaper",
+        "attack": 45,
+        "maxhp": 421,
+        "level": 5,
+        "class": 2,
+        "defense": 16,
+        "exp": 90,
+        "moveSpeed": 60,
+        "attackRange": 402,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_003",
+          "m_n_1_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 12,
+      "spawnInterval": 1.8,
+      "level": 5
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 72,
+        "maxhp": 702,
+        "level": 5,
+        "class": 1,
+        "defense": 36,
+        "exp": 144,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 7,
+      "spawnInterval": 2.8,
+      "level": 5
+    },
+    {
+      "id": "flower_pharaoh_wave",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 81,
+        "maxhp": 819,
+        "level": 5,
+        "class": 2,
+        "defense": 32,
+        "exp": 162,
+        "moveSpeed": 60,
+        "attackRange": 422,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 7,
+      "spawnInterval": 2.8,
+      "level": 5
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 132,
+        "maxhp": 1115,
+        "level": 7,
+        "class": 1,
+        "defense": 44,
+        "exp": 176,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.6,
+      "level": 7
+    },
+    {
+      "id": "enhanced_flower_pharaoh_wave_2",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 148,
+        "maxhp": 1301,
+        "level": 7,
+        "class": 2,
+        "defense": 39,
+        "exp": 198,
+        "moveSpeed": 60,
+        "attackRange": 424,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.6,
+      "level": 7
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_duxing_bianfu",
+      "gameObject": {
+        "id": "boss_duxing_bianfu",
+        "attack": 665,
+        "maxhp": 91502,
+        "level": 8,
+        "class": 0,
+        "defense": 118,
+        "exp": 1181,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_2",
+        "isBoss": true,
+        "name": "青翼蝙蝠"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 8
+    },
+    {
+      "id": "boss_duxing_xiezi",
+      "gameObject": {
+        "id": "boss_duxing_xiezi",
+        "attack": 886,
+        "maxhp": 137253,
+        "level": 8,
+        "class": 0,
+        "defense": 118,
+        "exp": 1181,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_3",
+        "isBoss": true,
+        "name": "环地掘地蝎"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 8
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第5关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_duxing_bianfu出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_duxing_xiezi登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 35.4159387038314,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 40.51666666666667,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "soul_reaper_wave",
+        "skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 76.03333333333335,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "skeleton_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 113.95104726444345,
+      "isRepeatable": false,
+      "priority": 5,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 121.75862068965519,
+      "isRepeatable": false,
+      "priority": 6,
+      "bossSpawn": "boss_duxing_bianfu"
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 141.55,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 153.65,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "skeleton_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 165.75,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 196.13152939403025,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": [
+        "soul_reaper_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 198.1478580455378,
+      "isRepeatable": false,
+      "priority": 11,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 202.85,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "soul_reaper_wave",
+        "skeleton_wave",
+        "soul_reaper_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 268.73491050408103,
+      "isRepeatable": false,
+      "priority": 13,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 275.5268369950119,
+      "isRepeatable": false,
+      "priority": 14,
+      "bossSpawn": "boss_duxing_xiezi"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

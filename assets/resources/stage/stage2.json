@@ -1,0 +1,444 @@
+{
+  "stageId": "stage_002",
+  "stageName": "深入敌境",
+  "stageDescription": "第2关：深入敌境，击败所有敌人获得胜利",
+  "difficulty": 2,
+  "maxTime": 310,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+   "monsters": [
+    {
+      "id": "stone_warrior_wave",
+      "gameObject": {
+        "id": "stone_warrior",
+        "attack": 51,
+        "maxhp": 665,
+        "level": 4,
+        "class": 1,
+        "defense": 28,
+        "exp": 102,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_007",
+          "m_n_0_007_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 4
+    },
+    {
+      "id": "soul_servant_wave",
+      "gameObject": {
+        "id": "soul_servant",
+        "attack": 32,
+        "maxhp": 416,
+        "level": 4,
+        "class": 1,
+        "defense": 19,
+        "exp": 64,
+        "moveSpeed": 80,
+        "attackRange": 135,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_004",
+          "m_n_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 4
+    },
+    {
+      "id": "void_butterfly_wave",
+      "gameObject": {
+        "id": "void_butterfly",
+        "attack": 48,
+        "maxhp": 457,
+        "level": 4,
+        "class": 2,
+        "defense": 17,
+        "exp": 96,
+        "moveSpeed": 60,
+        "attackRange": 432,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 4
+    },
+    {
+      "id": "rock_monster_wave",
+      "gameObject": {
+        "id": "rock_monster",
+        "attack": 80,
+        "maxhp": 832,
+        "level": 4,
+        "class": 1,
+        "defense": 40,
+        "exp": 160,
+        "moveSpeed": 80,
+        "attackRange": 160,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_002",
+          "m_s_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 4
+    },
+    {
+      "id": "night_hawk_wave",
+      "gameObject": {
+        "id": "night_hawk",
+        "attack": 104,
+        "maxhp": 1144,
+        "level": 4,
+        "class": 2,
+        "defense": 41,
+        "exp": 208,
+        "moveSpeed": 60,
+        "attackRange": 522,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_003",
+          "m_s_1_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 6,
+      "spawnInterval": 2.4,
+      "level": 4
+    },
+    {
+      "id": "enhanced_rock_monster_wave_1",
+      "gameObject": {
+        "id": "rock_monster",
+        "attack": 150,
+        "maxhp": 1352,
+        "level": 6,
+        "class": 1,
+        "defense": 50,
+        "exp": 200,
+        "moveSpeed": 80,
+        "attackRange": 160,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_002",
+          "m_s_0_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.6,
+      "level": 6
+    },
+    {
+      "id": "enhanced_night_hawk_wave_2",
+      "gameObject": {
+        "id": "night_hawk",
+        "attack": 195,
+        "maxhp": 1859,
+        "level": 6,
+        "class": 2,
+        "defense": 52,
+        "exp": 260,
+        "moveSpeed": 60,
+        "attackRange": 523,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_003",
+          "m_s_1_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 4,
+      "spawnInterval": 3.6,
+      "level": 6
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_duxing_bianfu",
+      "gameObject": {
+        "id": "boss_duxing_bianfu",
+        "attack": 545,
+        "maxhp": 84361,
+        "level": 7,
+        "class": 0,
+        "defense": 101,
+        "exp": 1014,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_2",
+        "isBoss": true,
+        "name": "青翼蝙蝠"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 7
+    },
+    {
+      "id": "boss_duxing_xiezi",
+      "gameObject": {
+        "id": "boss_duxing_xiezi",
+        "attack": 726,
+        "maxhp": 126542,
+        "level": 7,
+        "class": 0,
+        "defense": 101,
+        "exp": 1014,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_3",
+        "isBoss": true,
+        "name": "环地掘地蝎"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 7
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第4关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_duxing_bianfu出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_duxing_xiezi登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "soul_servant_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 18.872477040534104,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 38.68333333333334,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "soul_servant_wave",
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 72.36666666666667,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "stone_warrior_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 109.69300639221045,
+      "isRepeatable": false,
+      "priority": 5,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 116.0689655172414,
+      "isRepeatable": false,
+      "priority": 6,
+      "bossSpawn": "boss_duxing_bianfu"
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 136.05,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 147.15,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "stone_warrior_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 158.25,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 185.98117185416072,
+      "isRepeatable": false,
+      "priority": 10,
+      "monsterSpawns": [
+        "soul_servant_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 189.46520919601275,
+      "isRepeatable": false,
+      "priority": 11,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 194.35,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "soul_servant_wave",
+        "stone_warrior_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 234.27954413609098,
+      "isRepeatable": false,
+      "priority": 13,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 241.79435765836044,
+      "isRepeatable": false,
+      "priority": 14,
+      "bossSpawn": "boss_duxing_xiezi"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

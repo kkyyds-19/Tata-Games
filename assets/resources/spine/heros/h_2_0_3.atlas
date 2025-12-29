@@ -1,0 +1,62 @@
+
+h_2_0_3.png
+size: 903, 416
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 635, 164
+  size: 266, 250
+  orig: 268, 253
+  offset: 1, 2
+  index: -1
+tou
+  rotate: true
+  xy: 2, 2
+  size: 412, 406
+  orig: 415, 408
+  offset: 1, 1
+  index: -1
+youmeimao
+  rotate: true
+  xy: 564, 12
+  size: 68, 43
+  orig: 70, 45
+  offset: 1, 1
+  index: -1
+youshoubi
+  rotate: false
+  xy: 410, 82
+  size: 223, 332
+  orig: 225, 334
+  offset: 1, 1
+  index: -1
+youyanjing
+  rotate: false
+  xy: 498, 11
+  size: 64, 69
+  orig: 66, 71
+  offset: 1, 1
+  index: -1
+zuomeimao
+  rotate: true
+  xy: 850, 78
+  size: 84, 42
+  orig: 87, 46
+  offset: 2, 3
+  index: -1
+zuoshoubi
+  rotate: true
+  xy: 635, 2
+  size: 160, 213
+  orig: 162, 216
+  offset: 1, 2
+  index: -1
+zuoyanjing
+  rotate: false
+  xy: 410, 4
+  size: 86, 76
+  orig: 88, 79
+  offset: 1, 1
+  index: -1

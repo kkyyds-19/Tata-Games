@@ -1,0 +1,55 @@
+
+b_0_017.png
+size: 543, 1085
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_0_017/jianjia
+  rotate: true
+  xy: 2, 258
+  size: 472, 282
+  orig: 474, 285
+  offset: 1, 1
+  index: -1
+b_0_017/shenti
+  rotate: false
+  xy: 2, 732
+  size: 336, 351
+  orig: 339, 356
+  offset: 1, 2
+  index: -1
+b_0_017/tou
+  rotate: true
+  xy: 286, 474
+  size: 256, 232
+  orig: 258, 234
+  offset: 1, 1
+  index: -1
+b_0_017/youjiao
+  rotate: true
+  xy: 286, 294
+  size: 178, 217
+  orig: 180, 219
+  offset: 1, 1
+  index: -1
+b_0_017/youshou
+  rotate: true
+  xy: 2, 2
+  size: 254, 360
+  orig: 258, 362
+  offset: 3, 1
+  index: -1
+b_0_017/zuojiao
+  rotate: false
+  xy: 364, 71
+  size: 170, 221
+  orig: 172, 223
+  offset: 1, 1
+  index: -1
+b_0_017/zuoshou
+  rotate: false
+  xy: 340, 743
+  size: 201, 340
+  orig: 203, 342
+  offset: 1, 1
+  index: -1

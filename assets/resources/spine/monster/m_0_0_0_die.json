@@ -1,0 +1,196 @@
+{
+"skeleton": {
+	"hash": "kn5p1gnnPEc",
+	"spine": "3.8-from-4.0-from-4.1-from-4.2.43",
+	"x": -49.9,
+	"y": -6,
+	"width": 119.9,
+	"height": 87.75,
+	"images": "",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "kulou", "parent": "root", "length": 20.15, "rotation": 93.99, "x": 16.31, "y": 29.19 },
+	{ "name": "yun1", "parent": "root", "length": 27.22, "rotation": 94.93, "x": 22.04, "y": 25.58 },
+	{ "name": "yunhou", "parent": "root", "length": 22.99, "rotation": 94.67, "x": -9.29, "y": 32.57 },
+	{ "name": "hun", "parent": "root", "length": 52.07, "rotation": 88.26, "x": 12.73, "y": 16.2 },
+	{ "name": "tuhun", "parent": "root", "length": 55.67, "rotation": 105.49, "x": 18.48, "y": 16.15 },
+	{ "name": "zuochibang", "parent": "tuhun", "length": 17.23, "rotation": -81.53, "x": 39.78, "y": -21.31 },
+	{ "name": "youchibang", "parent": "tuhun", "length": 16.07, "rotation": 86.02, "x": 43.75, "y": 23.58 }
+],
+"slots": [
+	{ "name": "hun", "bone": "hun", "attachment": "hun" },
+	{ "name": "tuhun", "bone": "tuhun", "attachment": "tuhun" },
+	{ "name": "youchibang", "bone": "youchibang", "attachment": "youchibang" },
+	{ "name": "zuochibang", "bone": "zuochibang", "attachment": "zuochibang" },
+	{ "name": "yunhou", "bone": "yunhou", "attachment": "yunhou" },
+	{ "name": "yun1", "bone": "yun1", "attachment": "yun1" },
+	{ "name": "kulou", "bone": "kulou", "attachment": "kulou" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"kulou": {
+				"kulou": { "x": 6.91, "y": -0.08, "rotation": -93.99, "width": 48, "height": 45 }
+			},
+			"yun1": {
+				"yun1": { "x": 4.62, "y": 2.15, "rotation": -94.93, "width": 101, "height": 72 }
+			},
+			"yunhou": {
+				"yunhou": { "x": 4.12, "y": -4.74, "rotation": -94.67, "width": 90, "height": 73 }
+			}
+		}
+	},
+	{
+		"name": "boss",
+		"attachments": {
+			"tuhun": {
+				"tuhun": { "name": "boss/tuhun", "x": 36.23, "y": 4.5, "rotation": -105.49, "width": 47, "height": 73 }
+			},
+			"youchibang": {
+				"youchibang": { "name": "boss/youchibang", "x": 8.69, "y": 4.51, "rotation": 168.49, "width": 27, "height": 25 }
+			},
+			"zuochibang": {
+				"zuochibang": { "name": "boss/zuochibang", "x": 8.16, "y": -3.97, "rotation": -23.96, "width": 27, "height": 25 }
+			}
+		}
+	},
+	{
+		"name": "monster",
+		"attachments": {
+			"hun": {
+				"hun": { "x": 29.85, "y": 4.23, "rotation": -105.87, "width": 43, "height": 61 }
+			}
+		}
+	}
+],
+"animations": {
+	"boss_die": {
+		"slots": {
+			"hun": {},
+			"kulou": {},
+			"tuhun": {},
+			"youchibang": {},
+			"yun1": {},
+			"yunhou": {},
+			"zuochibang": {}
+		},
+		"bones": {
+			"yun1": {
+				"scale": [
+					{ "x": 0.3, "y": 0.3 },
+					{ "time": 0.8333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"kulou": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -22.99 },
+					{ "time": 1, "angle": -455.3 }
+				],
+				"translate": [
+					{},
+					{ "time": 1, "x": 90.53, "y": -157.45 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.5 },
+					{ "time": 0.3333 }
+				]
+			},
+			"yunhou": {
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 1, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"tuhun": {
+				"translate": [
+					{ "time": 0.2333 },
+					{ "time": 1.3333, "y": 58.41 }
+				],
+				"scale": [
+					{ "x": 0.7, "y": 0.7, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0.7, "y": 0.7 },
+					{ "time": 0.5667, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"youchibang": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 14.65 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": 14.65 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "angle": 14.65 },
+					{ "time": 1 },
+					{ "time": 1.1667, "angle": 14.65 },
+					{ "time": 1.3333 }
+				]
+			},
+			"zuochibang": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -15.47 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": -15.47 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "angle": -15.47 },
+					{ "time": 1 },
+					{ "time": 1.1667, "angle": -15.47 },
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"monster_die": {
+		"slots": {
+			"hun": {},
+			"kulou": {},
+			"yun1": {},
+			"yunhou": {}
+		},
+		"bones": {
+			"yunhou": {
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 1, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"yun1": {
+				"scale": [
+					{ "x": 0.3, "y": 0.3 },
+					{ "time": 0.8333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"kulou": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -22.99 },
+					{ "time": 1, "angle": -455.3 }
+				],
+				"translate": [
+					{},
+					{ "time": 1, "x": 90.53, "y": -157.45 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.5 },
+					{ "time": 0.3333 }
+				]
+			},
+			"hun": {
+				"translate": [
+					{ "time": 0.1667 },
+					{ "time": 1.1667, "y": 51.26 }
+				],
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0.5, "y": 0.5 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	}
+}
+}

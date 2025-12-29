@@ -1,0 +1,48 @@
+
+b_1_0_4.png
+size: 635, 579
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_1_004/10
+  rotate: false
+  xy: 473, 33
+  size: 156, 170
+  orig: 160, 172
+  offset: 2, 1
+  index: -1
+b_1_004/shenti
+  rotate: false
+  xy: 220, 205
+  size: 413, 372
+  orig: 415, 374
+  offset: 1, 1
+  index: -1
+b_1_004/tou
+  rotate: true
+  xy: 220, 2
+  size: 201, 251
+  orig: 204, 254
+  offset: 1, 2
+  index: -1
+b_1_004/youjiao
+  rotate: false
+  xy: 2, 9
+  size: 109, 118
+  orig: 111, 120
+  offset: 1, 1
+  index: -1
+b_1_004/youshou
+  rotate: true
+  xy: 2, 129
+  size: 448, 216
+  orig: 451, 218
+  offset: 1, 1
+  index: -1
+b_1_004/zuojiao
+  rotate: false
+  xy: 113, 11
+  size: 98, 116
+  orig: 100, 120
+  offset: 1, 3
+  index: -1

@@ -1,0 +1,48 @@
+
+p_3_004.png
+size: 697, 606
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+houchibang
+  rotate: false
+  xy: 430, 68
+  size: 260, 260
+  orig: 263, 263
+  offset: 1, 2
+  index: -1
+houjiao
+  rotate: true
+  xy: 2, 15
+  size: 100, 152
+  orig: 102, 154
+  offset: 1, 1
+  index: -1
+qianchibang
+  rotate: true
+  xy: 190, 161
+  size: 443, 238
+  orig: 447, 241
+  offset: 2, 2
+  index: -1
+qianjiao
+  rotate: true
+  xy: 190, 2
+  size: 157, 207
+  orig: 159, 209
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 117
+  size: 487, 186
+  orig: 490, 188
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 430, 330
+  size: 265, 274
+  orig: 269, 276
+  offset: 1, 1
+  index: -1

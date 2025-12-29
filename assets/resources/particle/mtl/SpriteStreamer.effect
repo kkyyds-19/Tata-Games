@@ -1,0 +1,164 @@
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaThreshold: { value: 0.5 }
+        # 自定义参数
+        width: { value: 0.2, editor: { tooltip: "光泽宽度" } }
+        strength: { value: 1.3, editor: { tooltip: "光泽强度" } }
+        speedScale: { value: 1.0, editor: { tooltip: "速度系数" } }
+        moveDirection: { value: 0, editor: { tooltip: "移动方向 (0=左到右, 1=右到左, 2=上到下, 3=下到上)" } }
+        slopeDirection: { value: 0, editor: { tooltip: "倾斜方向 (0=左倾斜, 1=右倾斜, 2=无倾斜)" } }
+        slopeRate: { value: 0.2, editor: { tooltip: "倾斜率" } }
+        pauseDuration: { value: 0.5, editor: { tooltip: "停顿时间(秒)" } }
+        enablePause: { value: 1.0, editor: { tooltip: "是否启用停顿 (1=启用, 0=禁用)" } }
+        uvScale: { value: [1.0, 1.0], editor: { tooltip: "UV缩放比例" } }
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #if USE_LOCAL
+    #include <builtin/uniforms/cc-local>
+  #endif
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec4 v_color;
+  out vec2 v_uv0;
+
+  #if USE_TEXTURE
+    in vec2 a_uv0;
+  #endif
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if USE_LOCAL
+      pos = cc_matWorld * pos;
+    #endif
+
+    #if USE_PIXEL_ALIGNMENT
+      pos = cc_matView * pos;
+      pos.xyz = floor(pos.xyz);
+      pos = cc_matProj * pos;
+    #else
+      pos = cc_matViewProj * pos;
+    #endif
+
+    v_color = a_color;
+    v_uv0 = a_texCoord; // 使用最基本的UV坐标
+
+    return pos;
+  }
+}%
+
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/internal/embedded-alpha>
+  #include <builtin/internal/alpha-test>
+  #include <builtin/uniforms/cc-global>
+
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+    in vec2 v_uv0;
+    #pragma builtin(local)
+    layout(set = 2, binding = 11) uniform sampler2D cc_spriteTexture;
+  #endif
+
+  uniform ARGS{
+    float width;
+    float strength;
+    float speedScale;
+    float moveDirection;
+    float slopeDirection;
+    float slopeRate;
+    float pauseDuration;
+    float enablePause;
+    vec2 uvScale;
+  };
+
+  vec4 frag () {
+    vec4 o = vec4(1, 1, 1, 1);
+    o *= CCSampleWithAlphaSeparated(cc_spriteTexture, v_uv0);
+
+    // 计算贴图的实际UV范围
+    float uvRange = max(uvScale.x, uvScale.y);
+    
+    // 根据UV范围调整周期时间
+    float adjustedTime = cc_time.x * speedScale / uvRange;
+    
+    // 停顿控制逻辑
+    float cycleTime = 1.0 + pauseDuration * enablePause; // 一个完整周期的时间
+    float cycleProgress = mod(adjustedTime, cycleTime); // 当前周期内的进度
+    
+    // 如果启用停顿且当前在停顿阶段，则不显示效果
+    if (enablePause > 0.5 && cycleProgress > 1.0) {
+      return o;
+    }
+    
+    // 计算实际的时间步长（排除停顿时间）
+    float actualTime = cycleProgress;
+    float time_step = -width;
+    time_step += mod(actualTime, 1.0 + 2.0 * width);
+
+    // 根据脚本参数计算移动效果
+    float adjusted_x, adjusted_y;
+    float k = slopeRate;
+    
+    // 根据移动方向调整坐标
+    if (moveDirection < 0.5) {
+      // 左到右或右到左
+      adjusted_x = v_uv0.x;
+      adjusted_y = v_uv0.y;
+    } else {
+      // 上到下或下到上
+      adjusted_x = v_uv0.y;
+      adjusted_y = v_uv0.x;
+    }
+    
+    // 根据倾斜方向调整斜率
+    if (slopeDirection > 1.5) {
+      // 无倾斜
+      k = 0.0;
+    } else if (slopeDirection > 0.5) {
+      // 右倾斜
+      k = -k;
+    }
+    // 左倾斜保持原值
+    
+    // 根据移动方向调整时间步长
+    if (moveDirection > 0.5 && moveDirection < 1.5) {
+      // 右到左，反转时间
+      time_step = 1.0 + width - time_step;
+    } else if (moveDirection > 1.5 && moveDirection < 2.5) {
+      // 上到下，反转时间
+      time_step = 1.0 + width - time_step;
+    }
+    
+    // 使用调整后的参数进行移动
+    if (adjusted_x >= -adjusted_y * k + time_step && adjusted_x <= -adjusted_y * k + width + time_step) {
+      o *= strength;
+    }
+
+    return o;
+  }
+}%

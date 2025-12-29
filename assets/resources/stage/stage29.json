@@ -1,0 +1,517 @@
+{
+  "stageId": "stage_029",
+  "stageName": "终极挑战",
+  "stageDescription": "第29关：终极挑战，击败所有敌人获得胜利",
+  "difficulty": 29,
+  "maxTime": 590,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "hammer_giant_wave",
+      "gameObject": {
+        "id": "hammer_giant",
+        "attack": 237,
+        "maxhp": 3088,
+        "level": 29,
+        "class": 1,
+        "defense": 132,
+        "exp": 474,
+        "moveSpeed": 80,
+        "attackRange": 155,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_008",
+          "m_n_0_008_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 41,
+      "spawnInterval": 1.8,
+      "level": 29
+    },
+    {
+      "id": "berserker_guard_wave",
+      "gameObject": {
+        "id": "berserker_guard",
+        "attack": 158,
+        "maxhp": 2059,
+        "level": 29,
+        "class": 1,
+        "defense": 92,
+        "exp": 316,
+        "moveSpeed": 80,
+        "attackRange": 140,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_005",
+          "m_n_0_005_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 41,
+      "spawnInterval": 1.8,
+      "level": 29
+    },
+    {
+      "id": "void_butterfly_wave",
+      "gameObject": {
+        "id": "void_butterfly",
+        "attack": 198,
+        "maxhp": 1887,
+        "level": 29,
+        "class": 2,
+        "defense": 72,
+        "exp": 396,
+        "moveSpeed": 60,
+        "attackRange": 449,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 41,
+      "spawnInterval": 1.8,
+      "level": 29
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 264,
+        "maxhp": 2574,
+        "level": 29,
+        "class": 1,
+        "defense": 132,
+        "exp": 528,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 68,
+      "spawnInterval": 2,
+      "level": 29
+    },
+    {
+      "id": "poison_bloodthirsty_wave",
+      "gameObject": {
+        "id": "poison_bloodthirsty",
+        "attack": 363,
+        "maxhp": 3861,
+        "level": 29,
+        "class": 2,
+        "defense": 145,
+        "exp": 726,
+        "moveSpeed": 60,
+        "attackRange": 489,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_002",
+          "m_s_1_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 41,
+      "spawnInterval": 1.8,
+      "level": 29
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 420,
+        "maxhp": 3549,
+        "level": 31,
+        "class": 1,
+        "defense": 140,
+        "exp": 560,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 20,
+      "spawnInterval": 2.2,
+      "level": 31
+    },
+    {
+      "id": "enhanced_poison_bloodthirsty_wave_2",
+      "gameObject": {
+        "id": "poison_bloodthirsty",
+        "attack": 577,
+        "maxhp": 5323,
+        "level": 31,
+        "class": 2,
+        "defense": 154,
+        "exp": 770,
+        "moveSpeed": 60,
+        "attackRange": 490,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_002",
+          "m_s_1_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 20,
+      "spawnInterval": 2.2,
+      "level": 31
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_wuyaowang",
+      "gameObject": {
+        "id": "boss_wuyaowang",
+        "attack": 78559,
+        "maxhp": 147753,
+        "level": 32,
+        "class": 0,
+        "defense": 2185,
+        "exp": 21850,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_1",
+        "isBoss": true,
+        "name": "雷皇圣者"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 32
+    },
+    {
+      "id": "boss_bingshuang_gulong",
+      "gameObject": {
+        "id": "boss_bingshuang_gulong",
+        "attack": 104745,
+        "maxhp": 221630,
+        "level": 32,
+        "class": 0,
+        "defense": 2185,
+        "exp": 21850,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_1_0_6",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_1_0_6",
+        "isBoss": true,
+        "name": "亡灵骨龙"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 32
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第29关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_wuyaowang出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_bingshuang_gulong登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "berserker_guard_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 37.711594422065936,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 45.583333333333336,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_4",
+      "triggerType": "time",
+      "triggerValue": 86.16666666666667,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "poison_bloodthirsty_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_5",
+      "triggerType": "time",
+      "triggerValue": 126.75,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 167.33333333333334,
+      "isRepeatable": false,
+      "priority": 6,
+      "monsterSpawns": [
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 207.91666666666669,
+      "isRepeatable": false,
+      "priority": 7,
+      "monsterSpawns": [
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 250.91776988150636,
+      "isRepeatable": false,
+      "priority": 8,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 258.3103448275862,
+      "isRepeatable": false,
+      "priority": 9,
+      "bossSpawn": "boss_wuyaowang"
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 274.9087953908052,
+      "isRepeatable": false,
+      "priority": 10,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 278.5,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "hammer_giant_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 297,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 315.5,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "hammer_giant_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 334,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "hammer_giant_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 352.5,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "berserker_guard_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 371,
+      "isRepeatable": false,
+      "priority": 16,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 414.5,
+      "isRepeatable": false,
+      "priority": 17,
+      "monsterSpawns": [
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_2",
+      "triggerType": "time",
+      "triggerValue": 422.5,
+      "isRepeatable": false,
+      "priority": 18,
+      "monsterSpawns": [
+        "poison_bloodthirsty_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_3",
+      "triggerType": "time",
+      "triggerValue": 430.5,
+      "isRepeatable": false,
+      "priority": 19,
+      "monsterSpawns": [
+        "berserker_guard_wave",
+        "poison_bloodthirsty_wave",
+        "void_butterfly_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 654.0609844044908,
+      "isRepeatable": false,
+      "priority": 20,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 659.530190762995,
+      "isRepeatable": false,
+      "priority": 21,
+      "bossSpawn": "boss_bingshuang_gulong"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

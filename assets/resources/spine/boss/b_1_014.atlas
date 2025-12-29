@@ -1,0 +1,34 @@
+
+b_1_014.png
+size: 782, 573
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_1_014/shenti
+  rotate: false
+  xy: 2, 7
+  size: 363, 318
+  orig: 365, 324
+  offset: 1, 3
+  index: -1
+b_1_014/tou
+  rotate: true
+  xy: 367, 2
+  size: 323, 379
+  orig: 326, 395
+  offset: 2, 15
+  index: -1
+b_1_014/youshou
+  rotate: false
+  xy: 232, 327
+  size: 548, 244
+  orig: 550, 246
+  offset: 1, 1
+  index: -1
+b_1_014/zuoshou
+  rotate: true
+  xy: 2, 368
+  size: 203, 228
+  orig: 205, 230
+  offset: 1, 1
+  index: -1

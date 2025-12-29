@@ -1,0 +1,55 @@
+
+h_1_0_0.png
+size: 1076, 528
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+h_1_0_0/shenti
+  rotate: true
+  xy: 495, 192
+  size: 334, 338
+  orig: 336, 343
+  offset: 1, 2
+  index: -1
+h_1_0_0/tou
+  rotate: true
+  xy: 2, 156
+  size: 370, 491
+  orig: 372, 493
+  offset: 1, 1
+  index: -1
+h_1_0_0/yanjing
+  rotate: false
+  xy: 196, 51
+  size: 179, 103
+  orig: 183, 105
+  offset: 2, 1
+  index: -1
+h_1_0_0/youjianjia
+  rotate: true
+  xy: 2, 11
+  size: 143, 192
+  orig: 146, 194
+  offset: 2, 1
+  index: -1
+h_1_0_0/youshou
+  rotate: false
+  xy: 835, 274
+  size: 239, 252
+  orig: 241, 255
+  offset: 1, 2
+  index: -1
+h_1_0_0/zuojianjia
+  rotate: false
+  xy: 835, 7
+  size: 229, 265
+  orig: 232, 267
+  offset: 1, 1
+  index: -1
+h_1_0_0/zuoshou
+  rotate: true
+  xy: 495, 2
+  size: 188, 292
+  orig: 190, 295
+  offset: 1, 1
+  index: -1

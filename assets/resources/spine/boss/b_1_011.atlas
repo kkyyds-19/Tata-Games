@@ -1,0 +1,62 @@
+
+b_1_011.png
+size: 1031, 250
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_1_011/shenti
+  rotate: false
+  xy: 492, 19
+  size: 143, 229
+  orig: 150, 231
+  offset: 1, 1
+  index: -1
+b_1_011/tou
+  rotate: true
+  xy: 637, 41
+  size: 207, 147
+  orig: 209, 149
+  offset: 1, 1
+  index: -1
+b_1_011/youchibang
+  rotate: true
+  xy: 2, 19
+  size: 229, 293
+  orig: 231, 300
+  offset: 1, 6
+  index: -1
+b_1_011/youshou
+  rotate: false
+  xy: 936, 135
+  size: 93, 113
+  orig: 97, 120
+  offset: 3, 1
+  index: -1
+b_1_011/youxu
+  rotate: true
+  xy: 786, 83
+  size: 165, 148
+  orig: 167, 150
+  offset: 1, 1
+  index: -1
+b_1_011/zuochibang
+  rotate: false
+  xy: 297, 2
+  size: 193, 246
+  orig: 195, 257
+  offset: 1, 10
+  index: -1
+b_1_011/zuoshou
+  rotate: false
+  xy: 957, 28
+  size: 72, 105
+  orig: 74, 108
+  offset: 1, 1
+  index: -1
+b_1_011/zuoxu
+  rotate: true
+  xy: 786, 2
+  size: 79, 169
+  orig: 81, 172
+  offset: 1, 2
+  index: -1

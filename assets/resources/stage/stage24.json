@@ -1,0 +1,506 @@
+{
+  "stageId": "stage_024",
+  "stageName": "神话挑战",
+  "stageDescription": "第24关：神话挑战，击败所有敌人获得胜利",
+  "difficulty": 24,
+  "maxTime": 538,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "swamp_devourer_wave",
+      "gameObject": {
+        "id": "swamp_devourer",
+        "attack": 89,
+        "maxhp": 1164,
+        "level": 24,
+        "class": 1,
+        "defense": 56,
+        "exp": 178,
+        "moveSpeed": 80,
+        "attackRange": 130,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_003",
+          "m_n_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 46,
+      "spawnInterval": 1.8,
+      "level": 24
+    },
+    {
+      "id": "ogre_berserker_wave",
+      "gameObject": {
+        "id": "ogre_berserker",
+        "attack": 156,
+        "maxhp": 2038,
+        "level": 24,
+        "class": 1,
+        "defense": 89,
+        "exp": 312,
+        "moveSpeed": 80,
+        "attackRange": 145,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_006",
+          "m_n_0_006_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 46,
+      "spawnInterval": 1.8,
+      "level": 24
+    },
+    {
+      "id": "naga_siren_wave",
+      "gameObject": {
+        "id": "naga_siren",
+        "attack": 112,
+        "maxhp": 1019,
+        "level": 24,
+        "class": 2,
+        "defense": 39,
+        "exp": 224,
+        "moveSpeed": 60,
+        "attackRange": 385,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_002",
+          "m_n_1_002_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 46,
+      "spawnInterval": 1.8,
+      "level": 24
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 224,
+        "maxhp": 2184,
+        "level": 24,
+        "class": 1,
+        "defense": 112,
+        "exp": 448,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 29,
+      "spawnInterval": 2,
+      "level": 24
+    },
+    {
+      "id": "flower_pharaoh_wave",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 252,
+        "maxhp": 2548,
+        "level": 24,
+        "class": 2,
+        "defense": 100,
+        "exp": 504,
+        "moveSpeed": 60,
+        "attackRange": 435,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 29,
+      "spawnInterval": 2,
+      "level": 24
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 360,
+        "maxhp": 3042,
+        "level": 26,
+        "class": 1,
+        "defense": 120,
+        "exp": 480,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 17,
+      "spawnInterval": 2.3,
+      "level": 26
+    },
+    {
+      "id": "enhanced_flower_pharaoh_wave_2",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 405,
+        "maxhp": 3549,
+        "level": 26,
+        "class": 2,
+        "defense": 108,
+        "exp": 540,
+        "moveSpeed": 60,
+        "attackRange": 437,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 17,
+      "spawnInterval": 2.3,
+      "level": 26
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_shuangtou_shiren",
+      "gameObject": {
+        "id": "boss_shuangtou_shiren",
+        "attack": 29067,
+        "maxhp": 141698,
+        "level": 27,
+        "class": 0,
+        "defense": 1225,
+        "exp": 12249,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_3",
+        "isBoss": true,
+        "name": "夜鬼双斧王"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 27
+    },
+    {
+      "id": "boss_jufu_naga",
+      "gameObject": {
+        "id": "boss_jufu_naga",
+        "attack": 38756,
+        "maxhp": 212547,
+        "level": 27,
+        "class": 0,
+        "defense": 1225,
+        "exp": 12249,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_4",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_4",
+        "isBoss": true,
+        "name": "娜迦领主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 27
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第24关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_shuangtou_shiren出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_jufu_naga登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 10.48099196699713,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 47.980000000000004,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 90.96000000000001,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_3",
+      "triggerType": "time",
+      "triggerValue": 133.94,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "flower_pharaoh_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_4",
+      "triggerType": "time",
+      "triggerValue": 176.92000000000002,
+      "isRepeatable": false,
+      "priority": 6,
+      "monsterSpawns": [
+        "naga_siren_wave",
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 222.70524902146101,
+      "isRepeatable": false,
+      "priority": 7,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 229.86206896551724,
+      "isRepeatable": false,
+      "priority": 8,
+      "bossSpawn": "boss_shuangtou_shiren"
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 249.9,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "naga_siren_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 264.947950041777,
+      "isRepeatable": false,
+      "priority": 10,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 268.98,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "ogre_berserker_wave",
+        "naga_siren_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 288.06,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "naga_siren_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 307.14,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "naga_siren_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 326.21999999999997,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "naga_siren_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 370.3,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 378.3,
+      "isRepeatable": false,
+      "priority": 16,
+      "monsterSpawns": [
+        "ogre_berserker_wave",
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 386.3,
+      "isRepeatable": false,
+      "priority": 17,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_extra_wave_2",
+      "triggerType": "time",
+      "triggerValue": 394.3,
+      "isRepeatable": false,
+      "priority": 18,
+      "monsterSpawns": [
+        "ogre_berserker_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 545.2891540772387,
+      "isRepeatable": false,
+      "priority": 19,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 550.5566020317086,
+      "isRepeatable": false,
+      "priority": 20,
+      "bossSpawn": "boss_jufu_naga"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

@@ -1,0 +1,69 @@
+
+b_0_010.png
+size: 1250, 630
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_0_010/shenti
+  rotate: false
+  xy: 776, 6
+  size: 308, 202
+  orig: 310, 214
+  offset: 1, 11
+  index: -1
+b_0_010/tou
+  rotate: false
+  xy: 2, 220
+  size: 460, 408
+  orig: 462, 414
+  offset: 1, 5
+  index: -1
+b_0_010/wuqi
+  rotate: true
+  xy: 824, 210
+  size: 418, 239
+  orig: 420, 241
+  offset: 1, 1
+  index: -1
+b_0_010/youjiao
+  rotate: false
+  xy: 1086, 139
+  size: 160, 198
+  orig: 164, 203
+  offset: 1, 2
+  index: -1
+b_0_010/youshou
+  rotate: false
+  xy: 464, 313
+  size: 358, 315
+  orig: 362, 320
+  offset: 3, 4
+  index: -1
+b_0_010/youzhuangshi
+  rotate: true
+  xy: 1065, 339
+  size: 289, 183
+  orig: 291, 185
+  offset: 1, 1
+  index: -1
+b_0_010/zuojiao
+  rotate: true
+  xy: 240, 16
+  size: 202, 201
+  orig: 205, 203
+  offset: 1, 1
+  index: -1
+b_0_010/zuoshou
+  rotate: false
+  xy: 464, 41
+  size: 310, 270
+  orig: 316, 272
+  offset: 1, 1
+  index: -1
+b_0_010/zuozhuangshi
+  rotate: false
+  xy: 2, 2
+  size: 236, 216
+  orig: 238, 218
+  offset: 1, 1
+  index: -1

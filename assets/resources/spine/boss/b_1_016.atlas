@@ -1,0 +1,55 @@
+
+b_1_016.png
+size: 435, 1040
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+b_1_016/houchibang
+  rotate: false
+  xy: 2, 496
+  size: 263, 263
+  orig: 266, 266
+  offset: 1, 2
+  index: -1
+b_1_016/houjiao
+  rotate: false
+  xy: 272, 884
+  size: 101, 154
+  orig: 103, 156
+  offset: 1, 1
+  index: -1
+b_1_016/qianchibang
+  rotate: true
+  xy: 193, 46
+  size: 448, 240
+  orig: 452, 244
+  offset: 2, 3
+  index: -1
+b_1_016/qianjiao
+  rotate: false
+  xy: 267, 550
+  size: 159, 209
+  orig: 161, 211
+  offset: 1, 1
+  index: -1
+b_1_016/shenti
+  rotate: true
+  xy: 2, 2
+  size: 492, 189
+  orig: 496, 191
+  offset: 1, 1
+  index: -1
+b_1_016/tou
+  rotate: false
+  xy: 2, 761
+  size: 268, 277
+  orig: 272, 279
+  offset: 1, 1
+  index: -1
+b_1_016/zuiba
+  rotate: false
+  xy: 272, 823
+  size: 156, 59
+  orig: 158, 61
+  offset: 1, 1
+  index: -1

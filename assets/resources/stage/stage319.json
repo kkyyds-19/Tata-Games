@@ -1,0 +1,367 @@
+{
+  "stageId": "stage_319",
+  "stageName": "黑暗领域",
+  "stageDescription": "第319关：黑暗领域，击败所有敌人获得胜利",
+  "difficulty": 319,
+  "maxTime": 486,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "bg": "10",
+  "stageType":3,
+  "monsters": [
+    {
+      "id": "soul_servant_wave",
+      "gameObject": {
+        "id": "soul_servant",
+        "attack": 92,
+        "maxhp": 1196,
+        "level": 19,
+        "class": 1,
+        "defense": 55,
+        "exp": 184,
+        "moveSpeed": 80,
+        "attackRange": 135,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_004",
+          "m_n_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 36,
+      "spawnInterval": 1.8,
+      "level": 19
+    },
+    {
+      "id": "swamp_devourer_wave",
+      "gameObject": {
+        "id": "swamp_devourer",
+        "attack": 73,
+        "maxhp": 956,
+        "level": 19,
+        "class": 1,
+        "defense": 46,
+        "exp": 146,
+        "moveSpeed": 80,
+        "attackRange": 130,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_003",
+          "m_n_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 36,
+      "spawnInterval": 1.8,
+      "level": 19
+    },
+    {
+      "id": "void_butterfly_wave",
+      "gameObject": {
+        "id": "void_butterfly",
+        "attack": 138,
+        "maxhp": 1315,
+        "level": 19,
+        "class": 2,
+        "defense": 50,
+        "exp": 276,
+        "moveSpeed": 60,
+        "attackRange": 442,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_004",
+          "m_n_1_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 36,
+      "spawnInterval": 1.8,
+      "level": 19
+    },
+    {
+      "id": "twin_axe_king_wave",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 184,
+        "maxhp": 1794,
+        "level": 19,
+        "class": 1,
+        "defense": 92,
+        "exp": 368,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 22,
+      "spawnInterval": 2,
+      "level": 19
+    },
+    {
+      "id": "flower_pharaoh_wave",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 206,
+        "maxhp": 2093,
+        "level": 19,
+        "class": 2,
+        "defense": 82,
+        "exp": 412,
+        "moveSpeed": 60,
+        "attackRange": 432,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 22,
+      "spawnInterval": 2,
+      "level": 19
+    },
+    {
+      "id": "enhanced_twin_axe_king_wave_1",
+      "gameObject": {
+        "id": "twin_axe_king",
+        "attack": 300,
+        "maxhp": 2535,
+        "level": 21,
+        "class": 1,
+        "defense": 100,
+        "exp": 400,
+        "moveSpeed": 80,
+        "attackRange": 150,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_001",
+          "m_s_0_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 13,
+      "spawnInterval": 2.7,
+      "level": 21
+    },
+    {
+      "id": "enhanced_flower_pharaoh_wave_2",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 337,
+        "maxhp": 2957,
+        "level": 21,
+        "class": 2,
+        "defense": 90,
+        "exp": 450,
+        "moveSpeed": 60,
+        "attackRange": 433,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 13,
+      "spawnInterval": 2.7,
+      "level": 21
+    },
+    {
+      "id": "early_soul_servant_wave",
+      "gameObject": {
+        "id": "soul_servant",
+        "attack": 92,
+        "maxhp": 1196,
+        "level": 19,
+        "class": 1,
+        "defense": 55,
+        "exp": 184,
+        "moveSpeed": 80,
+        "attackRange": 135,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_004",
+          "m_n_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 5,
+      "spawnInterval": 0.2,
+      "level": 19
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_shuangtou_shiren",
+      "gameObject": {
+        "id": "boss_shuangtou_shiren",
+        "attack": 10755,
+        "maxhp": 134222,
+        "level": 22,
+        "class": 0,
+        "defense": 682,
+        "exp": 6824,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_3",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_3",
+        "isBoss": true,
+        "name": "夜鬼双斧王"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 22
+    },
+    {
+      "id": "boss_jufu_naga",
+      "gameObject": {
+        "id": "boss_jufu_naga",
+        "attack": 14340,
+        "maxhp": 201333,
+        "level": 22,
+        "class": 0,
+        "defense": 682,
+        "exp": 6824,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_4",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_4",
+        "isBoss": true,
+        "name": "娜迦领主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 22
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第19关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_shuangtou_shiren出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_jufu_naga登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 10.67518561322315,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_early_small_wave",
+      "triggerType": "time",
+      "triggerValue": 10,
+      "isRepeatable": false,
+      "priority": 2,
+      "monsterSpawns": [
+        "early_soul_servant_wave"
+      ]
+    },
+    {
+      "id": "event_early_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 10,
+      "isRepeatable": false,
+      "priority": 3,
+      "bossSpawn": "boss_shuangtou_shiren"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

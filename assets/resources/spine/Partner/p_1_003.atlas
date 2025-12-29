@@ -1,0 +1,55 @@
+
+p_1_003.png
+size: 781, 594
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+houjiao
+  rotate: false
+  xy: 372, 224
+  size: 161, 126
+  orig: 163, 128
+  offset: 1, 1
+  index: -1
+qianjiao
+  rotate: false
+  xy: 256, 38
+  size: 159, 162
+  orig: 164, 164
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 202
+  size: 390, 368
+  orig: 392, 372
+  offset: 1, 1
+  index: -1
+shetou
+  rotate: false
+  xy: 417, 53
+  size: 93, 169
+  orig: 95, 171
+  offset: 1, 1
+  index: -1
+weiba
+  rotate: false
+  xy: 2, 19
+  size: 252, 181
+  orig: 257, 183
+  offset: 1, 1
+  index: -1
+youtou
+  rotate: false
+  xy: 535, 2
+  size: 244, 348
+  orig: 246, 355
+  offset: 1, 6
+  index: -1
+zuotou
+  rotate: true
+  xy: 372, 352
+  size: 240, 406
+  orig: 244, 408
+  offset: 3, 1
+  index: -1

@@ -1,0 +1,41 @@
+
+c_1_002.png
+size: 260, 536
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+c_1_002/tou
+  rotate: true
+  xy: 2, 309
+  size: 225, 242
+  orig: 227, 245
+  offset: 1, 2
+  index: -1
+c_1_002/youhouzhua
+  rotate: false
+  xy: 2, 51
+  size: 135, 120
+  orig: 137, 123
+  offset: 1, 2
+  index: -1
+c_1_002/youqianzhua
+  rotate: true
+  xy: 2, 173
+  size: 134, 149
+  orig: 136, 152
+  offset: 1, 2
+  index: -1
+c_1_002/zuohouzhua
+  rotate: true
+  xy: 139, 2
+  size: 133, 119
+  orig: 135, 121
+  offset: 1, 1
+  index: -1
+c_1_002/zuoqianzhua
+  rotate: false
+  xy: 153, 137
+  size: 97, 170
+  orig: 99, 172
+  offset: 1, 1
+  index: -1

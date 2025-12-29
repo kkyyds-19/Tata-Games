@@ -1,0 +1,55 @@
+
+b_0_0_1.png
+size: 1172, 286
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: true
+  xy: 293, 10
+  size: 274, 288
+  orig: 277, 308
+  offset: 1, 19
+  index: -1
+tou
+  rotate: false
+  xy: 583, 8
+  size: 230, 276
+  orig: 233, 278
+  offset: 2, 1
+  index: -1
+youjiao
+  rotate: true
+  xy: 1036, 24
+  size: 98, 85
+  orig: 100, 87
+  offset: 1, 1
+  index: -1
+youshoubi
+  rotate: false
+  xy: 2, 2
+  size: 289, 282
+  orig: 291, 284
+  offset: 1, 1
+  index: -1
+zuiba
+  rotate: false
+  xy: 1036, 212
+  size: 134, 72
+  orig: 144, 74
+  offset: 1, 1
+  index: -1
+zuojiao
+  rotate: false
+  xy: 1036, 124
+  size: 101, 86
+  orig: 104, 90
+  offset: 1, 3
+  index: -1
+zuoshoubi
+  rotate: true
+  xy: 815, 2
+  size: 282, 219
+  orig: 284, 223
+  offset: 1, 2
+  index: -1

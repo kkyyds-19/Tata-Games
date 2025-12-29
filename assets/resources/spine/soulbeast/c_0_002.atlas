@@ -1,0 +1,62 @@
+
+c_0_002.png
+size: 414, 582
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shenti
+  rotate: true
+  xy: 2, 344
+  size: 236, 251
+  orig: 239, 254
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 2, 151
+  size: 221, 191
+  orig: 223, 194
+  offset: 1, 1
+  index: -1
+youchibang
+  rotate: true
+  xy: 225, 60
+  size: 228, 184
+  orig: 231, 187
+  offset: 2, 1
+  index: -1
+youhouzhua
+  rotate: true
+  xy: 119, 55
+  size: 94, 97
+  orig: 96, 99
+  offset: 1, 1
+  index: -1
+youqianzhua
+  rotate: true
+  xy: 218, 2
+  size: 56, 96
+  orig: 58, 98
+  offset: 1, 1
+  index: -1
+zuochibang
+  rotate: true
+  xy: 255, 290
+  size: 290, 146
+  orig: 292, 149
+  offset: 1, 2
+  index: -1
+zuohouzhua
+  rotate: false
+  xy: 2, 32
+  size: 115, 117
+  orig: 117, 119
+  offset: 1, 1
+  index: -1
+zuoqianzhua
+  rotate: true
+  xy: 316, 3
+  size: 55, 96
+  orig: 57, 98
+  offset: 1, 1
+  index: -1

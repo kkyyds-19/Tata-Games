@@ -1,0 +1,69 @@
+
+c_2_002.png
+size: 622, 253
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+c_2_002/houchibang
+  rotate: true
+  xy: 291, 81
+  size: 170, 104
+  orig: 173, 107
+  offset: 2, 2
+  index: -1
+c_2_002/houchibanggen
+  rotate: true
+  xy: 515, 80
+  size: 68, 100
+  orig: 70, 103
+  offset: 1, 1
+  index: -1
+c_2_002/houyouzhua
+  rotate: false
+  xy: 570, 169
+  size: 50, 82
+  orig: 52, 85
+  offset: 1, 1
+  index: -1
+c_2_002/houzuozhua
+  rotate: true
+  xy: 512, 23
+  size: 55, 94
+  orig: 58, 96
+  offset: 1, 1
+  index: -1
+c_2_002/qianchibang
+  rotate: false
+  xy: 397, 150
+  size: 171, 101
+  orig: 173, 103
+  offset: 1, 1
+  index: -1
+c_2_002/qianchibanggen
+  rotate: true
+  xy: 404, 28
+  size: 58, 106
+  orig: 62, 108
+  offset: 1, 1
+  index: -1
+c_2_002/qianyouzhua
+  rotate: true
+  xy: 291, 8
+  size: 71, 111
+  orig: 74, 114
+  offset: 2, 2
+  index: -1
+c_2_002/qianzuozhua
+  rotate: true
+  xy: 397, 88
+  size: 60, 116
+  orig: 63, 119
+  offset: 2, 1
+  index: -1
+c_2_002/shenti
+  rotate: false
+  xy: 2, 2
+  size: 287, 249
+  orig: 289, 255
+  offset: 1, 5
+  index: -1

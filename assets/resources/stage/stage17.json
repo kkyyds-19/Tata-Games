@@ -1,0 +1,476 @@
+{
+  "stageId": "stage_017",
+  "stageName": "无尽深渊",
+  "stageDescription": "第17关：无尽深渊，击败所有敌人获得胜利",
+  "difficulty": 17,
+  "maxTime": 466,
+  "backgroundMusic": "audio/bgm/battle1",
+  "backgroundImage": "images/bg/battlefield",
+  "monsters": [
+    {
+      "id": "swamp_devourer_wave",
+      "gameObject": {
+        "id": "swamp_devourer",
+        "attack": 67,
+        "maxhp": 873,
+        "level": 17,
+        "class": 1,
+        "defense": 42,
+        "exp": 134,
+        "moveSpeed": 80,
+        "attackRange": 130,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_003",
+          "m_n_0_003_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 23,
+      "spawnInterval": 1.8,
+      "level": 17
+    },
+    {
+      "id": "hammer_giant_wave",
+      "gameObject": {
+        "id": "hammer_giant",
+        "attack": 151,
+        "maxhp": 1965,
+        "level": 17,
+        "class": 1,
+        "defense": 84,
+        "exp": 302,
+        "moveSpeed": 80,
+        "attackRange": 155,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_0_008",
+          "m_n_0_008_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 23,
+      "spawnInterval": 1.8,
+      "level": 17
+    },
+    {
+      "id": "night_witch_wave",
+      "gameObject": {
+        "id": "night_witch",
+        "attack": 63,
+        "maxhp": 546,
+        "level": 17,
+        "class": 2,
+        "defense": 21,
+        "exp": 126,
+        "moveSpeed": 60,
+        "attackRange": 351,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_n_1_001",
+          "m_n_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 23,
+      "spawnInterval": 1.8,
+      "level": 17
+    },
+    {
+      "id": "tide_guardian_wave",
+      "gameObject": {
+        "id": "tide_guardian",
+        "attack": 294,
+        "maxhp": 3276,
+        "level": 17,
+        "class": 1,
+        "defense": 147,
+        "exp": 588,
+        "moveSpeed": 80,
+        "attackRange": 180,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_004",
+          "m_s_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 23,
+      "spawnInterval": 1.8,
+      "level": 17
+    },
+    {
+      "id": "flower_pharaoh_wave",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 189,
+        "maxhp": 1911,
+        "level": 17,
+        "class": 2,
+        "defense": 75,
+        "exp": 378,
+        "moveSpeed": 60,
+        "attackRange": 431,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 39,
+      "spawnInterval": 2,
+      "level": 17
+    },
+    {
+      "id": "enhanced_tide_guardian_wave_1",
+      "gameObject": {
+        "id": "tide_guardian",
+        "attack": 483,
+        "maxhp": 4664,
+        "level": 19,
+        "class": 1,
+        "defense": 161,
+        "exp": 644,
+        "moveSpeed": 80,
+        "attackRange": 180,
+        "attackInterval": 2.5,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_0_004",
+          "m_s_0_004_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 11,
+      "spawnInterval": 2.9,
+      "level": 19
+    },
+    {
+      "id": "enhanced_flower_pharaoh_wave_2",
+      "gameObject": {
+        "id": "flower_pharaoh",
+        "attack": 309,
+        "maxhp": 2720,
+        "level": 19,
+        "class": 2,
+        "defense": 82,
+        "exp": 412,
+        "moveSpeed": 60,
+        "attackRange": 432,
+        "attackInterval": 3,
+        "resourceType": "anim",
+        "resourceDir": "anim/monster",
+        "animationNames": [
+          "m_s_1_001",
+          "m_s_1_001_atk"
+        ]
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "count": 11,
+      "spawnInterval": 2.9,
+      "level": 19
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_tufu",
+      "gameObject": {
+        "id": "boss_tufu",
+        "attack": 7226,
+        "maxhp": 130663,
+        "level": 20,
+        "class": 0,
+        "defense": 539,
+        "exp": 5386,
+        "attackRange": 200,
+        "attackInterval": 2.3,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_1",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_1",
+        "isBoss": true,
+        "name": "青屠夫"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 20
+    },
+    {
+      "id": "boss_huoyan_lingzhu",
+      "gameObject": {
+        "id": "boss_huoyan_lingzhu",
+        "attack": 9634,
+        "maxhp": 195994,
+        "level": 20,
+        "class": 0,
+        "defense": 539,
+        "exp": 5386,
+        "attackRange": 250,
+        "attackInterval": 2,
+        "resourceType": "spine",
+        "resourceDir": "spine/boss/b_0_0_2",
+        "animationNames": [
+          "move",
+          "attack"
+        ],
+        "skinName": "b_0_0_2",
+        "isBoss": true,
+        "name": "熔岩领主"
+      },
+      "spawnPosition": {
+        "x": 0,
+        "y": 400,
+        "z": 0
+      },
+      "level": 20
+    }
+  ],
+  "stories": [
+    {
+      "id": "start_story",
+      "type": "dialogue",
+      "title": "Battle Begin",
+      "content": "第17关开始！消灭所有敌人！",
+      "duration": 2
+    },
+    {
+      "id": "intensive_wave_warning",
+      "type": "dialogue",
+      "title": "Massive Attack Warning",
+      "content": "警告！大批敌人集结中！",
+      "duration": 2
+    },
+    {
+      "id": "mid_boss_story",
+      "type": "boss_appear",
+      "title": "Mid Boss Incoming",
+      "content": "boss_tufu出现了！小心应对！",
+      "duration": 3
+    },
+    {
+      "id": "final_boss_story",
+      "type": "boss_appear",
+      "title": "Final Boss Incoming",
+      "content": "boss_huoyan_lingzhu登场！准备迎接最终挑战！",
+      "duration": 3
+    }
+  ],
+  "stageEvents": [
+    {
+      "id": "event_wave1",
+      "triggerType": "time",
+      "triggerValue": 5,
+      "isRepeatable": false,
+      "priority": 1,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_start",
+      "triggerType": "time",
+      "triggerValue": 12.439948059139738,
+      "isRepeatable": false,
+      "priority": 2,
+      "storyId": "start_story"
+    },
+    {
+      "id": "event_wave2",
+      "triggerType": "time",
+      "triggerValue": 48.825,
+      "isRepeatable": false,
+      "priority": 3,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave3",
+      "triggerType": "time",
+      "triggerValue": 92.65,
+      "isRepeatable": false,
+      "priority": 4,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_wave3",
+      "triggerType": "time",
+      "triggerValue": 136.47500000000002,
+      "isRepeatable": false,
+      "priority": 5,
+      "monsterSpawns": [
+        "hammer_giant_wave"
+      ]
+    },
+    {
+      "id": "event_mid_boss_story",
+      "triggerType": "time",
+      "triggerValue": 182.6722668134477,
+      "isRepeatable": false,
+      "priority": 6,
+      "storyId": "mid_boss_story"
+    },
+    {
+      "id": "event_mid_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 190.0344827586207,
+      "isRepeatable": false,
+      "priority": 7,
+      "bossSpawn": "boss_tufu"
+    },
+    {
+      "id": "event_extra_wave_1",
+      "triggerType": "time",
+      "triggerValue": 210.3,
+      "isRepeatable": false,
+      "priority": 8,
+      "monsterSpawns": [
+        "night_witch_wave",
+        "flower_pharaoh_wave"
+      ]
+    },
+    {
+      "id": "event_wave4",
+      "triggerType": "time",
+      "triggerValue": 228.75,
+      "isRepeatable": false,
+      "priority": 9,
+      "monsterSpawns": [
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_warning",
+      "triggerType": "time",
+      "triggerValue": 242.9023151202583,
+      "isRepeatable": false,
+      "priority": 10,
+      "storyId": "intensive_wave_warning"
+    },
+    {
+      "id": "event_intensive_wave1",
+      "triggerType": "time",
+      "triggerValue": 247.2,
+      "isRepeatable": false,
+      "priority": 11,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "hammer_giant_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave2",
+      "triggerType": "time",
+      "triggerValue": 265.65,
+      "isRepeatable": false,
+      "priority": 12,
+      "monsterSpawns": [
+        "swamp_devourer_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_intensive_wave3",
+      "triggerType": "time",
+      "triggerValue": 309.09999999999997,
+      "isRepeatable": false,
+      "priority": 13,
+      "monsterSpawns": [
+        "hammer_giant_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave1",
+      "triggerType": "time",
+      "triggerValue": 317.09999999999997,
+      "isRepeatable": false,
+      "priority": 14,
+      "monsterSpawns": [
+        "hammer_giant_wave",
+        "night_witch_wave"
+      ]
+    },
+    {
+      "id": "event_final_wave2",
+      "triggerType": "time",
+      "triggerValue": 325.09999999999997,
+      "isRepeatable": false,
+      "priority": 15,
+      "monsterSpawns": [
+        "swamp_devourer_wave"
+      ]
+    },
+    {
+      "id": "event_final_boss_story",
+      "triggerType": "time",
+      "triggerValue": 400.1118738242205,
+      "isRepeatable": false,
+      "priority": 16,
+      "storyId": "final_boss_story"
+    },
+    {
+      "id": "event_final_boss_spawn",
+      "triggerType": "time",
+      "triggerValue": 405.1958698365538,
+      "isRepeatable": false,
+      "priority": 17,
+      "bossSpawn": "boss_huoyan_lingzhu"
+    }
+  ],
+  "victoryConditions": {
+    "killAllMonsters": true,
+    "killBoss": true
+  }
+}

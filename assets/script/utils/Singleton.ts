@@ -1,0 +1,16 @@
+export function Singleton<T>() {
+    class Singleton {
+        private static _instance: Singleton = null;
+        protected constructor() {
+        }
+
+        public static get Ins() {
+            if (!Singleton._instance) {
+                Singleton._instance = new this();
+            }
+            return Singleton._instance as T;
+        }
+    }
+    return Singleton;
+}
+
