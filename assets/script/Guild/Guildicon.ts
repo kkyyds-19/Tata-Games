@@ -1,5 +1,7 @@
-import { _decorator, Component, Label, Node, Sprite, SpriteAtlas } from 'cc';
+import { _decorator, Button, Component, Label, Node, Sprite, SpriteAtlas } from 'cc';
 import { userAPI } from '../api/UserAPI';
+import { ShowToast } from '../global/Toast';
+import { HttpClient } from '../http/HttpClient';
 const { ccclass, property } = _decorator;
 
 export interface GuildListItemData {
@@ -9,6 +11,7 @@ export interface GuildListItemData {
     name: string;
     level: number;
     currentMembers: number;
+    leaderId?: number | string;
 }
 
 @ccclass('Guildicon')
@@ -27,6 +30,10 @@ export class Guildicon extends Component {
     private labelGuildName: Label | null = null;
     private labelMembers: Label | null = null;
     private _boundUid: string | null = null;
+    private _boundGuildId: number | null = null;
+
+    private _applyButton: Button | null = null;
+    private _isApplying = false;
 
     onLoad() {
         this.iconSprite = this.iconSprite || this.node.getChildByPath('Guild_11/Guild_26/tuan')?.getComponent(Sprite) || null;
@@ -34,21 +41,94 @@ export class Guildicon extends Component {
         this.labelGuildLevel = this.node.getChildByPath('Guild_11/Layout/Label2')?.getComponent(Label) || null;
         this.labelGuildName = this.node.getChildByPath('Guild_11/Layout/Label3')?.getComponent(Label) || null;
         this.labelMembers = this.node.getChildByPath('Guild_11/Guild_29/Label5')?.getComponent(Label) || null;
+
+        this._applyButton = this.node.getChildByPath('Guild_11/Guild_20')?.getComponent(Button) || null;
+        if (this._applyButton) {
+            this._applyButton.node.off(Button.EventType.CLICK, this.onApplyButtonClick, this);
+            this._applyButton.node.on(Button.EventType.CLICK, this.onApplyButtonClick, this);
+        }
     }
 
-    public async init(data: GuildListItemData): Promise<void> {
-        if (this.labelGuildLevel) this.labelGuildLevel.string = String(data.level ?? 1);
+    public async init(data: GuildListItemData, options?: { canApply?: boolean }): Promise<void> {
+        this._boundGuildId = data.id;
+        const canApply = options?.canApply ?? true;
+        if (this._applyButton) {
+            this._applyButton.node.active = canApply;
+            this._applyButton.interactable = canApply;
+        }
+
+        if (this.labelGuildLevel) this.labelGuildLevel.string = this.formatGuildLevel(data.level);
         if (this.labelGuildName) this.labelGuildName.string = data.name ?? '';
         if (this.labelMembers) {
             const num = Math.max(0, Number(data.currentMembers ?? 0));
             this.labelMembers.string = `${num}/80`;
         }
 
-        this._boundUid = data.uid ?? '';
+        const leaderKey = data.leaderId != null && String(data.leaderId).trim() !== '' ? String(data.leaderId) : '';
+        this._boundUid = leaderKey || (data.uid ?? '');
         if (this.labelCreatorName) this.labelCreatorName.string = this._boundUid;
         void this.updateCreatorNameAsync(this._boundUid);
 
         this.updateIcon(data.icon);
+    }
+
+    private formatGuildLevel(level: number | string): string {
+        const n = typeof level === 'number' ? level : Number(String(level ?? '').trim());
+        if (!Number.isFinite(n) || n <= 0) return '';
+        const v = Math.floor(n);
+        return `${v}级`;
+    }
+
+    private async onApplyButtonClick(): Promise<void> {
+        if (this._isApplying) return;
+        const guildId = this._boundGuildId;
+        if (guildId == null) return;
+
+        this._isApplying = true;
+        if (this._applyButton) this._applyButton.interactable = false;
+        try {
+            const http = HttpClient.getInstance();
+            const res = await http.request<any>('/api/guild/apply', {
+                method: 'POST',
+                body: {
+                    guildId,
+                    note: '是我'
+                }
+            });
+
+            if (!res.success) {
+                ShowToast(res.error || '申请失败');
+                if (this._applyButton) this._applyButton.interactable = true;
+                return;
+            }
+
+            const body = res.data as any;
+            const outerCode = Number(body?.code);
+            if (!Number.isFinite(outerCode)) {
+                ShowToast('申请失败');
+                if (this._applyButton) this._applyButton.interactable = true;
+                return;
+            }
+
+            if (outerCode !== 200 && outerCode !== 201) {
+                if (body?.msg) ShowToast(String(body.msg));
+                else ShowToast('申请失败');
+                if (this._applyButton) this._applyButton.interactable = true;
+                return;
+            }
+
+            const inner = body?.data?.data ?? body?.data ?? null;
+            const innerCode = Number(inner?.code);
+            const msg = String(inner?.msg ?? body?.msg ?? '');
+            if (msg) ShowToast(msg);
+            const ok = (Number.isFinite(innerCode) && (innerCode === 200 || innerCode === 201)) || outerCode === 200 || outerCode === 201;
+            if (!ok && this._applyButton) this._applyButton.interactable = true;
+        } catch {
+            ShowToast('申请失败');
+            if (this._applyButton) this._applyButton.interactable = true;
+        } finally {
+            this._isApplying = false;
+        }
     }
 
     private updateIcon(iconId: number | string): void {

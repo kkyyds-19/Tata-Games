@@ -31,6 +31,9 @@ export class Guildapplication extends Component {
 
     private _allServerGuild: AllServerGuild | null = null;
 
+    private _isCheckingMember = false;
+    private _pendingMemberCheck = false;
+
     onLoad() {
         this._http = HttpClient.getInstance();
         this._scrollView = this.getComponentInChildren(ScrollView);
@@ -48,22 +51,12 @@ export class Guildapplication extends Component {
     }
 
     onEnable() {
-        if (this.hasGuild()) {
-            this.node.active = false;
-            void this.openAllServerGuild();
-            return;
-        }
-        void this.refreshGuildList();
+        void this.ensureMemberAndRoute();
     }
 
     public show() {
-        if (this.hasGuild()) {
-            this.node.active = false;
-            void this.openAllServerGuild();
-            return;
-        }
-        this.node.active = true;
-        void this.refreshGuildList();
+        this.node.active = false;
+        void this.ensureMemberAndRoute();
     }
 
     public hide() {
@@ -84,16 +77,87 @@ export class Guildapplication extends Component {
     private hasGuild(): boolean {
         try {
             const info = UserInfoData.getInstance().getUserInfo() as any;
-            const id = info?.guildId != null ? String(info.guildId).trim() : '';
-            if (id.length > 0) return true;
+            const idRaw = info?.guildId != null ? String(info.guildId).trim() : '';
+            if (idRaw.length > 0 && idRaw !== '0' && idRaw.toLowerCase() !== 'null' && idRaw.toLowerCase() !== 'undefined') {
+                return true;
+            }
 
             const name = info?.guildName != null ? String(info.guildName).trim() : '';
             if (name.length > 0) return true;
 
-            const level = Number(info?.guildLevel);
-            return Number.isFinite(level) && level > 0;
+            return false;
         } catch {
             return false;
+        }
+    }
+
+    private parseIsMemberValue(v: any): boolean | null {
+        if (typeof v === 'number') return v === 1;
+        if (typeof v === 'boolean') return v;
+        if (typeof v === 'string') {
+            const s = v.trim().toLowerCase();
+            if (s === 'true') return true;
+            if (s === 'false') return false;
+            const n = Number(s);
+            if (Number.isFinite(n)) return n === 1;
+            return null;
+        }
+        if (v && typeof v === 'object') {
+            const obj = v as any;
+            if (obj.isMember != null) return this.parseIsMemberValue(obj.isMember);
+            if (obj.member != null) return this.parseIsMemberValue(obj.member);
+            if (obj.value != null) return this.parseIsMemberValue(obj.value);
+        }
+        return null;
+    }
+
+    private async ensureMemberAndRoute(): Promise<void> {
+        if (this._isCheckingMember) {
+            this._pendingMemberCheck = true;
+            return;
+        }
+
+        this._isCheckingMember = true;
+        try {
+            const isMember = await this.fetchIsMember();
+            if (isMember) {
+                this.node.active = false;
+                await this.openAllServerGuild();
+                return;
+            }
+
+            this.node.active = true;
+            await this.refreshGuildList();
+        } finally {
+            this._isCheckingMember = false;
+            if (this._pendingMemberCheck) {
+                this._pendingMemberCheck = false;
+                void this.ensureMemberAndRoute();
+            }
+        }
+    }
+
+    private async fetchIsMember(): Promise<boolean> {
+        if (!this._http) this._http = HttpClient.getInstance();
+
+        try {
+            const res = await this._http.request<any>('/api/guild/isMember', {
+                method: 'GET'
+            });
+            if (!res.success) return this.hasGuild();
+
+            const body = res.data as any;
+            if (!body || body.code !== 200) {
+                if (body?.msg) ShowToast(String(body.msg));
+                return this.hasGuild();
+            }
+
+            const raw = body?.data?.data ?? body?.data;
+            const parsed = this.parseIsMemberValue(raw);
+            if (parsed != null) return parsed;
+            return this.hasGuild();
+        } catch {
+            return this.hasGuild();
         }
     }
 
