@@ -34,6 +34,9 @@ export class Guildapplication extends Component {
     private _isCheckingMember = false;
     private _pendingMemberCheck = false;
 
+    // 记录上一次检测到的是否为公会成员（null 表示本地尚未初始化，首次用 hasGuild() 兜底）
+    private static _lastIsMember: boolean | null = null;
+
     onLoad() {
         this._http = HttpClient.getInstance();
         this._scrollView = this.getComponentInChildren(ScrollView);
@@ -120,10 +123,28 @@ export class Guildapplication extends Component {
         this._isCheckingMember = true;
         try {
             const isMember = await this.fetchIsMember();
+
+            // 初始化上一次的成员状态
+            let wasMember = Guildapplication._lastIsMember;
+            if (wasMember === null) {
+                wasMember = this.hasGuild();
+            }
+
+            Guildapplication._lastIsMember = isMember;
+
+            // 从非成员 -> 成员：提示加入成功
             if (isMember) {
+                if (!wasMember) {
+                    ShowToast('加入公会成功');
+                }
                 this.node.active = false;
                 await this.openAllServerGuild();
                 return;
+            }
+
+            // 从成员 -> 非成员：可能是主动退出或被踢出，统一给出提示
+            if (!isMember && wasMember) {
+                ShowToast('你已不在任何公会中');
             }
 
             this.node.active = true;

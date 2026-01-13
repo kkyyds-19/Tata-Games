@@ -33,7 +33,9 @@ export class Guildicon extends Component {
     private _boundGuildId: number | null = null;
 
     private _applyButton: Button | null = null;
+    private _applyLabel: Label | null = null;
     private _isApplying = false;
+    private _hasApplied = false;
 
     onLoad() {
         this.iconSprite = this.iconSprite || this.node.getChildByPath('Guild_11/Guild_26/tuan')?.getComponent(Sprite) || null;
@@ -46,6 +48,7 @@ export class Guildicon extends Component {
         if (this._applyButton) {
             this._applyButton.node.off(Button.EventType.CLICK, this.onApplyButtonClick, this);
             this._applyButton.node.on(Button.EventType.CLICK, this.onApplyButtonClick, this);
+            this._applyLabel = this._applyButton.getComponentInChildren(Label) || null;
         }
     }
 
@@ -80,6 +83,10 @@ export class Guildicon extends Component {
     }
 
     private async onApplyButtonClick(): Promise<void> {
+        if (this._hasApplied) {
+            ShowToast('你已申请该公会，请等待审核');
+            return;
+        }
         if (this._isApplying) return;
         const guildId = this._boundGuildId;
         if (guildId == null) return;
@@ -120,9 +127,16 @@ export class Guildicon extends Component {
             const inner = body?.data?.data ?? body?.data ?? null;
             const innerCode = Number(inner?.code);
             const msg = String(inner?.msg ?? body?.msg ?? '');
-            if (msg) ShowToast(msg);
             const ok = (Number.isFinite(innerCode) && (innerCode === 200 || innerCode === 201)) || outerCode === 200 || outerCode === 201;
-            if (!ok && this._applyButton) this._applyButton.interactable = true;
+
+            if (ok) {
+                this._hasApplied = true;
+                if (this._applyLabel) this._applyLabel.string = '已申请';
+                ShowToast(msg || '已申请该公会，请等待审核');
+            } else {
+                if (msg) ShowToast(msg);
+                if (this._applyButton) this._applyButton.interactable = true;
+            }
         } catch {
             ShowToast('申请失败');
             if (this._applyButton) this._applyButton.interactable = true;

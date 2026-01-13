@@ -6,6 +6,13 @@ const { ccclass, property } = _decorator;
 
 @ccclass('Guilditem')
 export class Guilditem extends Component {
+    private static _cachedLeaderUserId: string | null = null;
+    private static _selfCanKick: boolean | null = null;
+
+    public static setSelfCanKick(v: boolean | null): void {
+        this._selfCanKick = v;
+    }
+
     @property({ type: Label })
     public applicantNameLabel: Label | null = null;
 
@@ -24,13 +31,18 @@ export class Guilditem extends Component {
     @property({ type: Button })
     public leaveGuildButton: Button | null = null;
 
+    @property({ type: Button })
+    public kickGuildButton: Button | null = null;
+
     private _defaultAvatarSpriteFrame: SpriteFrame | null = null;
 
     private _http: HttpClient | null = null;
     private _isProcessing = false;
     private _isLeaving = false;
+    private _isKicking = false;
     private _boundProcessId: string | number | null = null;
     private _boundGuildId: string | number | null = null;
+    private _boundTargetUserId: string | number | null = null;
     private _onProcessed: ((status: number) => void) | null = null;
 
     onLoad(): void {
@@ -50,6 +62,11 @@ export class Guilditem extends Component {
             this.leaveGuildButton.node.off(Button.EventType.CLICK, this.onLeaveGuildClick, this);
             this.leaveGuildButton.node.on(Button.EventType.CLICK, this.onLeaveGuildClick, this);
         }
+
+        if (this.kickGuildButton) {
+            this.kickGuildButton.node.off(Button.EventType.CLICK, this.onKickGuildClick, this);
+            this.kickGuildButton.node.on(Button.EventType.CLICK, this.onKickGuildClick, this);
+        }
     }
 
     public init(data: any): void {
@@ -67,6 +84,7 @@ export class Guilditem extends Component {
         if (this.approveButton) this.approveButton.node.active = true;
         if (this.rejectButton) this.rejectButton.node.active = true;
         if (this.leaveGuildButton) this.leaveGuildButton.node.active = false;
+        if (this.kickGuildButton) this.kickGuildButton.node.active = false;
 
         const idCandidate = this.pickString(data, ['id', 'applyId', 'applicationId']);
         if (idCandidate != null && String(idCandidate).trim() !== '') {
@@ -107,12 +125,32 @@ export class Guilditem extends Component {
         const selfId = String(UserInfoData.getInstance().getUserId() ?? '').trim();
         const rowId = this.pickString(data, ['userId', 'uid', 'id']) || '';
         const isSelf = selfId !== '' && rowId !== '' && selfId === rowId;
+
+        this._boundTargetUserId = null;
+        if (rowId && rowId.trim() !== '') {
+            const n = Number(rowId);
+            this._boundTargetUserId = Number.isFinite(n) ? n : rowId;
+        }
+
+        this.tryUpdateCachedLeaderIdFromMemberRow(data, rowId);
+        const leaderId = Guilditem._cachedLeaderUserId || '';
+        const isSelfLeader = selfId !== '' && leaderId !== '' && selfId === leaderId;
+        const canKickOthers = Guilditem._selfCanKick != null ? Guilditem._selfCanKick : isSelfLeader;
+
         if (this.leaveGuildButton) {
             this.leaveGuildButton.node.active = isSelf;
             this.leaveGuildButton.interactable = true;
 
             this.leaveGuildButton.node.off(Button.EventType.CLICK, this.onLeaveGuildClick, this);
             this.leaveGuildButton.node.on(Button.EventType.CLICK, this.onLeaveGuildClick, this);
+        }
+
+        if (this.kickGuildButton) {
+            this.kickGuildButton.node.active = canKickOthers && !isSelf;
+            this.kickGuildButton.interactable = true;
+
+            this.kickGuildButton.node.off(Button.EventType.CLICK, this.onKickGuildClick, this);
+            this.kickGuildButton.node.on(Button.EventType.CLICK, this.onKickGuildClick, this);
         }
 
         this.node.active = true;
@@ -132,6 +170,10 @@ export class Guilditem extends Component {
 
     private onLeaveGuildClick(): void {
         void this.leaveGuild();
+    }
+
+    private onKickGuildClick(): void {
+        void this.kickGuildMember();
     }
 
     private async leaveGuild(): Promise<void> {
@@ -193,6 +235,73 @@ export class Guilditem extends Component {
             this._isLeaving = false;
             if (this.leaveGuildButton) this.leaveGuildButton.interactable = true;
         }
+    }
+
+    private async kickGuildMember(): Promise<void> {
+        if (this._isKicking) return;
+        if (!this._http) this._http = HttpClient.getInstance();
+
+        const targetUserId = this._boundTargetUserId;
+        if (targetUserId == null || String(targetUserId).trim() === '') {
+            ShowToast('踢人失败');
+            return;
+        }
+
+        const guildId = await this.resolveGuildIdForRequest();
+        if (guildId == null || String(guildId).trim() === '' || String(guildId).trim() === '0') {
+            ShowToast('未加入公会');
+            return;
+        }
+
+        this._isKicking = true;
+        if (this.kickGuildButton) this.kickGuildButton.interactable = false;
+        try {
+            const res = await this._http.request<any>('/api/guild/kick', {
+                method: 'POST',
+                body: {
+                    guildId,
+                    targetUserId
+                }
+            });
+
+            if (!res.success) {
+                ShowToast(res.error || '踢人失败');
+                return;
+            }
+
+            const body = res.data as any;
+            if (!body || (body.code !== 200 && body.code !== 201)) {
+                if (body?.msg) ShowToast(String(body.msg));
+                else ShowToast('踢人失败');
+                return;
+            }
+
+            ShowToast('已踢出公会');
+            this.node.active = false;
+            try { director.emit('guild-member-kicked', { guildId, targetUserId }); } catch {}
+        } catch {
+            ShowToast('踢人失败');
+        } finally {
+            this._isKicking = false;
+            if (this.kickGuildButton) this.kickGuildButton.interactable = true;
+        }
+    }
+
+    private async resolveGuildIdForRequest(): Promise<string | number | null> {
+        const info = UserInfoData.getInstance().getUserInfo() as any;
+        let guildId: string | number | null = null;
+        const guildIdRaw = info?.guildId != null ? String(info.guildId).trim() : '';
+        if (guildIdRaw && guildIdRaw !== '0' && guildIdRaw.toLowerCase() !== 'null' && guildIdRaw.toLowerCase() !== 'undefined') {
+            const gidNum = Number(guildIdRaw);
+            guildId = Number.isFinite(gidNum) ? gidNum : guildIdRaw;
+        }
+        if (guildId == null && this._boundGuildId != null && String(this._boundGuildId).trim() !== '') {
+            guildId = this._boundGuildId;
+        }
+        if (guildId == null) {
+            guildId = await this.fetchGuildIdFallback();
+        }
+        return guildId;
     }
 
     private async fetchGuildIdFallback(): Promise<string | number | null> {
@@ -333,13 +442,22 @@ export class Guilditem extends Component {
             this.approveButton = n?.getComponent(Button) || null;
         }
         if (!this.rejectButton) {
-            const n = this.findDeep(this.node, 'dnf_27');
+            const n =
+                this.findDeep(this.node, 'reject') ||
+                this.findDeep(this.node, 'jujue') ||
+                this.findDeep(this.node, 'dnf_reject') ||
+                this.findDeep(this.node, 'dnf_28');
             this.rejectButton = n?.getComponent(Button) || null;
         }
 
         if (!this.leaveGuildButton) {
             const n = this.findDeep(this.node, 'likai');
             this.leaveGuildButton = n?.getComponent(Button) || null;
+        }
+
+        if (!this.kickGuildButton) {
+            const n = this.findDeep(this.node, 'dnf_27');
+            this.kickGuildButton = n?.getComponent(Button) || null;
         }
 
         if (this.avatarSprite && !this._defaultAvatarSpriteFrame) {
@@ -411,5 +529,52 @@ export class Guilditem extends Component {
             return Number.isFinite(n) ? n : s;
         }
         return null;
+    }
+
+    private pickBooleanLike(obj: any, keys: string[]): boolean | null {
+        if (!obj) return null;
+        for (const k of keys) {
+            const v = obj?.[k];
+            if (v == null) continue;
+            if (typeof v === 'boolean') return v;
+            if (typeof v === 'number') return v === 1;
+            const s = String(v).trim().toLowerCase();
+            if (s === 'true' || s === '1') return true;
+            if (s === 'false' || s === '0') return false;
+        }
+        return null;
+    }
+
+    private tryUpdateCachedLeaderIdFromMemberRow(data: any, rowId: string): void {
+        if (!rowId) return;
+
+        const roleName = this.pickString(data, ['roleName', 'positionName', 'postName', 'dutyName', 'title', 'jobName']);
+        if (roleName) {
+            const s = roleName.trim();
+            if (s.includes('会长') || s.toLowerCase().includes('leader') || s.toLowerCase().includes('president')) {
+                Guilditem._cachedLeaderUserId = rowId;
+                return;
+            }
+        }
+
+        const isLeader = this.pickBooleanLike(data, ['isLeader', 'leader', 'isChairman', 'chairman', 'isPresident', 'president']);
+        if (isLeader === true) {
+            Guilditem._cachedLeaderUserId = rowId;
+            return;
+        }
+
+        const roleId = this.pickNumberLike(data, ['roleId', 'role_id', 'position', 'post', 'duty', 'job', 'identity', 'rank']);
+        if (typeof roleId === 'number') {
+            if (roleId === 1) {
+                Guilditem._cachedLeaderUserId = rowId;
+                return;
+            }
+        } else if (typeof roleId === 'string') {
+            const s = roleId.trim().toLowerCase();
+            if (s === 'leader' || s === 'chairman' || s === 'president') {
+                Guilditem._cachedLeaderUserId = rowId;
+                return;
+            }
+        }
     }
 }

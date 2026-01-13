@@ -33,7 +33,7 @@ export class UI_Frame_Top extends Component {
 
     // 标签属性
     @property(Label)
-    private levelLabel: Label = null!; // 等级标签（如"0级"）
+    private levelLabel: Label = null!; // 战斗等级标签（如"1级"）
 
     @property(Label)
     private speedLabel: Label = null!; // 倍速标签（如"X1"）
@@ -67,6 +67,16 @@ export class UI_Frame_Top extends Component {
 
         // 初始化按钮事件监听
         st.initButtonEvents();
+
+        // 战斗等级与玩家等级是两套系统：
+        // - 玩家等级/经验用于大厅与账号成长（UserInfoData里会同步到 game.myGlobal.currentExp）
+        // - 战斗等级用于单局战斗内升级选卡/选英雄，默认从 1 级开始
+        // 但深渊挑战会预置为 26 级（DnfItem.ts 已提前写入 game.myGlobal.currentExp），这里不能覆盖。
+        const globalAny = game.myGlobal as any;
+        const isAbyss = (game.myGlobal.stageType === StageType.Dungeon) && (globalAny.abyssMode === true);
+        if (!isAbyss) {
+            game.myGlobal.currentExp = 0;
+        }
         st.updateExpBar(0, false);
 
         // 监听经验值更新消息
@@ -149,7 +159,7 @@ export class UI_Frame_Top extends Component {
     }
 
     private test_level_up() {
-        let curExp = game.myGlobal.currentExp;
+        let curExp = Math.max(0, Number(game.myGlobal.currentExp || 0));
 
         // 计算当前等级
         let currentLevel = Utils.getLevelFromTotalExp(curExp);
@@ -160,7 +170,7 @@ export class UI_Frame_Top extends Component {
         // 计算升到下一级所需的经验值
         const expNeeded = requiredExpForLevel - currentLevelExp + 1; // +1确保能升级
 
-        console.log(`当前等级: ${currentLevel}, 当前经验: ${curExp}`);
+        console.log(`当前战斗等级: ${currentLevel}, 当前经验: ${curExp}`);
         console.log(`当前等级内经验: ${currentLevelExp}/${requiredExpForLevel}`);
         console.log(`升级需要增加: ${expNeeded} 经验`);
 
@@ -417,7 +427,7 @@ export class UI_Frame_Top extends Component {
      * @param animated 是否动画
      */
     public updateExpBar(exp: number, animated: boolean = true) {
-        let curExp = game.myGlobal.currentExp;
+        let curExp = Math.max(0, Number(game.myGlobal.currentExp || 0));
 
         //NOTE 如果是异域暂时变为4倍经验
         // if (game.myGlobal.stageType == StageType.Outland) {
@@ -450,8 +460,8 @@ export class UI_Frame_Top extends Component {
 
         // 升级检测
         if (newLevel > oldLevel) {
-            console.log(`玩家升级: ${oldLevel} -> ${newLevel} (经验: ${curExp} -> ${totalExp})`);
-            console.log(`当前等级 ${newLevel} 内经验: ${currentLevelExp}/${requiredExpForLevel} (${(progress * 100).toFixed(1)}%)`);
+            console.log(`战斗升级: ${oldLevel} -> ${newLevel} (经验: ${curExp} -> ${totalExp})`);
+            console.log(`当前战斗等级 ${newLevel} 内经验: ${currentLevelExp}/${requiredExpForLevel} (${(progress * 100).toFixed(1)}%)`);
             // 发送全局升级消息
             director.emit(game.gameEvent.GAME_LEVEL_UP, { oldLevel, newLevel });
         }

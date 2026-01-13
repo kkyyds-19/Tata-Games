@@ -87,6 +87,7 @@ export class AllServerGuild extends Component {
 
         this.bindSearchWidgets();
         this.bindManageWidget();
+        this.updateSelfKickPermission();
         this.refreshSelfGuildInfo();
         void this.refreshSelfGuildInfoFromServer();
 
@@ -135,6 +136,7 @@ export class AllServerGuild extends Component {
         this.openAllServerGuild13Layer('member');
         this.switchViewMode('member');
         this._memberPageNum = 1;
+        this.updateSelfKickPermission();
         void this.refreshSelfGuildInfoFromServer();
         void this.refreshMemberList();
     }
@@ -293,7 +295,18 @@ export class AllServerGuild extends Component {
 
             const data = body?.data?.data ?? body?.data;
             this.applySelfGuildInfoFromAny(data);
+            this.updateSelfKickPermission();
         } catch {}
+    }
+
+    private updateSelfKickPermission(): void {
+        try {
+            const node = this.manageButton?.node || null;
+            const canKick = !!node && node.isValid && node.active;
+            Guilditem.setSelfCanKick(canKick);
+        } catch {
+            Guilditem.setSelfCanKick(null);
+        }
     }
 
     private formatGuildLevel(level: number | string): string {
@@ -450,10 +463,6 @@ export class AllServerGuild extends Component {
         try {
             if (this._guildApplication?.node?.isValid) {
                 this._guildApplication.show?.();
-                try {
-                    const p = this._guildApplication.node.parent;
-                    if (p) this._guildApplication.node.setSiblingIndex(p.children.length - 1);
-                } catch {}
                 return;
             }
 
@@ -463,10 +472,6 @@ export class AllServerGuild extends Component {
                 if (list && list.length > 0) {
                     this._guildApplication = list[0];
                     this._guildApplication.show?.();
-                    try {
-                        const p = this._guildApplication.node.parent;
-                        if (p) this._guildApplication.node.setSiblingIndex(p.children.length - 1);
-                    } catch {}
                     return;
                 }
             }
@@ -489,10 +494,6 @@ export class AllServerGuild extends Component {
             try { node.setPosition(0, 0, 0); } catch {}
             this._guildApplication = node.getComponent(Guildapplication) || node.addComponent(Guildapplication);
             this._guildApplication.show?.();
-            try {
-                const p = node.parent;
-                if (p) node.setSiblingIndex(p.children.length - 1);
-            } catch {}
         } catch {}
     }
 
@@ -559,6 +560,21 @@ export class AllServerGuild extends Component {
                 }
             }
         }
+
+        // 确保同一时间只有一个 Layout 处于激活状态：
+        // - guild 模式只显示 Layout1
+        // - member 模式只显示 Layout2
+        // - log 模式隐藏 Layout1/2，使用日志自己的容器
+        try {
+            const layout1 = content.getChildByName('Layout1');
+            const layout2 = content.getChildByName('Layout2');
+            if (layout1 && layout1.isValid) {
+                layout1.active = (mode === 'guild');
+            }
+            if (layout2 && layout2.isValid) {
+                layout2.active = (mode === 'member');
+            }
+        } catch {}
 
         this.scrollContent = container || content;
         return this.scrollContent;
